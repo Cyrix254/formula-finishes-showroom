@@ -63,6 +63,9 @@ export const productCategories: ProductCategory[] = [
 ];
 
 export const collections: { category: ProductCategoryId; label: string }[] = [
+  { "category": "wall-panels", "label": "Fluted WPC panels" },
+  { "category": "wall-panels", "label": "PU stone panels" },
+  { "category": "wall-panels", "label": "Box & concave designs" },
   {
     "category": "carpets",
     "label": "Artificial grass turf"
@@ -126,6 +129,31 @@ export const collections: { category: ProductCategoryId; label: string }[] = [
 ];
 
 export const products: Product[] = [
+  {
+    "id": "WPN-001",
+    "name": "Fluted panels WPN-001",
+    "category": "wall-panels",
+    "collection": "Fluted WPC panels",
+    "image": "/images/wall-panels/fluted-oak-panel.jpg",
+    "description": "Vertical fluted WPC panel, cut to height and mounted on feature walls."
+  },
+  {
+    "id": "WPN-002",
+    "name": "PU stone cladding WPN-002",
+    "category": "wall-panels",
+    "collection": "PU stone panels",
+    "image": "/images/wall-panels/pu-stone-panel.jpg",
+    "description": "Lightweight PU faux-stone cladding for interior and exterior feature walls."
+  },
+  {
+    "id": "WPN-003",
+    "name": "Box design panels WPN-003",
+    "category": "wall-panels",
+    "collection": "Box & concave designs",
+    "image": "/images/wall-panels/concave-box-panel.jpg",
+    "description": "Concave and box-profile panels for reception and lobby walls."
+  },
+
   {
     "id": "WP-001",
     "name": "Wallpaper rolls WP-001",
