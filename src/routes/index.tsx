@@ -12,7 +12,7 @@ import { services, site, stats, testimonials } from "@/data/site";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Formula Finishes & Interiors | Premium Wall & Floor Finishes Kenya" },
+      { title: "Formula Finishes and Interiors | Premium Wall & Floor Finishes Kenya" },
       {
         name: "description",
         content:
@@ -20,7 +20,7 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:title",
-        content: "Formula Finishes & Interiors | Premium Wall & Floor Finishes Kenya",
+        content: "Formula Finishes and Interiors | Premium Wall & Floor Finishes Kenya",
       },
       {
         property: "og:description",
