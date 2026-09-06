@@ -11,13 +11,13 @@ import { site, stats } from "@/data/site";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Us | Formula Finishes & Interiors" },
+      { title: "About Us | Formula Finishes and Interiors" },
       {
         name: "description",
         content:
           "Who we are: a Nairobi-based interior finishes team supplying and installing wallpapers, panels, blinds, films and flooring with our own crew.",
       },
-      { property: "og:title", content: "About Us | Formula Finishes & Interiors" },
+      { property: "og:title", content: "About Us | Formula Finishes and Interiors" },
       {
         property: "og:description",
         content: "A Nairobi interior finishes team that measures, supplies and installs in-house.",

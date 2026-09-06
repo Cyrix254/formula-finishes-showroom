@@ -12,7 +12,7 @@ import { services, site, stats, testimonials } from "@/data/site";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Formula Finishes & Interiors | Premium Wall & Floor Finishes Kenya" },
+      { title: "Formula Finishes and Interiors | Premium Wall & Floor Finishes Kenya" },
       {
         name: "description",
         content:
@@ -20,7 +20,7 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:title",
-        content: "Formula Finishes & Interiors | Premium Wall & Floor Finishes Kenya",
+        content: "Formula Finishes and Interiors | Premium Wall & Floor Finishes Kenya",
       },
       {
         property: "og:description",
@@ -37,68 +37,51 @@ export const Route = createFileRoute("/")({
 function Home() {
   return (
     <>
-      <section className="relative overflow-hidden">
-        <div
-          aria-hidden
-          className="pointer-events-none absolute -left-24 -top-24 size-96 rounded-full bg-brand/25 blur-3xl animate-floaty"
-        />
-        <div
-          aria-hidden
-          className="pointer-events-none absolute right-0 top-24 size-80 rounded-full bg-mint/40 blur-3xl animate-floaty"
-        />
-        <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-6 pb-16 pt-16 lg:grid-cols-2 lg:pt-24">
-          <div>
-            <span className="inline-flex items-center rounded-full glass-strong px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-ink/70">
-              {site.tagline}
-            </span>
-            <h1 className="mt-6 font-display text-4xl font-extrabold leading-[1.03] text-ink lg:text-6xl">
-              Walls, windows and floors,
-              <span className="block bg-gradient-brand bg-clip-text text-transparent">
-                finished beautifully.
-              </span>
-            </h1>
-            <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink/60">
-              Formula Finishes &amp; Interiors supplies and installs wallpapers, custom murals, wall
-              panels, blinds, window films and carpets — measured, fitted and cleaned up by our own
-              team.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <Link
-                to="/products"
-                className="inline-flex items-center gap-2 rounded-full bg-ink px-6 py-3 text-sm font-semibold text-brand-foreground transition-opacity hover:opacity-90"
-              >
-                Browse products <ArrowRight className="size-4" />
-              </Link>
-              <Link
-                to="/contact"
-                className="rounded-full glass-strong px-6 py-3 text-sm font-semibold text-ink"
-              >
-                Book a site visit
-              </Link>
-            </div>
-            <dl className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-4">
-              {stats.map((s) => (
-                <div key={s.label} className="rounded-2xl glass p-4">
-                  <dt className="font-display text-2xl font-extrabold text-ink">{s.value}</dt>
-                  <dd className="mt-1 text-xs leading-snug text-ink/55">{s.label}</dd>
-                </div>
-              ))}
-            </dl>
+      <section className="relative mt-16 flex min-h-[80vh] items-center overflow-hidden">
+        <div aria-hidden className="absolute inset-0">
+          <img
+            src="/images/hero-interior.jpg"
+            alt=""
+            className="size-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-ink/85 via-ink/60 to-ink/45" />
+        </div>
+
+        <div className="relative mx-auto w-full max-w-7xl px-6 py-20 lg:py-28">
+          <span className="inline-flex items-center rounded-full glass-strong px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-brand-foreground/80">
+            {site.tagline}
+          </span>
+          <h1 className="mt-6 max-w-4xl font-display text-5xl font-extrabold leading-[1.03] text-brand-foreground lg:text-7xl">
+            Formula Finishes
+            <span className="block">and Interiors</span>
+          </h1>
+          <p className="mt-6 max-w-xl text-lg leading-relaxed text-brand-foreground/80">
+            We supply and install wallpapers, custom murals, wall panels, blinds, window films and
+            carpets — measured, fitted and cleaned up by our own team across Kenya.
+          </p>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link
+              to="/products"
+              className="inline-flex items-center gap-2 rounded-full bg-brand px-6 py-3 text-sm font-semibold text-brand-foreground transition-opacity hover:opacity-90"
+            >
+              Browse products <ArrowRight className="size-4" />
+            </Link>
+            <Link
+              to="/contact"
+              className="rounded-full glass-strong px-6 py-3 text-sm font-semibold text-brand-foreground"
+            >
+              Book a site visit
+            </Link>
           </div>
 
-          <Reveal className="relative">
-            <div className="overflow-hidden rounded-4xl glass p-3 shadow-lift">
-              <img
-                src={projectImages[0]}
-                alt="Feature wall installed by Formula Finishes & Interiors"
-                className="aspect-4/5 w-full rounded-3xl object-cover"
-              />
-            </div>
-            <div className="absolute -bottom-6 left-4 hidden rounded-3xl glass-strong p-4 shadow-glass sm:block">
-              <p className="font-display text-sm font-bold text-ink">Fitted in 48 hours</p>
-              <p className="mt-1 text-xs text-ink/55">Survey, samples, installation.</p>
-            </div>
-          </Reveal>
+          <dl className="mt-12 grid max-w-3xl grid-cols-2 gap-4 sm:grid-cols-4">
+            {stats.map((s) => (
+              <div key={s.label} className="rounded-2xl glass-strong p-4">
+                <dt className="font-display text-2xl font-extrabold text-ink">{s.value}</dt>
+                <dd className="mt-1 text-xs leading-snug text-ink/55">{s.label}</dd>
+              </div>
+            ))}
+          </dl>
         </div>
       </section>
 

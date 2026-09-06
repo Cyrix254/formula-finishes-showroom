@@ -1,5 +1,5 @@
 export const site = {
-  name: "Formula Finishes & Interiors",
+  name: "Formula Finishes and Interiors",
   shortName: "Formula Finishes",
   tagline: "Premium interior finishes studio",
   // TODO: replace with the client's real contact details
