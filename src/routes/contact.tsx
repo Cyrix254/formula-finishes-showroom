@@ -10,13 +10,13 @@ import { site } from "@/data/site";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact | Get a Quote from Formula Finishes & Interiors" },
+      { title: "Contact | Get a Quote from Formula Finishes and Interiors" },
       {
         name: "description",
         content:
           "Request a site survey or quote for wallpapers, murals, wall panels, blinds, window films or flooring. Call, email or message us on WhatsApp.",
       },
-      { property: "og:title", content: "Contact | Get a Quote from Formula Finishes & Interiors" },
+      { property: "og:title", content: "Contact | Get a Quote from Formula Finishes and Interiors" },
       {
         property: "og:description",
         content: "Book a site survey or ask for a fitted quote — we reply the same working day.",

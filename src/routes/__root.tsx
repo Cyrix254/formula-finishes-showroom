@@ -80,13 +80,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Formula Finishes & Interiors | Wallpapers, Blinds & Flooring" },
+      { title: "Formula Finishes and Interiors | Wallpapers, Blinds & Flooring" },
       {
         name: "description",
         content:
           "Premium interior finishes in Kenya: wallpapers, custom murals, wall panels, blinds, window films and carpets supplied and installed by our own crew.",
       },
-      { property: "og:site_name", content: "Formula Finishes & Interiors" },
+      { property: "og:site_name", content: "Formula Finishes and Interiors" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
