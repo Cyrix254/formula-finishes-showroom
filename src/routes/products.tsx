@@ -15,8 +15,8 @@ const categoryIds = productCategories.map((c) => c.id);
 
 export const Route = createFileRoute("/products")({
   validateSearch: (search: Record<string, unknown>) => ({
-    category: categoryIds.includes(search.category as ProductCategoryId)
-      ? (search.category as ProductCategoryId)
+    category: categoryIds.includes(search["category"] as ProductCategoryId)
+      ? (search["category"] as ProductCategoryId)
       : undefined,
   }),
   head: () => ({

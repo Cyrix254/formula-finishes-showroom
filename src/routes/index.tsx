@@ -62,6 +62,7 @@ function Home() {
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               to="/products"
+              search={{ category: undefined }}
               className="inline-flex items-center gap-2 rounded-full bg-brand px-6 py-3 text-sm font-semibold text-brand-foreground transition-opacity hover:opacity-90"
             >
               Browse products <ArrowRight className="size-4" />
