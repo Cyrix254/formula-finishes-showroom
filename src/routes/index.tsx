@@ -48,14 +48,14 @@ function Home() {
         </div>
 
         <div className="relative mx-auto w-full max-w-7xl px-6 py-20 lg:py-28">
-          <span className="inline-flex items-center rounded-full glass-strong px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-brand-foreground/80">
+          <span className="inline-flex items-center rounded-full glass-dark px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-white">
             {site.tagline}
           </span>
           <h1 className="mt-6 max-w-4xl font-display text-5xl font-extrabold leading-[1.03] text-brand-foreground lg:text-7xl">
             Formula Finishes
             <span className="block">and Interiors</span>
           </h1>
-          <p className="mt-6 max-w-xl text-lg leading-relaxed text-brand-foreground/80">
+          <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/90">
             We supply and install wallpapers, custom murals, wall panels, blinds, window films and
             carpets — measured, fitted and cleaned up by our own team across Kenya.
           </p>
@@ -63,13 +63,13 @@ function Home() {
             <Link
               to="/products"
               search={{ category: undefined }}
-              className="inline-flex items-center gap-2 rounded-full bg-brand px-6 py-3 text-sm font-semibold text-brand-foreground transition-opacity hover:opacity-90"
+              className="inline-flex items-center gap-2 rounded-full bg-brand px-6 py-3 text-sm font-semibold text-brand-foreground shadow-lift transition-transform hover:-translate-y-0.5"
             >
               Browse products <ArrowRight className="size-4" />
             </Link>
             <Link
               to="/contact"
-              className="rounded-full glass-strong px-6 py-3 text-sm font-semibold text-brand-foreground"
+              className="rounded-full glass-dark px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-white hover:text-ink"
             >
               Book a site visit
             </Link>
