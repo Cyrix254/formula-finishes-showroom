@@ -37,7 +37,7 @@ export const Route = createFileRoute("/")({
 function Home() {
   return (
     <>
-      <section className="relative mt-16 flex min-h-[80vh] items-center overflow-hidden">
+      <section className="relative flex min-h-[86vh] items-center overflow-hidden">
         <div aria-hidden className="absolute inset-0">
           <img
             src="/images/hero-interior.jpg"
