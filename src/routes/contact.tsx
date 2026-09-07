@@ -77,7 +77,7 @@ function Contact() {
                 href={waLink}
                 target="_blank"
                 rel="noreferrer"
-                className="mt-6 inline-flex items-center gap-2 rounded-full bg-ink px-6 py-3 text-sm font-semibold text-brand-foreground"
+                className="mt-6 inline-flex items-center gap-2 rounded-full bg-brand px-6 py-3 text-sm font-semibold text-brand-foreground shadow-lift"
               >
                 <MessageCircle className="size-4" /> Continue on WhatsApp
               </a>
@@ -145,7 +145,7 @@ function Contact() {
               </Field>
               <button
                 type="submit"
-                className="mt-2 rounded-full bg-ink px-6 py-3 text-sm font-semibold text-brand-foreground transition-opacity hover:opacity-90"
+                className="mt-2 rounded-full bg-brand px-6 py-3 text-sm font-semibold text-brand-foreground shadow-lift transition-opacity hover:opacity-90"
               >
                 Send enquiry
               </button>
