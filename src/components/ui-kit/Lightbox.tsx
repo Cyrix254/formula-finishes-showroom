@@ -12,7 +12,7 @@ export function Lightbox({
   index: number | null;
   onClose: () => void;
   onIndexChange: (i: number) => void;
-  caption?: string;
+  caption?: string | undefined;
 }) {
   const step = useCallback(
     (dir: number) => {
