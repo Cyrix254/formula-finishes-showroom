@@ -79,7 +79,7 @@ function Home() {
             {stats.map((s) => (
               <div key={s.label} className="rounded-2xl glass-strong p-4">
                 <dt className="font-display text-2xl font-extrabold text-ink">{s.value}</dt>
-                <dd className="mt-1 text-xs leading-snug text-ink/55">{s.label}</dd>
+                <dd className="mt-1 text-xs leading-snug text-ink/70">{s.label}</dd>
               </div>
             ))}
           </dl>
@@ -97,7 +97,7 @@ function Home() {
             <Reveal key={c.id} delay={i * 60}>
               <GlassCard hover className="h-full">
                 <p className="font-display text-lg font-bold text-ink">{c.label}</p>
-                <p className="mt-2 text-sm leading-relaxed text-ink/60">{c.description}</p>
+                <p className="mt-2 text-sm leading-relaxed text-ink/75">{c.description}</p>
                 <Link
                   to="/products"
                   search={{ category: c.id }}
@@ -143,7 +143,7 @@ function Home() {
               <GlassCard hover className="h-full">
                 <span className="font-display text-3xl font-extrabold text-brand">{s.step}</span>
                 <p className="mt-3 font-display text-base font-bold text-ink">{s.title}</p>
-                <p className="mt-2 text-sm leading-relaxed text-ink/60">{s.description}</p>
+                <p className="mt-2 text-sm leading-relaxed text-ink/75">{s.description}</p>
               </GlassCard>
             </Reveal>
           ))}
@@ -183,7 +183,7 @@ function Home() {
                 <Check className="size-5 text-brand" />
                 <p className="mt-4 text-sm leading-relaxed text-ink/70">“{t.quote}”</p>
                 <p className="mt-5 font-display text-sm font-bold text-ink">{t.author}</p>
-                <p className="text-xs text-ink/50">{t.role}</p>
+                <p className="text-xs text-ink/70">{t.role}</p>
               </GlassCard>
             </Reveal>
           ))}

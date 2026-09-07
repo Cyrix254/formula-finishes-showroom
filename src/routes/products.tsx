@@ -113,7 +113,7 @@ function Products() {
           </div>
         ) : null}
 
-        <p className="mt-5 text-sm text-ink/50">
+        <p className="mt-5 text-sm text-ink/70">
           Showing {filtered.length} {filtered.length === 1 ? "design" : "designs"}
         </p>
       </section>
@@ -125,7 +125,7 @@ function Products() {
           ))}
         </div>
         {filtered.length === 0 ? (
-          <p className="rounded-3xl glass p-8 text-center text-sm text-ink/60">
+          <p className="rounded-3xl glass p-8 text-center text-sm text-ink/75">
             Nothing in this combination yet — try another collection.
           </p>
         ) : null}

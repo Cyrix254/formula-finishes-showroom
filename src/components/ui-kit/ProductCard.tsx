@@ -21,7 +21,7 @@ export function ProductCard({ product, onOpen }: { product: Product; onOpen?: ()
           {product.collection}
         </p>
         <p className="mt-1 font-display text-sm font-bold text-ink">{product.name}</p>
-        <p className="mt-1 line-clamp-2 text-xs leading-relaxed text-ink/55">
+        <p className="mt-1 line-clamp-2 text-xs leading-relaxed text-ink/70">
           {product.description}
         </p>
       </div>

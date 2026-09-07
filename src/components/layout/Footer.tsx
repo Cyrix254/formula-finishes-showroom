@@ -14,7 +14,7 @@ export function Footer() {
             </span>
             <span className="font-display font-bold tracking-tight text-ink">{site.name}</span>
           </div>
-          <p className="mt-4 max-w-xs text-sm leading-relaxed text-ink/60">
+          <p className="mt-4 max-w-xs text-sm leading-relaxed text-ink/75">
             Wallpapers, murals, wall panels, blinds, films and carpets — supplied and installed
             across Kenya by our own crew.
           </p>
@@ -22,7 +22,7 @@ export function Footer() {
 
         <div>
           <p className="font-display text-sm font-bold text-ink">Explore</p>
-          <div className="mt-4 grid grid-cols-2 gap-2 text-sm text-ink/60">
+          <div className="mt-4 grid grid-cols-2 gap-2 text-sm text-ink/75">
             {navLinks.map((link) => (
               <Link
                 key={link.to}
@@ -38,7 +38,7 @@ export function Footer() {
 
         <div>
           <p className="font-display text-sm font-bold text-ink">Get in touch</p>
-          <ul className="mt-4 space-y-3 text-sm text-ink/60">
+          <ul className="mt-4 space-y-3 text-sm text-ink/75">
             <li className="flex items-center gap-2">
               <Phone className="size-4 text-brand" />
               <a href={`tel:${site.phone.replace(/\s/g, "")}`} className="hover:text-ink">
@@ -60,7 +60,7 @@ export function Footer() {
       </div>
 
       <div className="border-t border-white/60">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-6 py-6 text-sm text-ink/50 sm:flex-row">
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-6 py-6 text-sm text-ink/70 sm:flex-row">
           <p>
             © {new Date().getFullYear()} {site.name}. All rights reserved.
           </p>
