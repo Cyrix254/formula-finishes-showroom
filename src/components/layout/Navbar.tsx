@@ -36,7 +36,7 @@ export function Navbar() {
         <div className="flex items-center gap-2">
           <Link
             to="/contact"
-            className="hidden rounded-full bg-ink px-5 py-2.5 text-sm font-semibold text-brand-foreground transition-opacity hover:opacity-90 sm:inline-flex"
+            className="hidden rounded-full bg-brand px-5 py-2.5 text-sm font-semibold text-brand-foreground transition-opacity hover:opacity-90 sm:inline-flex"
           >
             Get a quote
           </Link>

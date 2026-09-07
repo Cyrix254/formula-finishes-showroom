@@ -47,7 +47,7 @@ function Services() {
             <Reveal key={s.title} delay={i * 60}>
               <GlassCard hover className="h-full">
                 <p className="font-display text-lg font-bold text-ink">{s.title}</p>
-                <p className="mt-2 text-sm leading-relaxed text-ink/60">{s.description}</p>
+                <p className="mt-2 text-sm leading-relaxed text-ink/75">{s.description}</p>
                 <ul className="mt-4 space-y-2 text-sm text-ink/70">
                   {s.points.map((p) => (
                     <li key={p} className="flex items-center gap-2">
@@ -70,7 +70,7 @@ function Services() {
               <GlassCard className="h-full">
                 <span className="font-display text-3xl font-extrabold text-brand">{s.step}</span>
                 <p className="mt-3 font-display text-base font-bold text-ink">{s.title}</p>
-                <p className="mt-2 text-sm leading-relaxed text-ink/60">{s.description}</p>
+                <p className="mt-2 text-sm leading-relaxed text-ink/75">{s.description}</p>
               </GlassCard>
             </Reveal>
           ))}

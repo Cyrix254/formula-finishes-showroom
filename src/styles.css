@@ -195,6 +195,12 @@
   border: 1px solid color-mix(in oklab, white 75%, transparent);
 }
 
+@utility glass-dark {
+  background-color: color-mix(in oklab, oklch(0.22 0.02 30) 45%, transparent);
+  backdrop-filter: blur(18px);
+  border: 1px solid color-mix(in oklab, white 28%, transparent);
+}
+
 @utility text-gradient-brand {
   background: var(--gradient-brand);
   background-clip: text;

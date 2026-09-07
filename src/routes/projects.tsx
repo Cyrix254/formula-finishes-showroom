@@ -86,7 +86,7 @@ function Projects() {
             <Reveal key={h.title} delay={i * 70}>
               <GlassCard hover className="h-full">
                 <p className="font-display text-base font-bold text-ink">{h.title}</p>
-                <p className="mt-2 text-sm leading-relaxed text-ink/60">{h.body}</p>
+                <p className="mt-2 text-sm leading-relaxed text-ink/75">{h.body}</p>
               </GlassCard>
             </Reveal>
           ))}

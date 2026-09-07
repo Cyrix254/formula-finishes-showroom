@@ -691,14 +691,6 @@ export const products: Product[] = [
     "description": "Supplied by the roll or tile and fitted wall-to-wall."
   },
   {
-    "id": "CF-020",
-    "name": "Wall-to-wall carpets CF-020",
-    "category": "carpets",
-    "collection": "Wall-to-wall carpets",
-    "image": "/images/carpets/mmexport1750486441687.jpg",
-    "description": "Supplied by the roll or tile and fitted wall-to-wall."
-  },
-  {
     "id": "CF-021",
     "name": "Wall-to-wall carpets CF-021",
     "category": "carpets",
@@ -1056,14 +1048,6 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111439.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
-  },
-  {
-    "id": "MU-018",
-    "name": "Broken wall 3D MU-018",
-    "category": "murals",
-    "collection": "Broken wall 3D",
-    "image": "/images/murals-broken-wall/screenshot-2025-04-07-111439s.jpg",
     "description": "Custom-printed wall mural, produced to your exact wall size."
   },
   {

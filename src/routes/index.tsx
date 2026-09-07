@@ -37,7 +37,7 @@ export const Route = createFileRoute("/")({
 function Home() {
   return (
     <>
-      <section className="relative mt-16 flex min-h-[80vh] items-center overflow-hidden">
+      <section className="relative flex min-h-[86vh] items-center overflow-hidden">
         <div aria-hidden className="absolute inset-0">
           <img
             src="/images/hero-interior.jpg"
@@ -48,14 +48,14 @@ function Home() {
         </div>
 
         <div className="relative mx-auto w-full max-w-7xl px-6 py-20 lg:py-28">
-          <span className="inline-flex items-center rounded-full glass-strong px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-brand-foreground/80">
+          <span className="inline-flex items-center rounded-full glass-dark px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-white">
             {site.tagline}
           </span>
           <h1 className="mt-6 max-w-4xl font-display text-5xl font-extrabold leading-[1.03] text-brand-foreground lg:text-7xl">
             Formula Finishes
             <span className="block">and Interiors</span>
           </h1>
-          <p className="mt-6 max-w-xl text-lg leading-relaxed text-brand-foreground/80">
+          <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/90">
             We supply and install wallpapers, custom murals, wall panels, blinds, window films and
             carpets — measured, fitted and cleaned up by our own team across Kenya.
           </p>
@@ -63,13 +63,13 @@ function Home() {
             <Link
               to="/products"
               search={{ category: undefined }}
-              className="inline-flex items-center gap-2 rounded-full bg-brand px-6 py-3 text-sm font-semibold text-brand-foreground transition-opacity hover:opacity-90"
+              className="inline-flex items-center gap-2 rounded-full bg-brand px-6 py-3 text-sm font-semibold text-brand-foreground shadow-lift transition-transform hover:-translate-y-0.5"
             >
               Browse products <ArrowRight className="size-4" />
             </Link>
             <Link
               to="/contact"
-              className="rounded-full glass-strong px-6 py-3 text-sm font-semibold text-brand-foreground"
+              className="rounded-full glass-dark px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-white hover:text-ink"
             >
               Book a site visit
             </Link>
@@ -79,7 +79,7 @@ function Home() {
             {stats.map((s) => (
               <div key={s.label} className="rounded-2xl glass-strong p-4">
                 <dt className="font-display text-2xl font-extrabold text-ink">{s.value}</dt>
-                <dd className="mt-1 text-xs leading-snug text-ink/55">{s.label}</dd>
+                <dd className="mt-1 text-xs leading-snug text-ink/70">{s.label}</dd>
               </div>
             ))}
           </dl>
@@ -97,7 +97,7 @@ function Home() {
             <Reveal key={c.id} delay={i * 60}>
               <GlassCard hover className="h-full">
                 <p className="font-display text-lg font-bold text-ink">{c.label}</p>
-                <p className="mt-2 text-sm leading-relaxed text-ink/60">{c.description}</p>
+                <p className="mt-2 text-sm leading-relaxed text-ink/75">{c.description}</p>
                 <Link
                   to="/products"
                   search={{ category: c.id }}
@@ -143,7 +143,7 @@ function Home() {
               <GlassCard hover className="h-full">
                 <span className="font-display text-3xl font-extrabold text-brand">{s.step}</span>
                 <p className="mt-3 font-display text-base font-bold text-ink">{s.title}</p>
-                <p className="mt-2 text-sm leading-relaxed text-ink/60">{s.description}</p>
+                <p className="mt-2 text-sm leading-relaxed text-ink/75">{s.description}</p>
               </GlassCard>
             </Reveal>
           ))}
@@ -183,7 +183,7 @@ function Home() {
                 <Check className="size-5 text-brand" />
                 <p className="mt-4 text-sm leading-relaxed text-ink/70">“{t.quote}”</p>
                 <p className="mt-5 font-display text-sm font-bold text-ink">{t.author}</p>
-                <p className="text-xs text-ink/50">{t.role}</p>
+                <p className="text-xs text-ink/70">{t.role}</p>
               </GlassCard>
             </Reveal>
           ))}

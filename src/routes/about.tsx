@@ -71,7 +71,7 @@ function About() {
             title="Finishes chosen well, fitted properly"
             description="We started out hanging wallpaper in Nairobi homes and grew into a full finishes studio — murals printed to wall size, fluted and stone wall panels, roller and vertical blinds, privacy films, wall-to-wall carpet, tiles, vinyl, SPC flooring and artificial grass."
           />
-          <p className="mt-4 text-ink/60">
+          <p className="mt-4 text-ink/75">
             Because we hold our own catalogues and fit with our own crew, we can move from survey to
             finished room in days rather than weeks — and stand behind the result afterwards.
           </p>
@@ -79,7 +79,7 @@ function About() {
             {stats.map((s) => (
               <div key={s.label} className="rounded-2xl glass p-4">
                 <dt className="font-display text-2xl font-extrabold text-ink">{s.value}</dt>
-                <dd className="mt-1 text-xs text-ink/55">{s.label}</dd>
+                <dd className="mt-1 text-xs text-ink/70">{s.label}</dd>
               </div>
             ))}
           </dl>
@@ -93,7 +93,7 @@ function About() {
             <Reveal key={v.title} delay={i * 70}>
               <GlassCard hover className="h-full">
                 <p className="font-display text-base font-bold text-ink">{v.title}</p>
-                <p className="mt-2 text-sm leading-relaxed text-ink/60">{v.body}</p>
+                <p className="mt-2 text-sm leading-relaxed text-ink/75">{v.body}</p>
               </GlassCard>
             </Reveal>
           ))}

@@ -70,14 +70,14 @@ function Contact() {
           {sent ? (
             <div className="py-10 text-center">
               <p className="font-display text-2xl font-extrabold text-ink">Thanks — got it!</p>
-              <p className="mx-auto mt-3 max-w-md text-sm text-ink/60">
+              <p className="mx-auto mt-3 max-w-md text-sm text-ink/75">
                 To reach us instantly, tap below and your details will be pre-filled in WhatsApp.
               </p>
               <a
                 href={waLink}
                 target="_blank"
                 rel="noreferrer"
-                className="mt-6 inline-flex items-center gap-2 rounded-full bg-ink px-6 py-3 text-sm font-semibold text-brand-foreground"
+                className="mt-6 inline-flex items-center gap-2 rounded-full bg-brand px-6 py-3 text-sm font-semibold text-brand-foreground shadow-lift"
               >
                 <MessageCircle className="size-4" /> Continue on WhatsApp
               </a>
@@ -145,7 +145,7 @@ function Contact() {
               </Field>
               <button
                 type="submit"
-                className="mt-2 rounded-full bg-ink px-6 py-3 text-sm font-semibold text-brand-foreground transition-opacity hover:opacity-90"
+                className="mt-2 rounded-full bg-brand px-6 py-3 text-sm font-semibold text-brand-foreground shadow-lift transition-opacity hover:opacity-90"
               >
                 Send enquiry
               </button>
@@ -156,7 +156,7 @@ function Contact() {
         <div className="grid gap-4">
           <GlassCard>
             <p className="font-display text-base font-bold text-ink">Reach us directly</p>
-            <ul className="mt-4 space-y-3 text-sm text-ink/65">
+            <ul className="mt-4 space-y-3 text-sm text-ink/75">
               <li className="flex items-center gap-3">
                 <Phone className="size-4 text-brand" />
                 <a href={`tel:${site.phone.replace(/\s/g, "")}`} className="hover:text-ink">
@@ -189,7 +189,7 @@ function Contact() {
           </GlassCard>
           <GlassCard>
             <p className="font-display text-base font-bold text-ink">Prefer to browse first?</p>
-            <p className="mt-2 text-sm text-ink/60">
+            <p className="mt-2 text-sm text-ink/75">
               Open our full PDF catalogues and send us the design codes you like.
             </p>
             <a
@@ -208,12 +208,12 @@ function Contact() {
 }
 
 const inputClass =
-  "w-full rounded-2xl border border-white/70 bg-white/70 px-4 py-3 text-sm text-ink outline-none transition-colors placeholder:text-ink/35 focus:border-brand";
+  "w-full rounded-2xl border border-white/70 bg-white/70 px-4 py-3 text-sm text-ink outline-none transition-colors placeholder:text-ink/70 focus:border-brand";
 
 function Field({ label, children }: { label: string; children: React.ReactNode }) {
   return (
     <label className="block">
-      <span className="mb-1.5 block text-xs font-semibold uppercase tracking-wide text-ink/55">
+      <span className="mb-1.5 block text-xs font-semibold uppercase tracking-wide text-ink/70">
         {label}
       </span>
       {children}
