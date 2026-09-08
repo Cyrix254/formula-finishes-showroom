@@ -156,227 +156,75 @@ export const products: Product[] = [
 
   {
     "id": "WP-001",
-    "name": "Wallpaper rolls WP-001",
+    "name": "Suede-look plain roll",
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0956.jpg",
-    "description": "Textured 1m-wide roll with a soft matte surface — ideal for living-room feature walls."
+    "description": "Warm beige suede-effect roll with a soft mottled matte finish — a calm backdrop for living rooms and bedrooms."
   },
   {
     "id": "WP-002",
-    "name": "Wallpaper rolls WP-002",
-    "category": "wallpapers",
-    "collection": "Wallpaper rolls",
-    "image": "/images/wallpapers/img-0957.jpg",
-    "description": "Deep 3D embossed pattern that catches side light and adds depth to flat walls."
-  },
-  {
-    "id": "WP-003",
-    "name": "Wallpaper rolls WP-003",
-    "category": "wallpapers",
-    "collection": "Wallpaper rolls",
-    "image": "/images/wallpapers/img-0958.jpg",
-    "description": "Subtle tone-on-tone weave that keeps bedrooms calm without going plain."
-  },
-  {
-    "id": "WP-004",
-    "name": "Wallpaper rolls WP-004",
-    "category": "wallpapers",
-    "collection": "Wallpaper rolls",
-    "image": "/images/wallpapers/img-0959.jpg",
-    "description": "Damask-style repeat with a light sheen, pattern-matched seam to seam on site."
-  },
-  {
-    "id": "WP-005",
-    "name": "Wallpaper rolls WP-005",
+    "name": "Silver grasscloth stripe",
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0963.jpg",
-    "description": "Marble-effect roll for a stone look with none of the weight or cutting."
+    "description": "Silver-grey roll with a vertical grasscloth weave that catches light along the wall."
   },
   {
-    "id": "WP-006",
-    "name": "Wallpaper rolls WP-006",
-    "category": "wallpapers",
-    "collection": "Wallpaper rolls",
-    "image": "/images/wallpapers/img-0967.jpg",
-    "description": "Fine linen texture that hides small wall imperfections beautifully."
-  },
-  {
-    "id": "WP-007",
-    "name": "Wallpaper rolls WP-007",
-    "category": "wallpapers",
-    "collection": "Wallpaper rolls",
-    "image": "/images/wallpapers/img-0968.jpg",
-    "description": "Warm neutral roll that pairs easily with wood furniture and brass fittings."
-  },
-  {
-    "id": "WP-008",
-    "name": "Wallpaper rolls WP-008",
-    "category": "wallpapers",
-    "collection": "Wallpaper rolls",
-    "image": "/images/wallpapers/img-0970.jpg",
-    "description": "Brick-look finish for a relaxed industrial corner, bar or stairwell."
-  },
-  {
-    "id": "WP-009",
-    "name": "Wallpaper rolls WP-009",
+    "id": "WP-003",
+    "name": "Ivory smooth plain",
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0978.jpg",
-    "description": "Washable surface that suits hallways and other high-traffic walls."
+    "description": "Clean ivory roll with a barely-there sheen — the safe choice when the furniture is doing the talking."
   },
   {
-    "id": "WP-010",
-    "name": "Wallpaper rolls WP-010",
-    "category": "wallpapers",
-    "collection": "Wallpaper rolls",
-    "image": "/images/wallpapers/img-0979.jpg",
-    "description": "Geometric repeat that reads as a modern accent behind a TV unit."
-  },
-  {
-    "id": "WP-011",
-    "name": "Wallpaper rolls WP-011",
-    "category": "wallpapers",
-    "collection": "Wallpaper rolls",
-    "image": "/images/wallpapers/img-0982.jpg",
-    "description": "Plain-colour roll for a clean backdrop when the room already has strong pieces."
-  },
-  {
-    "id": "WP-012",
-    "name": "Wallpaper rolls WP-012",
+    "id": "WP-004",
+    "name": "Blush linen texture",
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0987.jpg",
-    "description": "Metallic-flecked ground that lifts a dining wall under warm lighting."
+    "description": "Blush-beige roll with a fine linen weave that softens bedroom and nursery walls."
   },
   {
-    "id": "WP-013",
-    "name": "Wallpaper rolls WP-013",
-    "category": "wallpapers",
-    "collection": "Wallpaper rolls",
-    "image": "/images/wallpapers/img-0988.jpg",
-    "description": "Soft plaster effect for that hand-finished Mediterranean look."
-  },
-  {
-    "id": "WP-014",
-    "name": "Wallpaper rolls WP-014",
-    "category": "wallpapers",
-    "collection": "Wallpaper rolls",
-    "image": "/images/wallpapers/img-0991.jpg",
-    "description": "Botanical repeat that brings a quiet garden feel indoors."
-  },
-  {
-    "id": "WP-015",
-    "name": "Wallpaper rolls WP-015",
+    "id": "WP-005",
+    "name": "Warm grey linen weave",
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-1007.jpg",
-    "description": "Textured 1m-wide roll with a soft matte surface — ideal for living-room feature walls."
+    "description": "Warm grey woven texture that hides small wall imperfections and reads beautifully in daylight."
   },
   {
-    "id": "WP-016",
-    "name": "Wallpaper rolls WP-016",
-    "category": "wallpapers",
-    "collection": "Wallpaper rolls",
-    "image": "/images/wallpapers/img-1008.jpg",
-    "description": "Deep 3D embossed pattern that catches side light and adds depth to flat walls."
-  },
-  {
-    "id": "WP-017",
-    "name": "Wallpaper rolls WP-017",
-    "category": "wallpapers",
-    "collection": "Wallpaper rolls",
-    "image": "/images/wallpapers/img-1010.jpg",
-    "description": "Subtle tone-on-tone weave that keeps bedrooms calm without going plain."
-  },
-  {
-    "id": "WP-018",
-    "name": "Wallpaper rolls WP-018",
+    "id": "WP-006",
+    "name": "Pale rose striated",
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-1016.jpg",
-    "description": "Damask-style repeat with a light sheen, pattern-matched seam to seam on site."
+    "description": "Pale rose-beige roll with a subtle vertical striation for a gentle, tone-on-tone finish."
   },
   {
-    "id": "WP-019",
-    "name": "Wallpaper rolls WP-019",
-    "category": "wallpapers",
-    "collection": "Wallpaper rolls",
-    "image": "/images/wallpapers/img-1017.jpg",
-    "description": "Marble-effect roll for a stone look with none of the weight or cutting."
-  },
-  {
-    "id": "WP-020",
-    "name": "Wallpaper rolls WP-020",
-    "category": "wallpapers",
-    "collection": "Wallpaper rolls",
-    "image": "/images/wallpapers/img-1018.jpg",
-    "description": "Fine linen texture that hides small wall imperfections beautifully."
-  },
-  {
-    "id": "WP-021",
-    "name": "Wallpaper rolls WP-021",
-    "category": "wallpapers",
-    "collection": "Wallpaper rolls",
-    "image": "/images/wallpapers/img-1022.jpg",
-    "description": "Warm neutral roll that pairs easily with wood furniture and brass fittings."
-  },
-  {
-    "id": "WP-022",
-    "name": "Wallpaper rolls WP-022",
+    "id": "WP-007",
+    "name": "Stone-grey plain roll",
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-1025.jpg",
-    "description": "Brick-look finish for a relaxed industrial corner, bar or stairwell."
+    "description": "Cool grey mottled roll with a fine stone-like grain — pairs well with dark timber and matt black fittings."
   },
   {
-    "id": "WP-023",
-    "name": "Wallpaper rolls WP-023",
-    "category": "wallpapers",
-    "collection": "Wallpaper rolls",
-    "image": "/images/wallpapers/img-1028.jpg",
-    "description": "Washable surface that suits hallways and other high-traffic walls."
-  },
-  {
-    "id": "WP-024",
-    "name": "Wallpaper rolls WP-024",
-    "category": "wallpapers",
-    "collection": "Wallpaper rolls",
-    "image": "/images/wallpapers/img-1031.jpg",
-    "description": "Geometric repeat that reads as a modern accent behind a TV unit."
-  },
-  {
-    "id": "WP-025",
-    "name": "Wallpaper rolls WP-025",
+    "id": "WP-008",
+    "name": "Cream textured trio",
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/whatsapp-image-2026-06-29-at-12-01-33-1.jpg",
-    "description": "Plain-colour roll for a clean backdrop when the room already has strong pieces."
+    "description": "Three cream and pearl textured rolls from current stock — bring a sample home before you commit."
   },
   {
-    "id": "WP-026",
-    "name": "Wallpaper rolls WP-026",
-    "category": "wallpapers",
-    "collection": "Wallpaper rolls",
-    "image": "/images/wallpapers/whatsapp-image-2026-06-30-at-09-22-49.jpg",
-    "description": "Metallic-flecked ground that lifts a dining wall under warm lighting."
-  },
-  {
-    "id": "WP-027",
-    "name": "Wallpaper rolls WP-027",
+    "id": "WP-009",
+    "name": "Colour range selection",
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/whatsapp-image-2026-07-11-at-15-01-06.jpg",
-    "description": "Soft plaster effect for that hand-finished Mediterranean look."
-  },
-  {
-    "id": "WP-028",
-    "name": "Wallpaper rolls WP-028",
-    "category": "wallpapers",
-    "collection": "Wallpaper rolls",
-    "image": "/images/wallpapers/whatsapp-image-2026-07-11-at-15-01-08.jpg",
-    "description": "Botanical repeat that brings a quiet garden feel indoors."
+    "description": "Part of our colour range: terracotta, mint, mustard, plum, sand and pearl textured rolls."
   },
   {
     "id": "CP-001",
