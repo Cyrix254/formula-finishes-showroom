@@ -198,7 +198,7 @@ export const galleryImages: string[] = [
 ];
 
 export const projectImages: string[] = [
-  "/images/projects/2f7fb68e-5051-42cf-b115-b1f24c77dafe.jpg",
+  
   "/images/projects/3cfe6492-f6f3-4dc5-99a6-bf77f75442b5.jpg",
   "/images/projects/04612e44-e6a2-455c-8087-2262ae8e2a3b.jpg",
   "/images/projects/d5627c47-3938-4b4d-855f-9d7f29d60641.jpg",
