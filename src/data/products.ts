@@ -160,7 +160,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0956.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Textured 1m-wide roll with a soft matte surface — ideal for living-room feature walls."
   },
   {
     "id": "WP-002",
@@ -168,7 +168,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0957.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Deep 3D embossed pattern that catches side light and adds depth to flat walls."
   },
   {
     "id": "WP-003",
@@ -176,7 +176,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0958.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Subtle tone-on-tone weave that keeps bedrooms calm without going plain."
   },
   {
     "id": "WP-004",
@@ -184,7 +184,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0959.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Damask-style repeat with a light sheen, pattern-matched seam to seam on site."
   },
   {
     "id": "WP-005",
@@ -192,7 +192,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0963.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Marble-effect roll for a stone look with none of the weight or cutting."
   },
   {
     "id": "WP-006",
@@ -200,7 +200,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0967.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Fine linen texture that hides small wall imperfections beautifully."
   },
   {
     "id": "WP-007",
@@ -208,7 +208,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0968.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Warm neutral roll that pairs easily with wood furniture and brass fittings."
   },
   {
     "id": "WP-008",
@@ -216,7 +216,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0970.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Brick-look finish for a relaxed industrial corner, bar or stairwell."
   },
   {
     "id": "WP-009",
@@ -224,7 +224,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0978.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Washable surface that suits hallways and other high-traffic walls."
   },
   {
     "id": "WP-010",
@@ -232,7 +232,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0979.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Geometric repeat that reads as a modern accent behind a TV unit."
   },
   {
     "id": "WP-011",
@@ -240,7 +240,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0982.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Plain-colour roll for a clean backdrop when the room already has strong pieces."
   },
   {
     "id": "WP-012",
@@ -248,7 +248,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0987.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Metallic-flecked ground that lifts a dining wall under warm lighting."
   },
   {
     "id": "WP-013",
@@ -256,7 +256,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0988.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Soft plaster effect for that hand-finished Mediterranean look."
   },
   {
     "id": "WP-014",
@@ -264,7 +264,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0991.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Botanical repeat that brings a quiet garden feel indoors."
   },
   {
     "id": "WP-015",
@@ -272,7 +272,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-1007.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Textured 1m-wide roll with a soft matte surface — ideal for living-room feature walls."
   },
   {
     "id": "WP-016",
@@ -280,7 +280,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-1008.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Deep 3D embossed pattern that catches side light and adds depth to flat walls."
   },
   {
     "id": "WP-017",
@@ -288,7 +288,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-1010.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Subtle tone-on-tone weave that keeps bedrooms calm without going plain."
   },
   {
     "id": "WP-018",
@@ -296,7 +296,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-1016.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Damask-style repeat with a light sheen, pattern-matched seam to seam on site."
   },
   {
     "id": "WP-019",
@@ -304,7 +304,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-1017.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Marble-effect roll for a stone look with none of the weight or cutting."
   },
   {
     "id": "WP-020",
@@ -312,7 +312,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-1018.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Fine linen texture that hides small wall imperfections beautifully."
   },
   {
     "id": "WP-021",
@@ -320,7 +320,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-1022.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Warm neutral roll that pairs easily with wood furniture and brass fittings."
   },
   {
     "id": "WP-022",
@@ -328,7 +328,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-1025.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Brick-look finish for a relaxed industrial corner, bar or stairwell."
   },
   {
     "id": "WP-023",
@@ -336,7 +336,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-1028.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Washable surface that suits hallways and other high-traffic walls."
   },
   {
     "id": "WP-024",
@@ -344,7 +344,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-1031.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Geometric repeat that reads as a modern accent behind a TV unit."
   },
   {
     "id": "WP-025",
@@ -352,7 +352,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/whatsapp-image-2026-06-29-at-12-01-33-1.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Plain-colour roll for a clean backdrop when the room already has strong pieces."
   },
   {
     "id": "WP-026",
@@ -360,7 +360,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/whatsapp-image-2026-06-30-at-09-22-49.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Metallic-flecked ground that lifts a dining wall under warm lighting."
   },
   {
     "id": "WP-027",
@@ -368,7 +368,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/whatsapp-image-2026-07-11-at-15-01-06.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Soft plaster effect for that hand-finished Mediterranean look."
   },
   {
     "id": "WP-028",
@@ -376,7 +376,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/whatsapp-image-2026-07-11-at-15-01-08.jpg",
-    "description": "Textured wallpaper roll, 1m width. Supplied and installed."
+    "description": "Botanical repeat that brings a quiet garden feel indoors."
   },
   {
     "id": "CP-001",
@@ -384,7 +384,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/0a409a39-a68d-45dd-b12e-a6aaf7233298.jpg",
-    "description": "Self-adhesive contact paper. Wipe-clean, easy to reposition."
+    "description": "Self-adhesive marble film for counters and cabinet doors — wipe clean, no demolition."
   },
   {
     "id": "CP-002",
@@ -392,7 +392,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/71-lsgpctel-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Self-adhesive contact paper. Wipe-clean, easy to reposition."
+    "description": "Wood-grain adhesive paper to refresh tired doors and wardrobes in an afternoon."
   },
   {
     "id": "CP-003",
@@ -400,7 +400,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/71bybimykgl-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Self-adhesive contact paper. Wipe-clean, easy to reposition."
+    "description": "Matte solid colour that hides fingerprints on kitchen cupboards."
   },
   {
     "id": "CP-004",
@@ -408,7 +408,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/71cu1wabekl-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Self-adhesive contact paper. Wipe-clean, easy to reposition."
+    "description": "Glossy finish that bounces light around small kitchens and bathrooms."
   },
   {
     "id": "CP-005",
@@ -416,7 +416,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/71jmarbzqsl-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Self-adhesive contact paper. Wipe-clean, easy to reposition."
+    "description": "Textured embossed film that feels closer to real stone than a flat print."
   },
   {
     "id": "CP-006",
@@ -424,7 +424,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/71x8j9ldhpl-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Self-adhesive contact paper. Wipe-clean, easy to reposition."
+    "description": "Repositionable while fitting, so corners and edges come out crisp."
   },
   {
     "id": "CP-007",
@@ -432,7 +432,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/81anj6thvml-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Self-adhesive contact paper. Wipe-clean, easy to reposition."
+    "description": "Water-resistant surface suited to splash zones behind sinks."
   },
   {
     "id": "CP-008",
@@ -440,7 +440,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/81khwlnvdtl-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Self-adhesive contact paper. Wipe-clean, easy to reposition."
+    "description": "Great for refacing shelving, side tables and drawer fronts on a budget."
   },
   {
     "id": "CP-009",
@@ -448,7 +448,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/619h9x3xbwl-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Self-adhesive contact paper. Wipe-clean, easy to reposition."
+    "description": "Heat-tolerant film for cabinet fronts near cooking areas."
   },
   {
     "id": "CP-010",
@@ -456,7 +456,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/711sueviwml-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Self-adhesive contact paper. Wipe-clean, easy to reposition."
+    "description": "Neutral stone print that works with almost any worktop colour."
   },
   {
     "id": "CP-011",
@@ -464,7 +464,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/d6687c76-6957-4325-97a7-6dcc9370329f.jpg",
-    "description": "Self-adhesive contact paper. Wipe-clean, easy to reposition."
+    "description": "Self-adhesive marble film for counters and cabinet doors — wipe clean, no demolition."
   },
   {
     "id": "CP-012",
@@ -472,7 +472,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/e71e0c16-f17e-496d-af60-ab3d84569269.jpg",
-    "description": "Self-adhesive contact paper. Wipe-clean, easy to reposition."
+    "description": "Wood-grain adhesive paper to refresh tired doors and wardrobes in an afternoon."
   },
   {
     "id": "CP-013",
@@ -480,7 +480,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/img-20250123-194928-0515.jpg",
-    "description": "Self-adhesive contact paper. Wipe-clean, easy to reposition."
+    "description": "Matte solid colour that hides fingerprints on kitchen cupboards."
   },
   {
     "id": "CP-014",
@@ -488,7 +488,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/img-20240525-wa0001.jpg",
-    "description": "Self-adhesive contact paper. Wipe-clean, easy to reposition."
+    "description": "Glossy finish that bounces light around small kitchens and bathrooms."
   },
   {
     "id": "CP-015",
@@ -496,7 +496,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/img-20250220-wa0017.jpg",
-    "description": "Self-adhesive contact paper. Wipe-clean, easy to reposition."
+    "description": "Textured embossed film that feels closer to real stone than a flat print."
   },
   {
     "id": "CP-016",
@@ -504,7 +504,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/img-20250221-wa0039.jpg",
-    "description": "Self-adhesive contact paper. Wipe-clean, easy to reposition."
+    "description": "Repositionable while fitting, so corners and edges come out crisp."
   },
   {
     "id": "CP-017",
@@ -512,7 +512,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/mmexport1734180900180.jpg",
-    "description": "Self-adhesive contact paper. Wipe-clean, easy to reposition."
+    "description": "Water-resistant surface suited to splash zones behind sinks."
   },
   {
     "id": "CP-018",
@@ -520,7 +520,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/mmexport1741702068216.jpg",
-    "description": "Self-adhesive contact paper. Wipe-clean, easy to reposition."
+    "description": "Great for refacing shelving, side tables and drawer fronts on a budget."
   },
   {
     "id": "CP-019",
@@ -528,7 +528,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/mmexport1751371510911.jpg",
-    "description": "Self-adhesive contact paper. Wipe-clean, easy to reposition."
+    "description": "Heat-tolerant film for cabinet fronts near cooking areas."
   },
   {
     "id": "CP-020",
@@ -536,7 +536,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/mmexport1751371513211.jpg",
-    "description": "Self-adhesive contact paper. Wipe-clean, easy to reposition."
+    "description": "Neutral stone print that works with almost any worktop colour."
   },
   {
     "id": "CF-001",
@@ -544,7 +544,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/30mm-grass-2.jpg",
-    "description": "Supplied by the roll or tile and fitted wall-to-wall."
+    "description": "Soft-pile turf that stays green year-round with no watering or mowing."
   },
   {
     "id": "CF-002",
@@ -552,7 +552,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/30mm-grass-3.jpg",
-    "description": "Supplied by the roll or tile and fitted wall-to-wall."
+    "description": "Dense 30mm pile with a natural two-tone blade for a realistic lawn look."
   },
   {
     "id": "CF-003",
@@ -560,7 +560,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/40mm-grass-1.jpg",
-    "description": "Supplied by the roll or tile and fitted wall-to-wall."
+    "description": "Hard-wearing 40mm pile for busy family gardens and play areas."
   },
   {
     "id": "CF-004",
@@ -568,7 +568,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/40mm-grass-2.jpg",
-    "description": "Supplied by the roll or tile and fitted wall-to-wall."
+    "description": "UV-stable fibres that resist fading under strong Nairobi sun."
   },
   {
     "id": "CF-005",
@@ -576,7 +576,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-1.jpg",
-    "description": "Supplied by the roll or tile and fitted wall-to-wall."
+    "description": "Perforated backing that drains quickly after heavy rain."
   },
   {
     "id": "CF-006",
@@ -584,7 +584,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-2.jpg",
-    "description": "Supplied by the roll or tile and fitted wall-to-wall."
+    "description": "Great for balconies, rooftops and terraces where soil is not an option."
   },
   {
     "id": "CF-007",
@@ -592,7 +592,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-3.jpg",
-    "description": "Supplied by the roll or tile and fitted wall-to-wall."
+    "description": "Pet-friendly turf that rinses clean and dries fast."
   },
   {
     "id": "CF-008",
@@ -600,7 +600,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-6.jpg",
-    "description": "Supplied by the roll or tile and fitted wall-to-wall."
+    "description": "Short pile suited to event spaces, showrooms and display areas."
   },
   {
     "id": "CF-009",
@@ -608,7 +608,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-7.jpg",
-    "description": "Supplied by the roll or tile and fitted wall-to-wall."
+    "description": "Comfortable underfoot for barefoot poolside and patio edges."
   },
   {
     "id": "CF-010",
@@ -616,7 +616,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-9.jpg",
-    "description": "Supplied by the roll or tile and fitted wall-to-wall."
+    "description": "Supplied by the roll and trimmed to your exact garden shape."
   },
   {
     "id": "CF-011",
@@ -624,7 +624,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-10.jpg",
-    "description": "Supplied by the roll or tile and fitted wall-to-wall."
+    "description": "Soft-pile turf that stays green year-round with no watering or mowing."
   },
   {
     "id": "CF-012",
@@ -632,7 +632,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-11.jpg",
-    "description": "Supplied by the roll or tile and fitted wall-to-wall."
+    "description": "Dense 30mm pile with a natural two-tone blade for a realistic lawn look."
   },
   {
     "id": "CF-013",
@@ -640,7 +640,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/factory-material-pp.jpg",
-    "description": "Supplied by the roll or tile and fitted wall-to-wall."
+    "description": "Hard-wearing 40mm pile for busy family gardens and play areas."
   },
   {
     "id": "CF-014",
@@ -648,7 +648,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/grass-backer.jpg",
-    "description": "Supplied by the roll or tile and fitted wall-to-wall."
+    "description": "UV-stable fibres that resist fading under strong Nairobi sun."
   },
   {
     "id": "CF-015",
@@ -656,7 +656,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/grass-roll-1.jpg",
-    "description": "Supplied by the roll or tile and fitted wall-to-wall."
+    "description": "Perforated backing that drains quickly after heavy rain."
   },
   {
     "id": "CF-016",
@@ -664,7 +664,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/grass-roll-2.jpg",
-    "description": "Supplied by the roll or tile and fitted wall-to-wall."
+    "description": "Great for balconies, rooftops and terraces where soil is not an option."
   },
   {
     "id": "CF-017",
@@ -672,7 +672,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/img-0754.jpg",
-    "description": "Supplied by the roll or tile and fitted wall-to-wall."
+    "description": "Pet-friendly turf that rinses clean and dries fast."
   },
   {
     "id": "CF-018",
@@ -680,7 +680,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/img-0760.jpg",
-    "description": "Supplied by the roll or tile and fitted wall-to-wall."
+    "description": "Short pile suited to event spaces, showrooms and display areas."
   },
   {
     "id": "CF-019",
@@ -688,7 +688,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Wall-to-wall carpets",
     "image": "/images/carpets/mmexport1750486440229.jpg",
-    "description": "Supplied by the roll or tile and fitted wall-to-wall."
+    "description": "Wall-to-wall carpet fitted edge to edge for a warm, seamless floor."
   },
   {
     "id": "CF-021",
@@ -696,7 +696,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Wall-to-wall carpets",
     "image": "/images/carpets/mmexport1750486444587.jpg",
-    "description": "Supplied by the roll or tile and fitted wall-to-wall."
+    "description": "Hard-wearing carpet tiles that can be swapped out individually if stained."
   },
   {
     "id": "WB-001",
@@ -704,7 +704,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/1-1.jpg",
-    "description": "Made-to-measure blind, fitted to your window opening."
+    "description": "Made-to-measure sheer roller that softens harsh afternoon sun."
   },
   {
     "id": "WB-002",
@@ -712,7 +712,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/3.jpg",
-    "description": "Made-to-measure blind, fitted to your window opening."
+    "description": "Blackout roller for bedrooms and nurseries where sleep comes first."
   },
   {
     "id": "WB-003",
@@ -720,7 +720,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/4.jpg",
-    "description": "Made-to-measure blind, fitted to your window opening."
+    "description": "Vertical blind that lets you angle light across wide living-room glass."
   },
   {
     "id": "WB-004",
@@ -728,7 +728,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/5.jpg",
-    "description": "Made-to-measure blind, fitted to your window opening."
+    "description": "Day-and-night double roller — privacy by day, view by evening."
   },
   {
     "id": "WB-005",
@@ -736,7 +736,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/6.jpg",
-    "description": "Made-to-measure blind, fitted to your window opening."
+    "description": "Slim cassette headrail that sits neatly against modern window frames."
   },
   {
     "id": "WB-006",
@@ -744,7 +744,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/7.jpg",
-    "description": "Made-to-measure blind, fitted to your window opening."
+    "description": "Moisture-friendly fabric suited to kitchens and bathrooms."
   },
   {
     "id": "WB-007",
@@ -752,7 +752,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/8.jpg",
-    "description": "Made-to-measure blind, fitted to your window opening."
+    "description": "Office-grade screen fabric that cuts glare on computer screens."
   },
   {
     "id": "WB-008",
@@ -760,7 +760,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/9.jpg",
-    "description": "Made-to-measure blind, fitted to your window opening."
+    "description": "Chain or spring control, fitted to your preferred side."
   },
   {
     "id": "WB-009",
@@ -768,7 +768,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/10.jpg",
-    "description": "Made-to-measure blind, fitted to your window opening."
+    "description": "Wide-span solution for sliding doors and balcony openings."
   },
   {
     "id": "WB-010",
@@ -776,7 +776,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/11.jpg",
-    "description": "Made-to-measure blind, fitted to your window opening."
+    "description": "Textured weave that adds a little warmth to plain window walls."
   },
   {
     "id": "WB-011",
@@ -784,7 +784,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/12.jpg",
-    "description": "Made-to-measure blind, fitted to your window opening."
+    "description": "Light-filtering fabric for rooms that need brightness without exposure."
   },
   {
     "id": "WB-012",
@@ -792,7 +792,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/13.jpg",
-    "description": "Made-to-measure blind, fitted to your window opening."
+    "description": "Made-to-measure sheer roller that softens harsh afternoon sun."
   },
   {
     "id": "WB-013",
@@ -800,7 +800,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/14.jpg",
-    "description": "Made-to-measure blind, fitted to your window opening."
+    "description": "Blackout roller for bedrooms and nurseries where sleep comes first."
   },
   {
     "id": "WB-014",
@@ -808,7 +808,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/15.jpg",
-    "description": "Made-to-measure blind, fitted to your window opening."
+    "description": "Vertical blind that lets you angle light across wide living-room glass."
   },
   {
     "id": "WB-015",
@@ -816,7 +816,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/18.jpg",
-    "description": "Made-to-measure blind, fitted to your window opening."
+    "description": "Day-and-night double roller — privacy by day, view by evening."
   },
   {
     "id": "WB-016",
@@ -824,7 +824,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/19.jpg",
-    "description": "Made-to-measure blind, fitted to your window opening."
+    "description": "Slim cassette headrail that sits neatly against modern window frames."
   },
   {
     "id": "WB-017",
@@ -832,7 +832,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/21.jpg",
-    "description": "Made-to-measure blind, fitted to your window opening."
+    "description": "Moisture-friendly fabric suited to kitchens and bathrooms."
   },
   {
     "id": "WB-018",
@@ -840,7 +840,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/22.jpg",
-    "description": "Made-to-measure blind, fitted to your window opening."
+    "description": "Office-grade screen fabric that cuts glare on computer screens."
   },
   {
     "id": "WB-019",
@@ -848,7 +848,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/25.jpg",
-    "description": "Made-to-measure blind, fitted to your window opening."
+    "description": "Chain or spring control, fitted to your preferred side."
   },
   {
     "id": "WB-020",
@@ -856,7 +856,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/26.jpg",
-    "description": "Made-to-measure blind, fitted to your window opening."
+    "description": "Wide-span solution for sliding doors and balcony openings."
   },
   {
     "id": "WB-021",
@@ -864,7 +864,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/27.jpg",
-    "description": "Made-to-measure blind, fitted to your window opening."
+    "description": "Textured weave that adds a little warmth to plain window walls."
   },
   {
     "id": "WB-022",
@@ -872,7 +872,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/28.jpg",
-    "description": "Made-to-measure blind, fitted to your window opening."
+    "description": "Light-filtering fabric for rooms that need brightness without exposure."
   },
   {
     "id": "WF-001",
@@ -880,7 +880,7 @@ export const products: Product[] = [
     "category": "window-films",
     "collection": "Window films",
     "image": "/images/window-films/img-0155.jpg",
-    "description": "Adhesive window film applied to glass for privacy or effect."
+    "description": "Frosted privacy film for bathrooms, meeting rooms and glass partitions."
   },
   {
     "id": "WF-002",
@@ -888,7 +888,7 @@ export const products: Product[] = [
     "category": "window-films",
     "collection": "Window films",
     "image": "/images/window-films/img-5579.jpg",
-    "description": "Adhesive window film applied to glass for privacy or effect."
+    "description": "One-way reflective film that cuts heat and keeps daytime privacy."
   },
   {
     "id": "WF-003",
@@ -896,7 +896,7 @@ export const products: Product[] = [
     "category": "window-films",
     "collection": "Window films",
     "image": "/images/window-films/img-5584.jpg",
-    "description": "Adhesive window film applied to glass for privacy or effect."
+    "description": "Decorative patterned film that turns plain glass into a design feature."
   },
   {
     "id": "WF-004",
@@ -904,7 +904,7 @@ export const products: Product[] = [
     "category": "window-films",
     "collection": "Window films",
     "image": "/images/window-films/img-6079.jpg",
-    "description": "Adhesive window film applied to glass for privacy or effect."
+    "description": "Safety film that holds glass together if it is ever knocked or cracked."
   },
   {
     "id": "WF-005",
@@ -912,7 +912,7 @@ export const products: Product[] = [
     "category": "window-films",
     "collection": "Window films",
     "image": "/images/window-films/img-6621.jpg",
-    "description": "Adhesive window film applied to glass for privacy or effect."
+    "description": "Tinted film that lowers glare and helps keep interiors cooler."
   },
   {
     "id": "MU-001",
@@ -920,7 +920,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-121942.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Abstract line art for a modern hallway or stairwell."
   },
   {
     "id": "MU-002",
@@ -928,7 +928,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122013.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Bold graphic pattern that gives a plain office wall a point of view."
   },
   {
     "id": "MU-003",
@@ -936,7 +936,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122038.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Brushed textures that read as artwork rather than wallpaper."
   },
   {
     "id": "MU-004",
@@ -944,7 +944,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122127.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Geometric repeat scaled to your wall so nothing is cut awkwardly."
   },
   {
     "id": "MU-005",
@@ -952,7 +952,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122141.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Muted palette that lets furniture and art stay the focus."
   },
   {
     "id": "MU-006",
@@ -960,7 +960,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122200.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Contemporary composition for reception and lobby walls."
   },
   {
     "id": "MU-007",
@@ -968,7 +968,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122213.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Abstract line art for a modern hallway or stairwell."
   },
   {
     "id": "MU-008",
@@ -976,7 +976,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122302.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Bold graphic pattern that gives a plain office wall a point of view."
   },
   {
     "id": "MU-009",
@@ -984,7 +984,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122319.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Brushed textures that read as artwork rather than wallpaper."
   },
   {
     "id": "MU-010",
@@ -992,7 +992,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122342.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Geometric repeat scaled to your wall so nothing is cut awkwardly."
   },
   {
     "id": "MU-011",
@@ -1000,7 +1000,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122419.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Muted palette that lets furniture and art stay the focus."
   },
   {
     "id": "MU-012",
@@ -1008,7 +1008,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122444.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Contemporary composition for reception and lobby walls."
   },
   {
     "id": "MU-013",
@@ -1016,7 +1016,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122506.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Abstract line art for a modern hallway or stairwell."
   },
   {
     "id": "MU-014",
@@ -1024,7 +1024,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122522.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Bold graphic pattern that gives a plain office wall a point of view."
   },
   {
     "id": "MU-015",
@@ -1032,7 +1032,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111248.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "3D broken-wall effect that appears to open the room up."
   },
   {
     "id": "MU-016",
@@ -1040,7 +1040,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111353.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Trompe-l'oeil depth that reads best on a wall you see head-on."
   },
   {
     "id": "MU-017",
@@ -1048,7 +1048,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111439.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Stone-and-crack detail for a bold living-room statement."
   },
   {
     "id": "MU-019",
@@ -1056,7 +1056,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111511.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Layered perspective that adds drama to a narrow space."
   },
   {
     "id": "MU-020",
@@ -1064,7 +1064,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111525.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "3D broken-wall effect that appears to open the room up."
   },
   {
     "id": "MU-021",
@@ -1072,7 +1072,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111545.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Trompe-l'oeil depth that reads best on a wall you see head-on."
   },
   {
     "id": "MU-022",
@@ -1080,7 +1080,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111601.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Stone-and-crack detail for a bold living-room statement."
   },
   {
     "id": "MU-023",
@@ -1088,7 +1088,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111616.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Layered perspective that adds drama to a narrow space."
   },
   {
     "id": "MU-024",
@@ -1096,7 +1096,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111631.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "3D broken-wall effect that appears to open the room up."
   },
   {
     "id": "MU-025",
@@ -1104,7 +1104,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-113701.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "City skyline mural for offices, bars and study walls."
   },
   {
     "id": "MU-026",
@@ -1112,7 +1112,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-120009.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Night-city lights that look striking against dark furniture."
   },
   {
     "id": "MU-027",
@@ -1120,7 +1120,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-120826.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Aerial street view with plenty of fine detail up close."
   },
   {
     "id": "MU-028",
@@ -1128,7 +1128,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-120839.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Monochrome cityscape that suits a minimal scheme."
   },
   {
     "id": "MU-029",
@@ -1136,7 +1136,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-120916.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Landmark scene printed to your exact wall dimensions."
   },
   {
     "id": "MU-030",
@@ -1144,7 +1144,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-120930.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "City skyline mural for offices, bars and study walls."
   },
   {
     "id": "MU-031",
@@ -1152,7 +1152,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-120943.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Night-city lights that look striking against dark furniture."
   },
   {
     "id": "MU-032",
@@ -1160,7 +1160,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-120957.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Aerial street view with plenty of fine detail up close."
   },
   {
     "id": "MU-033",
@@ -1168,7 +1168,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-121015.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Monochrome cityscape that suits a minimal scheme."
   },
   {
     "id": "MU-034",
@@ -1176,7 +1176,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-121033.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Landmark scene printed to your exact wall dimensions."
   },
   {
     "id": "MU-035",
@@ -1184,7 +1184,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-121047.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "City skyline mural for offices, bars and study walls."
   },
   {
     "id": "MU-036",
@@ -1192,7 +1192,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-121110.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Night-city lights that look striking against dark furniture."
   },
   {
     "id": "MU-037",
@@ -1200,7 +1200,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124627.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Cloudscape mural often used on ceilings as well as walls."
   },
   {
     "id": "MU-038",
@@ -1208,7 +1208,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124659.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Deep night-sky print for a dramatic bedroom feature."
   },
   {
     "id": "MU-039",
@@ -1216,7 +1216,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124713.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Soft cloud tones that make low rooms feel taller."
   },
   {
     "id": "MU-040",
@@ -1224,7 +1224,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124728.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Galaxy scene that turns a kids' ceiling into a night sky."
   },
   {
     "id": "MU-041",
@@ -1232,7 +1232,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124743.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Sunset cloud palette for a warm, calming backdrop."
   },
   {
     "id": "MU-042",
@@ -1240,7 +1240,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124756.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Cloudscape mural often used on ceilings as well as walls."
   },
   {
     "id": "MU-043",
@@ -1248,7 +1248,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124812.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Deep night-sky print for a dramatic bedroom feature."
   },
   {
     "id": "MU-044",
@@ -1256,7 +1256,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124826.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Soft cloud tones that make low rooms feel taller."
   },
   {
     "id": "MU-045",
@@ -1264,7 +1264,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124840.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Galaxy scene that turns a kids' ceiling into a night sky."
   },
   {
     "id": "MU-046",
@@ -1272,7 +1272,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124932.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Sunset cloud palette for a warm, calming backdrop."
   },
   {
     "id": "MU-047",
@@ -1280,7 +1280,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124946.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Cloudscape mural often used on ceilings as well as walls."
   },
   {
     "id": "MU-048",
@@ -1288,7 +1288,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-125000.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Deep night-sky print for a dramatic bedroom feature."
   },
   {
     "id": "MU-049",
@@ -1296,7 +1296,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104706.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Playful mural sized for a child's bedroom or play corner."
   },
   {
     "id": "MU-050",
@@ -1304,7 +1304,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104706s.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Wipe-clean surface that survives sticky hands and crayons."
   },
   {
     "id": "MU-051",
@@ -1312,7 +1312,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104732.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Storybook scene that grows with a toddler's imagination."
   },
   {
     "id": "MU-052",
@@ -1320,7 +1320,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104809.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Soft pastel palette that keeps the room easy to sleep in."
   },
   {
     "id": "MU-053",
@@ -1328,7 +1328,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104825.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Adventure theme for a shared kids' room or nursery."
   },
   {
     "id": "MU-054",
@@ -1336,7 +1336,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104840.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Bright characters that make a play area feel like its own world."
   },
   {
     "id": "MU-055",
@@ -1344,7 +1344,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104854.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Playful mural sized for a child's bedroom or play corner."
   },
   {
     "id": "MU-056",
@@ -1352,7 +1352,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104918.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Wipe-clean surface that survives sticky hands and crayons."
   },
   {
     "id": "MU-057",
@@ -1360,7 +1360,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104936.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Storybook scene that grows with a toddler's imagination."
   },
   {
     "id": "MU-058",
@@ -1368,7 +1368,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-105314.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Soft pastel palette that keeps the room easy to sleep in."
   },
   {
     "id": "MU-059",
@@ -1376,7 +1376,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-105329.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Adventure theme for a shared kids' room or nursery."
   },
   {
     "id": "MU-060",
@@ -1384,7 +1384,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-105342.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Bright characters that make a play area feel like its own world."
   },
   {
     "id": "MU-061",
@@ -1392,7 +1392,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-105355.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Playful mural sized for a child's bedroom or play corner."
   },
   {
     "id": "MU-062",
@@ -1400,7 +1400,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-105411.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Wipe-clean surface that survives sticky hands and crayons."
   },
   {
     "id": "MU-063",
@@ -1408,7 +1408,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-113519.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Wide landscape mural that visually pushes the back wall outwards."
   },
   {
     "id": "MU-064",
@@ -1416,7 +1416,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-113635.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Calm seascape tones that suit bedrooms and quiet reading corners."
   },
   {
     "id": "MU-065",
@@ -1424,7 +1424,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-113732.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Misty mountain scene printed at your exact wall height."
   },
   {
     "id": "MU-066",
@@ -1432,7 +1432,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-113754.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Golden-hour horizon that warms up north-facing rooms."
   },
   {
     "id": "MU-067",
@@ -1440,7 +1440,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-113850.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Forest depth for a restful bedroom headboard wall."
   },
   {
     "id": "MU-068",
@@ -1448,7 +1448,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-113907.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Open plains scene with plenty of sky for a lofty feel."
   },
   {
     "id": "MU-069",
@@ -1456,7 +1456,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114000.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Wide landscape mural that visually pushes the back wall outwards."
   },
   {
     "id": "MU-070",
@@ -1464,7 +1464,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114019.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Calm seascape tones that suit bedrooms and quiet reading corners."
   },
   {
     "id": "MU-071",
@@ -1472,7 +1472,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114033.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Misty mountain scene printed at your exact wall height."
   },
   {
     "id": "MU-072",
@@ -1480,7 +1480,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114053.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Golden-hour horizon that warms up north-facing rooms."
   },
   {
     "id": "MU-073",
@@ -1488,7 +1488,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114108.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Forest depth for a restful bedroom headboard wall."
   },
   {
     "id": "MU-074",
@@ -1496,7 +1496,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114128.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Open plains scene with plenty of sky for a lofty feel."
   },
   {
     "id": "MU-075",
@@ -1504,7 +1504,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114151.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Wide landscape mural that visually pushes the back wall outwards."
   },
   {
     "id": "MU-076",
@@ -1512,7 +1512,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114226.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Calm seascape tones that suit bedrooms and quiet reading corners."
   },
   {
     "id": "MU-077",
@@ -1520,7 +1520,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114242.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Misty mountain scene printed at your exact wall height."
   },
   {
     "id": "MU-078",
@@ -1528,7 +1528,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114306.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Golden-hour horizon that warms up north-facing rooms."
   },
   {
     "id": "MU-079",
@@ -1536,7 +1536,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-123853.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "World map mural for studies, boardrooms and kids' rooms."
   },
   {
     "id": "MU-080",
@@ -1544,7 +1544,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-123933.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Vintage-tone cartography that works as artwork in its own right."
   },
   {
     "id": "MU-081",
@@ -1552,7 +1552,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-123953.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Detailed labelling that stays legible at full wall scale."
   },
   {
     "id": "MU-082",
@@ -1560,7 +1560,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-124012.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Muted map palette that blends with neutral interiors."
   },
   {
     "id": "MU-083",
@@ -1568,7 +1568,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-124026.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Regional map option if you want a specific country centred."
   },
   {
     "id": "MU-084",
@@ -1576,7 +1576,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-124042.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "World map mural for studies, boardrooms and kids' rooms."
   },
   {
     "id": "MU-085",
@@ -1584,7 +1584,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-124057.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Vintage-tone cartography that works as artwork in its own right."
   },
   {
     "id": "MU-086",
@@ -1592,7 +1592,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-124110.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Detailed labelling that stays legible at full wall scale."
   },
   {
     "id": "MU-087",
@@ -1600,7 +1600,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-124124.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Muted map palette that blends with neutral interiors."
   },
   {
     "id": "MU-088",
@@ -1608,7 +1608,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-124139.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Regional map option if you want a specific country centred."
   },
   {
     "id": "MU-089",
@@ -1616,7 +1616,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Waterfalls",
     "image": "/images/murals-waterfalls/screenshot-2025-04-07-114419.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Waterfall scene with real sense of movement and cool depth."
   },
   {
     "id": "MU-090",
@@ -1624,7 +1624,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Waterfalls",
     "image": "/images/murals-waterfalls/screenshot-2025-04-07-114442.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Lush greens and spray for a spa-like bathroom or bedroom wall."
   },
   {
     "id": "MU-091",
@@ -1632,7 +1632,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Waterfalls",
     "image": "/images/murals-waterfalls/screenshot-2025-04-07-114458.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Tall composition that suits double-height and stairwell walls."
   },
   {
     "id": "MU-092",
@@ -1640,7 +1640,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Waterfalls",
     "image": "/images/murals-waterfalls/screenshot-2025-04-07-114717.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Soft mist tones that keep the room feeling fresh."
   },
   {
     "id": "MU-093",
@@ -1648,7 +1648,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Waterfalls",
     "image": "/images/murals-waterfalls/screenshot-2025-04-07-115348.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Waterfall scene with real sense of movement and cool depth."
   },
   {
     "id": "MU-094",
@@ -1656,7 +1656,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Waterfalls",
     "image": "/images/murals-waterfalls/screenshot-2025-04-07-115441.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Lush greens and spray for a spa-like bathroom or bedroom wall."
   },
   {
     "id": "MU-095",
@@ -1664,7 +1664,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/633d420b-ccda-4848-9533-afdaab8107be.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Wildlife scene printed large for a striking living-room wall."
   },
   {
     "id": "MU-096",
@@ -1672,7 +1672,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112257.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Safari imagery that suits lodges, offices and family rooms."
   },
   {
     "id": "MU-097",
@@ -1680,7 +1680,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112327.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Close-up detail that holds up even at full wall size."
   },
   {
     "id": "MU-098",
@@ -1688,7 +1688,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112341.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Earthy tones that sit well with wood and leather furniture."
   },
   {
     "id": "MU-099",
@@ -1696,7 +1696,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112400.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Savannah composition with room for furniture in front."
   },
   {
     "id": "MU-100",
@@ -1704,7 +1704,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112415.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Wildlife scene printed large for a striking living-room wall."
   },
   {
     "id": "MU-101",
@@ -1712,7 +1712,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112430.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Safari imagery that suits lodges, offices and family rooms."
   },
   {
     "id": "MU-102",
@@ -1720,7 +1720,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112503.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Close-up detail that holds up even at full wall size."
   },
   {
     "id": "MU-103",
@@ -1728,7 +1728,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112518.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Earthy tones that sit well with wood and leather furniture."
   },
   {
     "id": "MU-104",
@@ -1736,7 +1736,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112532.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Savannah composition with room for furniture in front."
   },
   {
     "id": "MU-105",
@@ -1744,7 +1744,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112552.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Wildlife scene printed large for a striking living-room wall."
   },
   {
     "id": "MU-106",
@@ -1752,7 +1752,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112812.jpg",
-    "description": "Custom-printed wall mural, produced to your exact wall size."
+    "description": "Safari imagery that suits lodges, offices and family rooms."
   }
 ];
 
