@@ -135,7 +135,7 @@ export const products: Product[] = [
     "category": "wall-panels",
     "collection": "Fluted WPC panels",
     "image": "/images/wall-panels/fluted-oak-panel.jpg",
-    "description": "Vertical fluted WPC panel, cut to height and mounted on feature walls."
+    "description": "Vertical fluted panelling cut to height, adding rhythm and warmth to a feature wall or reception desk."
   },
   {
     "id": "WPN-002",
@@ -143,7 +143,7 @@ export const products: Product[] = [
     "category": "wall-panels",
     "collection": "PU stone panels",
     "image": "/images/wall-panels/pu-stone-panel.jpg",
-    "description": "Lightweight PU faux-stone cladding for interior and exterior feature walls."
+    "description": "Lightweight PU panels with convincing stone relief — the look of masonry without the weight or wet work."
   },
   {
     "id": "WPN-003",
@@ -151,7 +151,7 @@ export const products: Product[] = [
     "category": "wall-panels",
     "collection": "Box & concave designs",
     "image": "/images/wall-panels/concave-box-panel.jpg",
-    "description": "Concave and box-profile panels for reception and lobby walls."
+    "description": "Sculpted box and concave panelling that plays with light and shadow across a plain wall."
   },
 
   {
@@ -160,7 +160,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0956.jpg",
-    "description": "Warm beige suede-effect roll with a soft mottled matte finish — a calm backdrop for living rooms and bedrooms."
+    "description": "A suede-look plain roll with a soft, matt surface that reads as fine fabric on the wall."
   },
   {
     "id": "WP-002",
@@ -168,7 +168,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0963.jpg",
-    "description": "Silver-grey roll with a vertical grasscloth weave that catches light along the wall."
+    "description": "Stone-grey plain paper — a calm, architectural backdrop for art and timber furniture."
   },
   {
     "id": "WP-003",
@@ -176,7 +176,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0978.jpg",
-    "description": "Clean ivory roll with a barely-there sheen — the safe choice when the furniture is doing the talking."
+    "description": "Silver grasscloth stripe with a fine natural weave that catches light along its length."
   },
   {
     "id": "WP-004",
@@ -184,7 +184,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0987.jpg",
-    "description": "Blush-beige roll with a fine linen weave that softens bedroom and nursery walls."
+    "description": "Ivory smooth plain, the quiet choice for rooms where the furnishings should lead."
   },
   {
     "id": "WP-005",
@@ -192,7 +192,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-1007.jpg",
-    "description": "Warm grey woven texture that hides small wall imperfections and reads beautifully in daylight."
+    "description": "Blush linen texture that warms bedrooms and dressing rooms with a gentle, powdery tone."
   },
   {
     "id": "WP-006",
@@ -200,7 +200,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-1016.jpg",
-    "description": "Pale rose-beige roll with a subtle vertical striation for a gentle, tone-on-tone finish."
+    "description": "Warm grey linen weave — a versatile neutral that flatters both cream and charcoal schemes."
   },
   {
     "id": "WP-007",
@@ -208,7 +208,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-1025.jpg",
-    "description": "Cool grey mottled roll with a fine stone-like grain — pairs well with dark timber and matt black fittings."
+    "description": "Pale rose striated paper with a soft vertical grain for an elegant, restful finish."
   },
   {
     "id": "WP-008",
@@ -216,7 +216,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/whatsapp-image-2026-06-29-at-12-01-33-1.jpg",
-    "description": "Three cream and pearl textured rolls from current stock — bring a sample home before you commit."
+    "description": "Cream textured trio: three closely related finishes for layering panels and alcoves."
   },
   {
     "id": "WP-009",
@@ -224,7 +224,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/whatsapp-image-2026-07-11-at-15-01-06.jpg",
-    "description": "Part of our colour range: terracotta, mint, mustard, plum, sand and pearl textured rolls."
+    "description": "A full colour range in one texture, so you can match adjoining rooms without changing paper."
   },
   {
     "id": "CP-001",
@@ -232,7 +232,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/0a409a39-a68d-45dd-b12e-a6aaf7233298.jpg",
-    "description": "Self-adhesive marble film for counters and cabinet doors — wipe clean, no demolition."
+    "description": "Self-adhesive finish that transforms tired cabinet doors in an afternoon, with no dust and no repainting."
   },
   {
     "id": "CP-002",
@@ -240,7 +240,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/71-lsgpctel-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Wood-grain adhesive paper to refresh tired doors and wardrobes in an afternoon."
+    "description": "A convincing stone-look surface for kitchen fronts, worktop facings and island panels."
   },
   {
     "id": "CP-003",
@@ -248,7 +248,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/71bybimykgl-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Matte solid colour that hides fingerprints on kitchen cupboards."
+    "description": "Warm timber grain that brings quiet character to wardrobes, doors and shelving."
   },
   {
     "id": "CP-004",
@@ -256,7 +256,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/71cu1wabekl-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Glossy finish that bounces light around small kitchens and bathrooms."
+    "description": "Wipe-clean vinyl designed for splash-prone areas around sinks and worktops."
   },
   {
     "id": "CP-005",
@@ -264,7 +264,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/71jmarbzqsl-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Textured embossed film that feels closer to real stone than a flat print."
+    "description": "A smooth, matt finish that reads as sprayed paint once smoothed into place."
   },
   {
     "id": "CP-006",
@@ -272,7 +272,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/71x8j9ldhpl-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Repositionable while fitting, so corners and edges come out crisp."
+    "description": "Subtle sheen that catches light gently across drawer fronts and side panels."
   },
   {
     "id": "CP-007",
@@ -280,7 +280,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/81anj6thvml-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Water-resistant surface suited to splash zones behind sinks."
+    "description": "Ideal for refreshing rental kitchens — a clean new look that lifts away when you leave."
   },
   {
     "id": "CP-008",
@@ -288,7 +288,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/81khwlnvdtl-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Great for refacing shelving, side tables and drawer fronts on a budget."
+    "description": "Fine marble veining that adds a sense of luxury to small surfaces at modest cost."
   },
   {
     "id": "CP-009",
@@ -296,7 +296,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/619h9x3xbwl-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Heat-tolerant film for cabinet fronts near cooking areas."
+    "description": "A crisp, contemporary facing for study desks, sideboards and built-in units."
   },
   {
     "id": "CP-010",
@@ -304,7 +304,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/711sueviwml-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Neutral stone print that works with almost any worktop colour."
+    "description": "Hard-wearing surface that resists everyday knocks in busy family kitchens."
   },
   {
     "id": "CP-011",
@@ -312,7 +312,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/d6687c76-6957-4325-97a7-6dcc9370329f.jpg",
-    "description": "Self-adhesive marble film for counters and cabinet doors — wipe clean, no demolition."
+    "description": "Deep tone that grounds pale rooms when used on lower cabinets and plinths."
   },
   {
     "id": "CP-012",
@@ -320,7 +320,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/e71e0c16-f17e-496d-af60-ab3d84569269.jpg",
-    "description": "Wood-grain adhesive paper to refresh tired doors and wardrobes in an afternoon."
+    "description": "Bright, light-reflecting finish that helps compact kitchens feel more open."
   },
   {
     "id": "CP-013",
@@ -328,7 +328,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/img-20250123-194928-0515.jpg",
-    "description": "Matte solid colour that hides fingerprints on kitchen cupboards."
+    "description": "Textured grain you can feel underhand, giving flat-pack furniture a solid, made feel."
   },
   {
     "id": "CP-014",
@@ -336,7 +336,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/img-20240525-wa0001.jpg",
-    "description": "Glossy finish that bounces light around small kitchens and bathrooms."
+    "description": "A neat facing for fridge sides, cupboard interiors and other awkward surfaces."
   },
   {
     "id": "CP-015",
@@ -344,7 +344,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/img-20250220-wa0017.jpg",
-    "description": "Textured embossed film that feels closer to real stone than a flat print."
+    "description": "Understated pattern that mixes easily with brass, black or brushed steel handles."
   },
   {
     "id": "CP-016",
@@ -352,7 +352,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/img-20250221-wa0039.jpg",
-    "description": "Repositionable while fitting, so corners and edges come out crisp."
+    "description": "Soft, chalky tone that pairs beautifully with terrazzo and natural stone."
   },
   {
     "id": "CP-017",
@@ -360,7 +360,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/mmexport1734180900180.jpg",
-    "description": "Water-resistant surface suited to splash zones behind sinks."
+    "description": "A quick, low-mess upgrade for bathroom vanities and storage units."
   },
   {
     "id": "CP-018",
@@ -368,7 +368,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/mmexport1741702068216.jpg",
-    "description": "Great for refacing shelving, side tables and drawer fronts on a budget."
+    "description": "Classic finish that keeps kitchens looking timeless rather than trend-led."
   },
   {
     "id": "CP-019",
@@ -376,7 +376,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/mmexport1751371510911.jpg",
-    "description": "Heat-tolerant film for cabinet fronts near cooking areas."
+    "description": "Contrasting tone made for two-tone cabinetry schemes."
   },
   {
     "id": "CP-020",
@@ -384,7 +384,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/mmexport1751371513211.jpg",
-    "description": "Neutral stone print that works with almost any worktop colour."
+    "description": "A clean cover for wall niches, headboards and shelving edges."
   },
   {
     "id": "CF-001",
@@ -392,7 +392,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/30mm-grass-2.jpg",
-    "description": "Soft-pile turf that stays green year-round with no watering or mowing."
+    "description": "Soft-blade turf that keeps balconies and terraces green all year with no watering."
   },
   {
     "id": "CF-002",
@@ -400,7 +400,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/30mm-grass-3.jpg",
-    "description": "Dense 30mm pile with a natural two-tone blade for a realistic lawn look."
+    "description": "Dense pile with a natural spring underfoot, laid for rooftop lounging areas."
   },
   {
     "id": "CF-003",
@@ -408,7 +408,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/40mm-grass-1.jpg",
-    "description": "Hard-wearing 40mm pile for busy family gardens and play areas."
+    "description": "Hard-wearing turf for play areas, staying level and tidy through daily use."
   },
   {
     "id": "CF-004",
@@ -416,7 +416,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/40mm-grass-2.jpg",
-    "description": "UV-stable fibres that resist fading under strong Nairobi sun."
+    "description": "A realistic two-tone blade mix that avoids the flat look of cheaper turf."
   },
   {
     "id": "CF-005",
@@ -424,7 +424,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-1.jpg",
-    "description": "Perforated backing that drains quickly after heavy rain."
+    "description": "Fine, short pile that suits pathways, poolside edges and tight courtyards."
   },
   {
     "id": "CF-006",
@@ -432,7 +432,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-2.jpg",
-    "description": "Great for balconies, rooftops and terraces where soil is not an option."
+    "description": "Free-draining backing that handles heavy rain without pooling."
   },
   {
     "id": "CF-007",
@@ -440,7 +440,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-3.jpg",
-    "description": "Pet-friendly turf that rinses clean and dries fast."
+    "description": "Deep green tones that hold their colour under strong sun."
   },
   {
     "id": "CF-008",
@@ -448,7 +448,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-6.jpg",
-    "description": "Short pile suited to event spaces, showrooms and display areas."
+    "description": "A neat finish for shopfronts, stands and event spaces needing instant greenery."
   },
   {
     "id": "CF-009",
@@ -456,7 +456,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-7.jpg",
-    "description": "Comfortable underfoot for barefoot poolside and patio edges."
+    "description": "Comfortable enough for bare feet, making it a favourite for children's rooms and dens."
   },
   {
     "id": "CF-010",
@@ -464,7 +464,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-9.jpg",
-    "description": "Supplied by the roll and trimmed to your exact garden shape."
+    "description": "Low-profile turf for stairs, ledges and vertical detailing."
   },
   {
     "id": "CF-011",
@@ -472,7 +472,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-10.jpg",
-    "description": "Soft-pile turf that stays green year-round with no watering or mowing."
+    "description": "Lush, longer blades for gardens where a soft, meadow-like look is wanted."
   },
   {
     "id": "CF-012",
@@ -480,7 +480,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-11.jpg",
-    "description": "Dense 30mm pile with a natural two-tone blade for a realistic lawn look."
+    "description": "Cut to shape around planters and paving for a seamless finish."
   },
   {
     "id": "CF-013",
@@ -488,7 +488,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/factory-material-pp.jpg",
-    "description": "Hard-wearing 40mm pile for busy family gardens and play areas."
+    "description": "Pet-friendly surface that rinses clean and dries quickly."
   },
   {
     "id": "CF-014",
@@ -496,7 +496,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/grass-backer.jpg",
-    "description": "UV-stable fibres that resist fading under strong Nairobi sun."
+    "description": "A tidy, maintenance-free alternative for shaded courtyards where grass struggles."
   },
   {
     "id": "CF-015",
@@ -504,7 +504,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/grass-roll-1.jpg",
-    "description": "Perforated backing that drains quickly after heavy rain."
+    "description": "Springy pile that softens hard concrete surfaces on balconies."
   },
   {
     "id": "CF-016",
@@ -512,7 +512,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/grass-roll-2.jpg",
-    "description": "Great for balconies, rooftops and terraces where soil is not an option."
+    "description": "Consistent colour across large runs, ideal for offices and showrooms."
   },
   {
     "id": "CF-017",
@@ -520,7 +520,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/img-0754.jpg",
-    "description": "Pet-friendly turf that rinses clean and dries fast."
+    "description": "A resilient choice for gyms and studios needing a warmer floor."
   },
   {
     "id": "CF-018",
@@ -528,7 +528,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/img-0760.jpg",
-    "description": "Short pile suited to event spaces, showrooms and display areas."
+    "description": "Neat green framing for decking, patios and rooftop bars."
   },
   {
     "id": "CF-019",
@@ -536,7 +536,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Wall-to-wall carpets",
     "image": "/images/carpets/mmexport1750486440229.jpg",
-    "description": "Wall-to-wall carpet fitted edge to edge for a warm, seamless floor."
+    "description": "Dense broadloom carpet laid wall to wall for warmth and quiet underfoot."
   },
   {
     "id": "CF-021",
@@ -544,7 +544,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Wall-to-wall carpets",
     "image": "/images/carpets/mmexport1750486444587.jpg",
-    "description": "Hard-wearing carpet tiles that can be swapped out individually if stained."
+    "description": "A hard-wearing pile in a neutral tone that suits bedrooms, offices and stairs."
   },
   {
     "id": "WB-001",
@@ -552,7 +552,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/1-1.jpg",
-    "description": "Made-to-measure sheer roller that softens harsh afternoon sun."
+    "description": "Made-to-measure blinds that filter harsh sunlight into a soft, even glow — ideal for living rooms that face the afternoon sun."
   },
   {
     "id": "WB-002",
@@ -560,7 +560,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/3.jpg",
-    "description": "Blackout roller for bedrooms and nurseries where sleep comes first."
+    "description": "A crisp roller finish that draws up cleanly out of sight, keeping window lines uncluttered in compact rooms."
   },
   {
     "id": "WB-003",
@@ -568,7 +568,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/4.jpg",
-    "description": "Vertical blind that lets you angle light across wide living-room glass."
+    "description": "Sheer double-layer blinds that let you dial daylight up or down without losing your view."
   },
   {
     "id": "WB-004",
@@ -576,7 +576,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/5.jpg",
-    "description": "Day-and-night double roller — privacy by day, view by evening."
+    "description": "Vertical louvres that sweep smoothly across wide glazing and sliding doors, giving privacy on demand."
   },
   {
     "id": "WB-005",
@@ -584,7 +584,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/6.jpg",
-    "description": "Slim cassette headrail that sits neatly against modern window frames."
+    "description": "A quiet, tailored screen for bedrooms — gentle light by day, close coverage by night."
   },
   {
     "id": "WB-006",
@@ -592,7 +592,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/7.jpg",
-    "description": "Moisture-friendly fabric suited to kitchens and bathrooms."
+    "description": "Neutral fabric with a fine weave that flatters both warm timber and cool grey interiors."
   },
   {
     "id": "WB-007",
@@ -600,7 +600,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/8.jpg",
-    "description": "Office-grade screen fabric that cuts glare on computer screens."
+    "description": "Blackout-weighted cloth for media rooms and nurseries where true darkness matters."
   },
   {
     "id": "WB-008",
@@ -608,7 +608,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/9.jpg",
-    "description": "Chain or spring control, fitted to your preferred side."
+    "description": "A slim, contemporary blind that suits offices and reception areas needing glare control at the desk."
   },
   {
     "id": "WB-009",
@@ -616,7 +616,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/10.jpg",
-    "description": "Wide-span solution for sliding doors and balcony openings."
+    "description": "Textured cloth that adds subtle depth to plain walls while keeping the room feeling calm."
   },
   {
     "id": "WB-010",
@@ -624,7 +624,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/11.jpg",
-    "description": "Textured weave that adds a little warmth to plain window walls."
+    "description": "Cut precisely to the reveal for a flush, built-in look on kitchen and bathroom windows."
   },
   {
     "id": "WB-011",
@@ -632,7 +632,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/12.jpg",
-    "description": "Light-filtering fabric for rooms that need brightness without exposure."
+    "description": "Soft light diffusion that protects furniture and finishes from direct sun without darkening the room."
   },
   {
     "id": "WB-012",
@@ -640,7 +640,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/13.jpg",
-    "description": "Made-to-measure sheer roller that softens harsh afternoon sun."
+    "description": "A refined pairing of sheer and opaque bands for dining spaces that shift from bright brunch to low-lit evenings."
   },
   {
     "id": "WB-013",
@@ -648,7 +648,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/14.jpg",
-    "description": "Blackout roller for bedrooms and nurseries where sleep comes first."
+    "description": "Clean-lined coverage for stairwells and landings, where fuss-free operation counts."
   },
   {
     "id": "WB-014",
@@ -656,7 +656,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/15.jpg",
-    "description": "Vertical blind that lets you angle light across wide living-room glass."
+    "description": "Warm-toned fabric that lifts north-facing rooms with a gentle, sunlit cast."
   },
   {
     "id": "WB-015",
@@ -664,7 +664,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/18.jpg",
-    "description": "Day-and-night double roller — privacy by day, view by evening."
+    "description": "Deep, saturated cloth for a more dramatic window treatment in studies and lounges."
   },
   {
     "id": "WB-016",
@@ -672,7 +672,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/19.jpg",
-    "description": "Slim cassette headrail that sits neatly against modern window frames."
+    "description": "An easy-care surface that wipes clean, made for busy family rooms and kitchens."
   },
   {
     "id": "WB-017",
@@ -680,7 +680,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/21.jpg",
-    "description": "Moisture-friendly fabric suited to kitchens and bathrooms."
+    "description": "Fine perforation that keeps the outlook visible while cutting heat and glare."
   },
   {
     "id": "WB-018",
@@ -688,7 +688,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/22.jpg",
-    "description": "Office-grade screen fabric that cuts glare on computer screens."
+    "description": "A tailored finish for tall windows, hanging straight and true along the full drop."
   },
   {
     "id": "WB-019",
@@ -696,7 +696,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/25.jpg",
-    "description": "Chain or spring control, fitted to your preferred side."
+    "description": "Understated pattern that reads as texture from across the room — quietly elegant."
   },
   {
     "id": "WB-020",
@@ -704,7 +704,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/26.jpg",
-    "description": "Wide-span solution for sliding doors and balcony openings."
+    "description": "Sleek hardware and a low-profile headrail keep the focus on the glass, not the fitting."
   },
   {
     "id": "WB-021",
@@ -712,7 +712,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/27.jpg",
-    "description": "Textured weave that adds a little warmth to plain window walls."
+    "description": "A dependable choice for rentals and offices: durable, neutral and simple to operate."
   },
   {
     "id": "WB-022",
@@ -720,7 +720,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/28.jpg",
-    "description": "Light-filtering fabric for rooms that need brightness without exposure."
+    "description": "Layered light control that suits open-plan spaces where one window serves several zones."
   },
   {
     "id": "WF-001",
@@ -728,7 +728,7 @@ export const products: Product[] = [
     "category": "window-films",
     "collection": "Window films",
     "image": "/images/window-films/img-0155.jpg",
-    "description": "Frosted privacy film for bathrooms, meeting rooms and glass partitions."
+    "description": "Frosted film that brings privacy to bathroom and street-facing glass while keeping the daylight."
   },
   {
     "id": "WF-002",
@@ -736,7 +736,7 @@ export const products: Product[] = [
     "category": "window-films",
     "collection": "Window films",
     "image": "/images/window-films/img-5579.jpg",
-    "description": "One-way reflective film that cuts heat and keeps daytime privacy."
+    "description": "Tinted film that cuts glare and heat on sun-facing windows and glass doors."
   },
   {
     "id": "WF-003",
@@ -744,7 +744,7 @@ export const products: Product[] = [
     "category": "window-films",
     "collection": "Window films",
     "image": "/images/window-films/img-5584.jpg",
-    "description": "Decorative patterned film that turns plain glass into a design feature."
+    "description": "A decorative pattern that turns plain partitions into a designed feature."
   },
   {
     "id": "WF-004",
@@ -752,7 +752,7 @@ export const products: Product[] = [
     "category": "window-films",
     "collection": "Window films",
     "image": "/images/window-films/img-6079.jpg",
-    "description": "Safety film that holds glass together if it is ever knocked or cracked."
+    "description": "Fine-line film for offices needing privacy at seated height without darkening the room."
   },
   {
     "id": "WF-005",
@@ -760,7 +760,7 @@ export const products: Product[] = [
     "category": "window-films",
     "collection": "Window films",
     "image": "/images/window-films/img-6621.jpg",
-    "description": "Tinted film that lowers glare and helps keep interiors cooler."
+    "description": "Mirror-effect film for daytime privacy on ground-floor glazing."
   },
   {
     "id": "MU-001",
@@ -768,7 +768,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-121942.jpg",
-    "description": "Abstract line art for a modern hallway or stairwell."
+    "description": "Flowing line work printed large, giving plain walls a gallery-like presence."
   },
   {
     "id": "MU-002",
@@ -776,7 +776,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122013.jpg",
-    "description": "Bold graphic pattern that gives a plain office wall a point of view."
+    "description": "Abstract brushwork in muted tones — art for the wall without the framing."
   },
   {
     "id": "MU-003",
@@ -784,7 +784,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122038.jpg",
-    "description": "Brushed textures that read as artwork rather than wallpaper."
+    "description": "Geometric repeat that adds rhythm to hallways and stair walls."
   },
   {
     "id": "MU-004",
@@ -792,7 +792,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122127.jpg",
-    "description": "Geometric repeat scaled to your wall so nothing is cut awkwardly."
+    "description": "Soft marbled swirls that read as luxury behind a bed or sofa."
   },
   {
     "id": "MU-005",
@@ -800,7 +800,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122141.jpg",
-    "description": "Muted palette that lets furniture and art stay the focus."
+    "description": "Fine gold-toned linework on a deep ground, made for dining rooms."
   },
   {
     "id": "MU-006",
@@ -808,7 +808,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122200.jpg",
-    "description": "Contemporary composition for reception and lobby walls."
+    "description": "A textured plaster effect that gives new-build walls character."
   },
   {
     "id": "MU-007",
@@ -816,7 +816,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122213.jpg",
-    "description": "Abstract line art for a modern hallway or stairwell."
+    "description": "Minimal arcs and curves for calm, contemporary interiors."
   },
   {
     "id": "MU-008",
@@ -824,7 +824,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122302.jpg",
-    "description": "Bold graphic pattern that gives a plain office wall a point of view."
+    "description": "Bold colour blocking that anchors an open-plan seating area."
   },
   {
     "id": "MU-009",
@@ -832,7 +832,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122319.jpg",
-    "description": "Brushed textures that read as artwork rather than wallpaper."
+    "description": "Delicate botanical linework, elegant in bathrooms and dressing rooms."
   },
   {
     "id": "MU-010",
@@ -840,7 +840,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122342.jpg",
-    "description": "Geometric repeat scaled to your wall so nothing is cut awkwardly."
+    "description": "A large-scale abstract that stands in for a statement artwork."
   },
   {
     "id": "MU-011",
@@ -848,7 +848,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122419.jpg",
-    "description": "Muted palette that lets furniture and art stay the focus."
+    "description": "Layered tonal washes that shift as the light moves through the room."
   },
   {
     "id": "MU-012",
@@ -856,7 +856,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122444.jpg",
-    "description": "Contemporary composition for reception and lobby walls."
+    "description": "Graphic repeat that suits offices, salons and reception walls."
   },
   {
     "id": "MU-013",
@@ -864,7 +864,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122506.jpg",
-    "description": "Abstract line art for a modern hallway or stairwell."
+    "description": "Subtle metallic detailing that catches lamplight in the evening."
   },
   {
     "id": "MU-014",
@@ -872,7 +872,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122522.jpg",
-    "description": "Bold graphic pattern that gives a plain office wall a point of view."
+    "description": "Ink-like strokes on a pale ground — quiet, confident and easy to live with."
   },
   {
     "id": "MU-015",
@@ -880,7 +880,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111248.jpg",
-    "description": "3D broken-wall effect that appears to open the room up."
+    "description": "A trompe-l'oeil break in the wall that opens onto a view beyond — most effective on a single feature wall."
   },
   {
     "id": "MU-016",
@@ -888,7 +888,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111353.jpg",
-    "description": "Trompe-l'oeil depth that reads best on a wall you see head-on."
+    "description": "Cracked concrete revealing greenery, giving flat walls striking depth."
   },
   {
     "id": "MU-017",
@@ -896,7 +896,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111439.jpg",
-    "description": "Stone-and-crack detail for a bold living-room statement."
+    "description": "Stone breaking away to open sky, printed large for a lounge."
   },
   {
     "id": "MU-019",
@@ -904,7 +904,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111511.jpg",
-    "description": "Layered perspective that adds drama to a narrow space."
+    "description": "A 3D archway effect that makes narrow hallways feel longer."
   },
   {
     "id": "MU-020",
@@ -912,7 +912,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111525.jpg",
-    "description": "3D broken-wall effect that appears to open the room up."
+    "description": "Broken brick with light spilling through, bold in a dining room."
   },
   {
     "id": "MU-021",
@@ -920,7 +920,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111545.jpg",
-    "description": "Trompe-l'oeil depth that reads best on a wall you see head-on."
+    "description": "Torn wall opening onto water — dramatic behind a sofa."
   },
   {
     "id": "MU-022",
@@ -928,7 +928,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111601.jpg",
-    "description": "Stone-and-crack detail for a bold living-room statement."
+    "description": "An illusion of depth that suits offices wanting a talking point."
   },
   {
     "id": "MU-023",
@@ -936,7 +936,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111616.jpg",
-    "description": "Layered perspective that adds drama to a narrow space."
+    "description": "Rugged stone edges framing a distant landscape."
   },
   {
     "id": "MU-024",
@@ -944,7 +944,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111631.jpg",
-    "description": "3D broken-wall effect that appears to open the room up."
+    "description": "A dimensional effect printed sharply so the illusion holds up close."
   },
   {
     "id": "MU-025",
@@ -952,7 +952,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-113701.jpg",
-    "description": "City skyline mural for offices, bars and study walls."
+    "description": "A city skyline printed wide — it gives apartments and offices an outward view where there isn't one."
   },
   {
     "id": "MU-026",
@@ -960,7 +960,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-120009.jpg",
-    "description": "Night-city lights that look striking against dark furniture."
+    "description": "Night-time streets and lights for a bold lounge or bar wall."
   },
   {
     "id": "MU-027",
@@ -968,7 +968,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-120826.jpg",
-    "description": "Aerial street view with plenty of fine detail up close."
+    "description": "Monochrome architecture that suits sharp, modern interiors."
   },
   {
     "id": "MU-028",
@@ -976,7 +976,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-120839.jpg",
-    "description": "Monochrome cityscape that suits a minimal scheme."
+    "description": "Bridges and river in soft haze, calm enough for a bedroom."
   },
   {
     "id": "MU-029",
@@ -984,7 +984,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-120916.jpg",
-    "description": "Landmark scene printed to your exact wall dimensions."
+    "description": "A famous skyline at dusk, printed to your exact wall size."
   },
   {
     "id": "MU-030",
@@ -992,7 +992,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-120930.jpg",
-    "description": "City skyline mural for offices, bars and study walls."
+    "description": "Aerial city detail that rewards a closer look in a hallway."
   },
   {
     "id": "MU-031",
@@ -1000,7 +1000,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-120943.jpg",
-    "description": "Night-city lights that look striking against dark furniture."
+    "description": "Warm-lit streets that make dining rooms feel intimate."
   },
   {
     "id": "MU-032",
@@ -1008,7 +1008,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-120957.jpg",
-    "description": "Aerial street view with plenty of fine detail up close."
+    "description": "Sleek towers and glass, well matched to corporate reception walls."
   },
   {
     "id": "MU-033",
@@ -1016,7 +1016,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-121015.jpg",
-    "description": "Monochrome cityscape that suits a minimal scheme."
+    "description": "A vintage-toned cityscape for interiors leaning traditional."
   },
   {
     "id": "MU-034",
@@ -1024,7 +1024,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-121033.jpg",
-    "description": "Landmark scene printed to your exact wall dimensions."
+    "description": "Rooftops and sky, giving depth to a small study."
   },
   {
     "id": "MU-035",
@@ -1032,7 +1032,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-121047.jpg",
-    "description": "City skyline mural for offices, bars and study walls."
+    "description": "Neon-lit streets for games rooms and teenage bedrooms."
   },
   {
     "id": "MU-036",
@@ -1040,7 +1040,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-121110.jpg",
-    "description": "Night-city lights that look striking against dark furniture."
+    "description": "A quiet morning skyline in pale greys and blues."
   },
   {
     "id": "MU-037",
@@ -1048,7 +1048,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124627.jpg",
-    "description": "Cloudscape mural often used on ceilings as well as walls."
+    "description": "Deep space printed across the ceiling or wall — a favourite for children's rooms and cinema spaces."
   },
   {
     "id": "MU-038",
@@ -1056,7 +1056,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124659.jpg",
-    "description": "Deep night-sky print for a dramatic bedroom feature."
+    "description": "Soft cloudscape that makes low ceilings feel higher."
   },
   {
     "id": "MU-039",
@@ -1064,7 +1064,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124713.jpg",
-    "description": "Soft cloud tones that make low rooms feel taller."
+    "description": "Nebula colour in violets and blues for a dramatic bedroom wall."
   },
   {
     "id": "MU-040",
@@ -1072,7 +1072,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124728.jpg",
-    "description": "Galaxy scene that turns a kids' ceiling into a night sky."
+    "description": "A pale sky wash that lightens interior rooms without windows."
   },
   {
     "id": "MU-041",
@@ -1080,7 +1080,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124743.jpg",
-    "description": "Sunset cloud palette for a warm, calming backdrop."
+    "description": "Stars and planets arranged for a child's room they can name."
   },
   {
     "id": "MU-042",
@@ -1088,7 +1088,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124756.jpg",
-    "description": "Cloudscape mural often used on ceilings as well as walls."
+    "description": "Moonlit cloud in muted greys, calm rather than theatrical."
   },
   {
     "id": "MU-043",
@@ -1096,7 +1096,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124812.jpg",
-    "description": "Deep night-sky print for a dramatic bedroom feature."
+    "description": "Sunset cloud tones that warm a neutral living room."
   },
   {
     "id": "MU-044",
@@ -1104,7 +1104,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124826.jpg",
-    "description": "Soft cloud tones that make low rooms feel taller."
+    "description": "A galaxy print that turns a media wall into the main event."
   },
   {
     "id": "MU-045",
@@ -1112,7 +1112,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124840.jpg",
-    "description": "Galaxy scene that turns a kids' ceiling into a night sky."
+    "description": "Gentle blue sky with drifting cloud, lovely on a nursery ceiling."
   },
   {
     "id": "MU-046",
@@ -1120,7 +1120,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124932.jpg",
-    "description": "Sunset cloud palette for a warm, calming backdrop."
+    "description": "Cosmic detail printed sharply enough to hold up close."
   },
   {
     "id": "MU-047",
@@ -1128,7 +1128,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124946.jpg",
-    "description": "Cloudscape mural often used on ceilings as well as walls."
+    "description": "Dawn sky gradients that pair beautifully with brass and cream."
   },
   {
     "id": "MU-048",
@@ -1136,7 +1136,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-125000.jpg",
-    "description": "Deep night-sky print for a dramatic bedroom feature."
+    "description": "Night sky in deep indigo for a cocooning bedroom."
   },
   {
     "id": "MU-049",
@@ -1144,7 +1144,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104706.jpg",
-    "description": "Playful mural sized for a child's bedroom or play corner."
+    "description": "A playful scene printed to your wall size, sized so favourite characters sit at a child's eye level."
   },
   {
     "id": "MU-050",
@@ -1152,7 +1152,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104706s.jpg",
-    "description": "Wipe-clean surface that survives sticky hands and crayons."
+    "description": "Gentle pastel storytelling that grows well with a nursery."
   },
   {
     "id": "MU-051",
@@ -1160,7 +1160,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104732.jpg",
-    "description": "Storybook scene that grows with a toddler's imagination."
+    "description": "Bright, friendly artwork that turns a plain bedroom into an adventure."
   },
   {
     "id": "MU-052",
@@ -1168,7 +1168,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104809.jpg",
-    "description": "Soft pastel palette that keeps the room easy to sleep in."
+    "description": "A calm woodland cast in soft tones — cheerful without being overstimulating at bedtime."
   },
   {
     "id": "MU-053",
@@ -1176,7 +1176,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104825.jpg",
-    "description": "Adventure theme for a shared kids' room or nursery."
+    "description": "Sky, clouds and flight for children who love aeroplanes and rockets."
   },
   {
     "id": "MU-054",
@@ -1184,7 +1184,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104840.jpg",
-    "description": "Bright characters that make a play area feel like its own world."
+    "description": "An underwater world in cool blues, lovely behind a low bed."
   },
   {
     "id": "MU-055",
@@ -1192,7 +1192,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104854.jpg",
-    "description": "Playful mural sized for a child's bedroom or play corner."
+    "description": "Safari friends arranged across the wall for a shared children's room."
   },
   {
     "id": "MU-056",
@@ -1200,7 +1200,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104918.jpg",
-    "description": "Wipe-clean surface that survives sticky hands and crayons."
+    "description": "A fairytale castle scene that makes a small room feel magical."
   },
   {
     "id": "MU-057",
@@ -1208,7 +1208,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104936.jpg",
-    "description": "Storybook scene that grows with a toddler's imagination."
+    "description": "Sweet, hand-drawn detail that suits cots and changing corners."
   },
   {
     "id": "MU-058",
@@ -1216,7 +1216,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-105314.jpg",
-    "description": "Soft pastel palette that keeps the room easy to sleep in."
+    "description": "Cars and roads printed low so play can happen along the wall."
   },
   {
     "id": "MU-059",
@@ -1224,7 +1224,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-105329.jpg",
-    "description": "Adventure theme for a shared kids' room or nursery."
+    "description": "Dinosaurs at scale — a favourite for older children's rooms."
   },
   {
     "id": "MU-060",
@@ -1232,7 +1232,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-105342.jpg",
-    "description": "Bright characters that make a play area feel like its own world."
+    "description": "Soft balloons and stars for a gentle, dreamy nursery."
   },
   {
     "id": "MU-061",
@@ -1240,7 +1240,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-105355.jpg",
-    "description": "Playful mural sized for a child's bedroom or play corner."
+    "description": "A colourful learning wall for playrooms and daycare spaces."
   },
   {
     "id": "MU-062",
@@ -1248,7 +1248,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-105411.jpg",
-    "description": "Wipe-clean surface that survives sticky hands and crayons."
+    "description": "Whimsical animals in muted colours that still work as a child grows."
   },
   {
     "id": "MU-063",
@@ -1256,7 +1256,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-113519.jpg",
-    "description": "Wide landscape mural that visually pushes the back wall outwards."
+    "description": "A wide, open horizon printed to your wall size — it gives small rooms a sense of depth and distance."
   },
   {
     "id": "MU-064",
@@ -1264,7 +1264,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-113635.jpg",
-    "description": "Calm seascape tones that suit bedrooms and quiet reading corners."
+    "description": "Misty hills and layered light that bring a calm, restful mood to bedrooms."
   },
   {
     "id": "MU-065",
@@ -1272,7 +1272,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-113732.jpg",
-    "description": "Misty mountain scene printed at your exact wall height."
+    "description": "Coastal water and soft sky, printed large for a serene feature wall."
   },
   {
     "id": "MU-066",
@@ -1280,7 +1280,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-113754.jpg",
-    "description": "Golden-hour horizon that warms up north-facing rooms."
+    "description": "Golden-hour tones that warm living rooms without dominating the furniture."
   },
   {
     "id": "MU-067",
@@ -1288,7 +1288,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-113850.jpg",
-    "description": "Forest depth for a restful bedroom headboard wall."
+    "description": "A quiet forest scene that suits studies and reading corners."
   },
   {
     "id": "MU-068",
@@ -1296,7 +1296,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-113907.jpg",
-    "description": "Open plains scene with plenty of sky for a lofty feel."
+    "description": "Mountain ridges in cool blues, pairing well with grey and timber interiors."
   },
   {
     "id": "MU-069",
@@ -1304,7 +1304,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114000.jpg",
-    "description": "Wide landscape mural that visually pushes the back wall outwards."
+    "description": "Sunlit fields that lift windowless hallways and stairwells."
   },
   {
     "id": "MU-070",
@@ -1312,7 +1312,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114019.jpg",
-    "description": "Calm seascape tones that suit bedrooms and quiet reading corners."
+    "description": "A gentle sea view for bathrooms and spa rooms, printed on moisture-tolerant material."
   },
   {
     "id": "MU-071",
@@ -1320,7 +1320,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114033.jpg",
-    "description": "Misty mountain scene printed at your exact wall height."
+    "description": "Wide sky and still water — a restful backdrop behind a bed or sofa."
   },
   {
     "id": "MU-072",
@@ -1328,7 +1328,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114053.jpg",
-    "description": "Golden-hour horizon that warms up north-facing rooms."
+    "description": "Dramatic cliffs and surf for a bolder statement in dining rooms."
   },
   {
     "id": "MU-073",
@@ -1336,7 +1336,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114108.jpg",
-    "description": "Forest depth for a restful bedroom headboard wall."
+    "description": "Soft dawn light that makes north-facing rooms feel warmer."
   },
   {
     "id": "MU-074",
@@ -1344,7 +1344,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114128.jpg",
-    "description": "Open plains scene with plenty of sky for a lofty feel."
+    "description": "Layered valleys that give a long wall a real sense of perspective."
   },
   {
     "id": "MU-075",
@@ -1352,7 +1352,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114151.jpg",
-    "description": "Wide landscape mural that visually pushes the back wall outwards."
+    "description": "Autumn tones for rooms styled in rust, cream and brass."
   },
   {
     "id": "MU-076",
@@ -1360,7 +1360,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114226.jpg",
-    "description": "Calm seascape tones that suit bedrooms and quiet reading corners."
+    "description": "Tranquil lakeside scene, well suited to clinics and waiting areas."
   },
   {
     "id": "MU-077",
@@ -1368,7 +1368,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114242.jpg",
-    "description": "Misty mountain scene printed at your exact wall height."
+    "description": "A pale, hazy landscape that acts almost as texture rather than picture."
   },
   {
     "id": "MU-078",
@@ -1376,7 +1376,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114306.jpg",
-    "description": "Golden-hour horizon that warms up north-facing rooms."
+    "description": "Green terraces and open sky, printed to fit wall to wall."
   },
   {
     "id": "MU-079",
@@ -1384,7 +1384,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-123853.jpg",
-    "description": "World map mural for studies, boardrooms and kids' rooms."
+    "description": "A world map printed to your wall size — decorative in a study and genuinely useful in a child's room."
   },
   {
     "id": "MU-080",
@@ -1392,7 +1392,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-123933.jpg",
-    "description": "Vintage-tone cartography that works as artwork in its own right."
+    "description": "Vintage cartography in sepia tones for a library or home office."
   },
   {
     "id": "MU-081",
@@ -1400,7 +1400,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-123953.jpg",
-    "description": "Detailed labelling that stays legible at full wall scale."
+    "description": "A clean, modern map in muted colour that works in open-plan living."
   },
   {
     "id": "MU-082",
@@ -1408,7 +1408,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-124012.jpg",
-    "description": "Muted map palette that blends with neutral interiors."
+    "description": "Ocean-blue detailing that makes a long wall feel considered."
   },
   {
     "id": "MU-083",
@@ -1416,7 +1416,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-124026.jpg",
-    "description": "Regional map option if you want a specific country centred."
+    "description": "A political map with legible place names at reading distance."
   },
   {
     "id": "MU-084",
@@ -1424,7 +1424,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-124042.jpg",
-    "description": "World map mural for studies, boardrooms and kids' rooms."
+    "description": "Antique-style chart with compass detail for traditional interiors."
   },
   {
     "id": "MU-085",
@@ -1432,7 +1432,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-124057.jpg",
-    "description": "Vintage-tone cartography that works as artwork in its own right."
+    "description": "Continental outlines in soft neutrals — map as pattern rather than reference."
   },
   {
     "id": "MU-086",
@@ -1440,7 +1440,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-124110.jpg",
-    "description": "Detailed labelling that stays legible at full wall scale."
+    "description": "A monochrome map for offices and boardrooms."
   },
   {
     "id": "MU-087",
@@ -1448,7 +1448,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-124124.jpg",
-    "description": "Muted map palette that blends with neutral interiors."
+    "description": "Warm parchment tones that pair well with leather and dark timber."
   },
   {
     "id": "MU-088",
@@ -1456,7 +1456,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-124139.jpg",
-    "description": "Regional map option if you want a specific country centred."
+    "description": "A bold, high-contrast map for classrooms and learning spaces."
   },
   {
     "id": "MU-089",
@@ -1464,7 +1464,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Waterfalls",
     "image": "/images/murals-waterfalls/screenshot-2025-04-07-114419.jpg",
-    "description": "Waterfall scene with real sense of movement and cool depth."
+    "description": "Falling water printed at scale — the movement brings a sense of freshness to still rooms."
   },
   {
     "id": "MU-090",
@@ -1472,7 +1472,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Waterfalls",
     "image": "/images/murals-waterfalls/screenshot-2025-04-07-114442.jpg",
-    "description": "Lush greens and spray for a spa-like bathroom or bedroom wall."
+    "description": "A misty cascade in soft greens, calming in bedrooms and spas."
   },
   {
     "id": "MU-091",
@@ -1480,7 +1480,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Waterfalls",
     "image": "/images/murals-waterfalls/screenshot-2025-04-07-114458.jpg",
-    "description": "Tall composition that suits double-height and stairwell walls."
+    "description": "Rock, spray and light for a bold feature wall in a lounge."
   },
   {
     "id": "MU-092",
@@ -1488,7 +1488,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Waterfalls",
     "image": "/images/murals-waterfalls/screenshot-2025-04-07-114717.jpg",
-    "description": "Soft mist tones that keep the room feeling fresh."
+    "description": "A gentle forest fall, well suited to bathrooms and wet rooms."
   },
   {
     "id": "MU-093",
@@ -1496,7 +1496,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Waterfalls",
     "image": "/images/murals-waterfalls/screenshot-2025-04-07-115348.jpg",
-    "description": "Waterfall scene with real sense of movement and cool depth."
+    "description": "Tiered water and pools that give a long wall real depth."
   },
   {
     "id": "MU-094",
@@ -1504,7 +1504,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Waterfalls",
     "image": "/images/murals-waterfalls/screenshot-2025-04-07-115441.jpg",
-    "description": "Lush greens and spray for a spa-like bathroom or bedroom wall."
+    "description": "Sunlit spray in warm tones for a brighter, uplifting scheme."
   },
   {
     "id": "MU-095",
@@ -1512,7 +1512,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/633d420b-ccda-4848-9533-afdaab8107be.jpg",
-    "description": "Wildlife scene printed large for a striking living-room wall."
+    "description": "A close-up animal portrait printed at scale for a striking feature wall."
   },
   {
     "id": "MU-096",
@@ -1520,7 +1520,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112257.jpg",
-    "description": "Safari imagery that suits lodges, offices and family rooms."
+    "description": "Savannah wildlife in warm, dusty tones that suit leather and timber."
   },
   {
     "id": "MU-097",
@@ -1528,7 +1528,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112327.jpg",
-    "description": "Close-up detail that holds up even at full wall size."
+    "description": "Birds in flight across a pale ground, light enough for a bedroom."
   },
   {
     "id": "MU-098",
@@ -1536,7 +1536,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112341.jpg",
-    "description": "Earthy tones that sit well with wood and leather furniture."
+    "description": "A powerful big-cat study for lounges and studies wanting real presence."
   },
   {
     "id": "MU-099",
@@ -1544,7 +1544,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112400.jpg",
-    "description": "Savannah composition with room for furniture in front."
+    "description": "Elephants at the waterhole, printed wide for a long living-room wall."
   },
   {
     "id": "MU-100",
@@ -1552,7 +1552,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112415.jpg",
-    "description": "Wildlife scene printed large for a striking living-room wall."
+    "description": "Tropical birds and foliage that bring colour to a dining space."
   },
   {
     "id": "MU-101",
@@ -1560,7 +1560,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112430.jpg",
-    "description": "Safari imagery that suits lodges, offices and family rooms."
+    "description": "A monochrome animal study for interiors kept deliberately restrained."
   },
   {
     "id": "MU-102",
@@ -1568,7 +1568,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112503.jpg",
-    "description": "Close-up detail that holds up even at full wall size."
+    "description": "Grazing herds under open sky, giving a wall genuine depth."
   },
   {
     "id": "MU-103",
@@ -1576,7 +1576,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112518.jpg",
-    "description": "Earthy tones that sit well with wood and leather furniture."
+    "description": "Underwater life in cool blues, a favourite for bathrooms."
   },
   {
     "id": "MU-104",
@@ -1584,7 +1584,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112532.jpg",
-    "description": "Savannah composition with room for furniture in front."
+    "description": "A single bold portrait that works well in a narrow hallway."
   },
   {
     "id": "MU-105",
@@ -1592,7 +1592,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112552.jpg",
-    "description": "Wildlife scene printed large for a striking living-room wall."
+    "description": "Forest wildlife in soft greens for calm, natural schemes."
   },
   {
     "id": "MU-106",
@@ -1600,7 +1600,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112812.jpg",
-    "description": "Safari imagery that suits lodges, offices and family rooms."
+    "description": "Detailed feather and fur texture that rewards a closer look."
   }
 ];
 
