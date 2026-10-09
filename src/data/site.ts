@@ -9,7 +9,7 @@ export const site = {
   whatsapp: "+254706045865",
   email: "info@formulafinishes.com",
   location: "Nairobi, Kenya",
-  hours: "Mon–Sat, 8:30am – 6:00pm",
+  hours: "Mon–Sat, 8:00am – 6:00pm",
   instagram: "https://instagram.com/",
   facebook: "https://facebook.com/",
   driveCatalogue:
