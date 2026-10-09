@@ -1,0 +1,14 @@
+# Netlify Configuration File for TanStack Start / Nitro
+[build]
+  command = "npm run build"
+  publish = ".output/public"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NITRO_PRESET = "netlify"
+
+# Redirects for client-side fallback & serverless functions
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/server"
+  status = 200

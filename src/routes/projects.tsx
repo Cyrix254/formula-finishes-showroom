@@ -162,13 +162,14 @@ function Projects() {
               <button
                 type="button"
                 onClick={() => setOpenIndex(i)}
-                className="group block w-full overflow-hidden rounded-3xl glass p-2 shadow-glass transition-transform duration-300 hover:-translate-y-1.5"
+                className="group block w-full overflow-hidden rounded-3xl glass p-2 shadow-glass transition-transform duration-300 hover:-translate-y-1.5 cv-auto"
               >
                 <img
                   src={src}
                   alt={`Completed interior installation ${i + 1}`}
                   loading="lazy"
                   decoding="async"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className="aspect-4/3 w-full rounded-2xl object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </button>

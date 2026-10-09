@@ -25,7 +25,7 @@ export function ProductCard({
           onOpen?.();
         }
       }}
-      className="group flex h-full w-full cursor-pointer flex-col overflow-hidden rounded-3xl glass text-left shadow-glass transition-transform duration-300 hover:-translate-y-1.5"
+      className="group flex h-full w-full cursor-pointer flex-col overflow-hidden rounded-3xl glass text-left shadow-glass transition-transform duration-300 hover:-translate-y-1.5 cv-auto"
     >
       <div className="shrink-0 aspect-4/5 overflow-hidden bg-neutral-200/30 dark:bg-neutral-800/30 relative">
         {hasError ? (
@@ -40,6 +40,7 @@ export function ProductCard({
             loading={priority ? "eager" : "lazy"}
             fetchPriority={priority ? "high" : "auto"}
             decoding="async"
+            sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
             onError={() => setHasError(true)}
             className="size-full object-cover transition-transform duration-500 group-hover:scale-105"
           />

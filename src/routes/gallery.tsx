@@ -91,7 +91,7 @@ function Gallery() {
               key={src}
               type="button"
               onClick={() => setOpenIndex(i)}
-              className="group block w-full overflow-hidden rounded-3xl glass p-1.5 shadow-glass transition-transform duration-300 hover:-translate-y-1"
+              className="group block w-full overflow-hidden rounded-3xl glass p-1.5 shadow-glass transition-transform duration-300 hover:-translate-y-1 cv-auto"
             >
               <img
                 src={src}
@@ -99,6 +99,7 @@ function Gallery() {
                 loading={i < 8 ? "eager" : "lazy"}
                 fetchPriority={i < 4 ? "high" : "auto"}
                 decoding="async"
+                sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
                 className="w-full min-h-[160px] rounded-2xl bg-neutral-200/20 dark:bg-neutral-800/20 object-cover transition-transform duration-500 group-hover:scale-[1.03]"
               />
             </button>
