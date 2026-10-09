@@ -3,7 +3,6 @@
   "framework": null,
   "buildCommand": "npm run build",
   "installCommand": "npm install",
-  "nodeVersion": "22",
   "build": {
     "env": {
       "NITRO_PRESET": "vercel"
