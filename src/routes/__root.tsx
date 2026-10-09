@@ -13,6 +13,7 @@ import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { Footer } from "@/components/layout/Footer";
 import { Navbar } from "@/components/layout/Navbar";
+import { ThemeProvider } from "@/components/ThemeProvider";
 
 
 function NotFoundComponent() {
@@ -80,15 +81,26 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Formula Finishes and Interiors | Wallpapers, Blinds & Flooring" },
+      { title: "Formula Finishes and Interiors | Wallpapers, Blinds & Flooring Kenya" },
       {
         name: "description",
         content:
           "Premium interior finishes in Kenya: wallpapers, custom murals, wall panels, blinds, window films and carpets supplied and installed by our own crew.",
       },
       { property: "og:site_name", content: "Formula Finishes and Interiors" },
+      { property: "og:title", content: "Formula Finishes and Interiors | Premium Wall & Floor Finishes Kenya" },
+      {
+        property: "og:description",
+        content:
+          "Wallpapers, custom murals, wall panels, blinds, window films and carpets supplied and installed across Kenya by our own fitting crew.",
+      },
       { property: "og:type", content: "website" },
+      { property: "og:image", content: "/images/hero-interior.jpg" },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Formula Finishes and Interiors" },
+      { name: "twitter:image", content: "/images/hero-interior.jpg" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
@@ -98,7 +110,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Manrope:wght@400;500;600;700&display=swap",
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "preload", href: "/images/hero-interior.jpg", as: "image", type: "image/jpeg" },
+      { rel: "icon", href: "/logo.jpg", type: "image/jpeg" },
+      { rel: "apple-touch-icon", href: "/logo.jpg" },
     ],
   }),
 
@@ -108,11 +122,31 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   errorComponent: ErrorComponent,
 });
 
+const jsonLdData = {
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "Formula Finishes and Interiors",
+  "image": "/images/hero-interior.jpg",
+  "description": "Supply and installation of wallpapers, custom murals, wall panels, blinds, window films and carpets across Kenya.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Nairobi",
+    "addressCountry": "KE"
+  },
+  "telephone": "+254706045865",
+  "priceRange": "$$",
+  "openingHours": "Mo-Sa 08:30-18:00"
+};
+
 function RootShell({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
         <HeadContent />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdData) }}
+        />
       </head>
       <body>
         {children}
@@ -127,14 +161,16 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <div className="flex min-h-screen flex-col">
-        <Navbar />
-        <main className="flex-1">
-          {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
-          <Outlet />
-        </main>
-        <Footer />
-      </div>
+      <ThemeProvider defaultTheme="system" storageKey="ff-ui-theme">
+        <div className="flex min-h-screen flex-col">
+          <Navbar />
+          <main className="flex-1">
+            {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
+            <Outlet />
+          </main>
+          <Footer />
+        </div>
+      </ThemeProvider>
     </QueryClientProvider>
   );
 }

@@ -5,13 +5,15 @@ import { navLinks, site } from "@/data/site";
 
 export function Footer() {
   return (
-    <footer className="glass border-t border-white/60">
+    <footer className="glass border-t border-white/60 dark:border-white/10">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 md:grid-cols-3">
         <div>
-          <div className="flex items-center gap-2">
-            <span className="grid size-9 place-items-center rounded-2xl bg-gradient-brand font-display text-sm font-extrabold text-brand-foreground">
-              FF
-            </span>
+          <div className="flex items-center gap-3">
+            <img 
+              src="/logo.jpg" 
+              alt={site.name} 
+              className="h-10 w-auto object-contain rounded-md bg-white p-1"
+            />
             <span className="font-display font-bold tracking-tight text-ink">{site.name}</span>
           </div>
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-ink/75">
@@ -25,8 +27,9 @@ export function Footer() {
           <div className="mt-4 grid grid-cols-2 gap-2 text-sm text-ink/75">
             {navLinks.map((link) => (
               <Link
-                key={link.to}
+                key={link.to + link.label}
                 to={link.to}
+                hash={(link as any).hash}
                 className="transition-colors hover:text-ink"
                 activeOptions={{ exact: link.to === "/" }}
               >
@@ -59,7 +62,7 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-white/60">
+      <div className="border-t border-white/60 dark:border-white/10">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-6 py-6 text-sm text-ink/70 sm:flex-row">
           <p>
             © {new Date().getFullYear()} {site.name}. All rights reserved.

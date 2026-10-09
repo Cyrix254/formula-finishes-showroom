@@ -1,11 +1,13 @@
+import { Home, Info, Package, Briefcase, FolderOpen, Image as ImageIcon } from "lucide-react";
+
 export const site = {
   name: "Formula Finishes and Interiors",
   shortName: "Formula Finishes",
   tagline: "Premium interior finishes studio",
   // TODO: replace with the client's real contact details
-  phone: "+254 700 000 000",
-  whatsapp: "+254700000000",
-  email: "info@formulafinishes.co.ke",
+  phone: "+254 706 045 865",
+  whatsapp: "+254706045865",
+  email: "info@formulafinishes.com",
   location: "Nairobi, Kenya",
   hours: "Mon–Sat, 8:30am – 6:00pm",
   instagram: "https://instagram.com/",
@@ -15,13 +17,12 @@ export const site = {
 } as const;
 
 export const navLinks = [
-  { label: "Home", to: "/" },
-  { label: "About", to: "/about" },
-  { label: "Products", to: "/products" },
-  { label: "Services", to: "/services" },
-  { label: "Projects", to: "/projects" },
-  { label: "Gallery", to: "/gallery" },
-  { label: "Contact", to: "/contact" },
+  { label: "Home", to: "/", icon: Home },
+  { label: "About", to: "/about", icon: Info },
+  { label: "Products", to: "/products", icon: Package },
+  { label: "Services", to: "/services", icon: Briefcase },
+  { label: "Projects", to: "/projects", icon: FolderOpen },
+  { label: "Gallery", to: "/gallery", icon: ImageIcon },
 ] as const;
 
 export const stats = [

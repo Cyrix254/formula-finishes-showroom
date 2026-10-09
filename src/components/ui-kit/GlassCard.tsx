@@ -14,8 +14,8 @@ export function GlassCard({
   return (
     <div
       className={cn(
-        "rounded-3xl glass p-6 shadow-glass",
-        hover && "transition-transform duration-300 hover:-translate-y-1.5",
+        "rounded-3xl glass p-6 shadow-glass transition-all duration-500",
+        hover && "hover:-translate-y-2 hover:shadow-lift hover:border-brand/30",
         className,
       )}
     >

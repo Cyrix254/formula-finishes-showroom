@@ -1,5 +1,5 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, Search, X } from "lucide-react";
 import { useMemo, useState } from "react";
 
 import { CtaBanner } from "@/components/ui-kit/CtaBanner";
@@ -43,6 +43,7 @@ function Products() {
   const { category } = Route.useSearch();
   const navigate = useNavigate({ from: "/products" });
   const [collection, setCollection] = useState<string | null>(null);
+  const [searchQuery, setSearchQuery] = useState("");
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const activeCategory = category ?? null;
@@ -52,15 +53,20 @@ function Products() {
     [activeCategory],
   );
 
-  const filtered = useMemo(
-    () =>
-      products.filter(
-        (p) =>
-          (!activeCategory || p.category === activeCategory) &&
-          (!collection || p.collection === collection),
-      ),
-    [activeCategory, collection],
-  );
+  const filtered = useMemo(() => {
+    const q = searchQuery.trim().toLowerCase();
+    return products.filter((p) => {
+      const matchCategory = !activeCategory || p.category === activeCategory;
+      const matchCollection = !collection || p.collection === collection;
+      const matchQuery =
+        !q ||
+        p.name.toLowerCase().includes(q) ||
+        p.id.toLowerCase().includes(q) ||
+        p.description.toLowerCase().includes(q) ||
+        p.collection.toLowerCase().includes(q);
+      return matchCategory && matchCollection && matchQuery;
+    });
+  }, [activeCategory, collection, searchQuery]);
 
   const setCategory = (next: ProductCategoryId | null) => {
     setCollection(null);
@@ -75,11 +81,31 @@ function Products() {
     <>
       <PageHero
         eyebrow="Products"
-        title="The full finishes catalogue"
-        description={`${products.length} designs across wallpapers, contact papers, murals, wall panels, blinds, films and flooring. Tap any design to view it larger.`}
+        title="Our Collection"
+        description={`Our collection brings together ${products.length} designs across wallpapers, murals, wall panels, contact papers, blinds, films and flooring. Take a closer look and see what fits your vision. `}
       />
 
       <section className="mx-auto max-w-7xl px-6 pb-6">
+        <div className="mb-6 relative max-w-md">
+          <Search className="absolute left-4 top-1/2 size-4 -translate-y-1/2 text-ink/70" />
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            placeholder="Search wallpapers, panels, codes (e.g. WPN-001, marble)..."
+            className="w-full rounded-2xl border border-white/70 dark:border-white/10 bg-white/70 dark:bg-card/70 py-3 pl-11 pr-10 text-sm text-ink outline-none transition-colors placeholder:text-ink/70 focus:border-brand shadow-sm"
+          />
+          {searchQuery ? (
+            <button
+              type="button"
+              onClick={() => setSearchQuery("")}
+              className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full p-1 text-ink/70 hover:bg-neutral-200 dark:hover:bg-neutral-800"
+            >
+              <X className="size-4" />
+            </button>
+          ) : null}
+        </div>
+
         <div className="flex flex-wrap gap-2">
           <FilterChip active={!activeCategory} onClick={() => setCategory(null)}>
             All products
@@ -121,7 +147,7 @@ function Products() {
       <section className="mx-auto max-w-7xl px-6 pb-16">
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
           {filtered.map((p, i) => (
-            <ProductCard key={p.id} product={p} onOpen={() => setOpenIndex(i)} />
+            <ProductCard key={p.id} product={p} priority={i < 6} onOpen={() => setOpenIndex(i)} />
           ))}
         </div>
         {filtered.length === 0 ? (

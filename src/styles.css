@@ -119,12 +119,18 @@
   --gradient-brand: linear-gradient(100deg, oklch(0.45 0.18 25), oklch(0.65 0.14 45));
   --shadow-glass: 0 18px 45px -20px oklch(0.45 0.18 25 / 0.35);
   --shadow-lift: 0 26px 60px -24px oklch(0.22 0.02 30 / 0.28);
+
+  --glass-bg: color-mix(in oklab, white 50%, transparent);
+  --glass-border: color-mix(in oklab, white 70%, transparent);
+  --glass-bg-strong: color-mix(in oklab, white 70%, transparent);
+  --glass-border-strong: color-mix(in oklab, white 75%, transparent);
 }
 
 
 .dark {
   --background: oklch(0.129 0.042 264.695);
   --foreground: oklch(0.984 0.003 247.858);
+  --ink: oklch(0.984 0.003 247.858);
   --card: oklch(0.208 0.042 265.755);
   --card-foreground: oklch(0.984 0.003 247.858);
   --popover: oklch(0.208 0.042 265.755);
@@ -155,6 +161,11 @@
   --sidebar-accent-foreground: oklch(0.984 0.003 247.858);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.551 0.027 264.364);
+  
+  --glass-bg: color-mix(in oklab, oklch(0.208 0.042 265.755) 60%, transparent);
+  --glass-border: color-mix(in oklab, white 10%, transparent);
+  --glass-bg-strong: color-mix(in oklab, oklch(0.208 0.042 265.755) 80%, transparent);
+  --glass-border-strong: color-mix(in oklab, white 15%, transparent);
 }
 
 @layer base {
@@ -167,8 +178,7 @@
   }
 
   body {
-    background: var(--gradient-page);
-    background-attachment: fixed;
+    background: var(--background);
     color: var(--color-foreground);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
@@ -184,15 +194,15 @@
 }
 
 @utility glass {
-  background-color: color-mix(in oklab, white 50%, transparent);
+  background-color: var(--glass-bg);
   backdrop-filter: blur(20px);
-  border: 1px solid color-mix(in oklab, white 70%, transparent);
+  border: 1px solid var(--glass-border);
 }
 
 @utility glass-strong {
-  background-color: color-mix(in oklab, white 70%, transparent);
+  background-color: var(--glass-bg-strong);
   backdrop-filter: blur(24px);
-  border: 1px solid color-mix(in oklab, white 75%, transparent);
+  border: 1px solid var(--glass-border-strong);
 }
 
 @utility glass-dark {
@@ -227,6 +237,7 @@
 @utility reveal {
   opacity: 0;
   transform: translateY(22px);
+  will-change: opacity, transform;
   transition:
     opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1),
     transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
@@ -234,6 +245,7 @@
   &[data-revealed="true"] {
     opacity: 1;
     transform: none;
+    will-change: auto;
   }
 }
 

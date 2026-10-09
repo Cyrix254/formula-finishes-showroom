@@ -53,8 +53,8 @@ function About() {
     <>
       <PageHero
         eyebrow="About us"
-        title="An interior finishes studio built around installation quality"
-        description={`${site.name} supplies and fits wall, window and floor finishes for homes, offices and commercial spaces across Kenya.`}
+        title="Quality Finishes. Professional Installation. Lasting Results."
+        description={`${site.name} is an interiror finishes company serving residential, office and commercial clients across Kenya. We supply and install a wide range of wall, window and floor finishes with a strong focus on professional workmanship, reliable service and quality results.`}
       />
 
       <section className="mx-auto grid max-w-7xl items-center gap-12 px-6 py-10 lg:grid-cols-2">
@@ -68,12 +68,11 @@ function About() {
         <div>
           <SectionHeading
             eyebrow="Our story"
-            title="Finishes chosen well, fitted properly"
-            description="We started out hanging wallpaper in Nairobi homes and grew into a full finishes studio — murals printed to wall size, fluted and stone wall panels, roller and vertical blinds, privacy films, wall-to-wall carpet, tiles, vinyl, SPC flooring and artificial grass."
+            title="Finishes Chosen Well. Fitted Properly"
+            description="We started by installing wallpaper in homes across Nairobi and have since grown into a full interior finishes company. Today, our collection includes custom murals printed to fit your walls, fluted and stone wall panels, roller and vertical blinds, privacy films, wall to wall carpets, tiles, vinyl and SPC flooring, as well as artificial grass."
           />
           <p className="mt-4 text-ink/75">
-            Because we hold our own catalogues and fit with our own crew, we can move from survey to
-            finished room in days rather than weeks — and stand behind the result afterwards.
+            By managing our own catalogues and working with our own installation team, we maintain greater control over the process from the initial survey to the finished space. This allows us to complete projects efficiently, often in days rather than weeks, while continuing to stand behind the quality of our work long after installation.
           </p>
           <dl className="mt-8 grid grid-cols-2 gap-4">
             {stats.map((s) => (

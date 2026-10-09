@@ -2,6 +2,7 @@ import { Link, createFileRoute } from "@tanstack/react-router";
 import { ArrowRight, Check } from "lucide-react";
 
 import { CtaBanner } from "@/components/ui-kit/CtaBanner";
+import { ContactSection } from "@/components/ui-kit/ContactSection";
 import { GlassCard } from "@/components/ui-kit/GlassCard";
 import { Reveal } from "@/components/ui-kit/Reveal";
 import { SectionHeading } from "@/components/ui-kit/SectionHeading";
@@ -16,7 +17,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Wallpapers, custom murals, wall panels, blinds, window films and carpets — supplied and installed across Kenya by our own fitting crew.",
+          "Wallpapers, custom murals, wall panels, blinds, window films and carpets, supplied and installed across Kenya by our own fitting crew.",
       },
       {
         property: "og:title",
@@ -42,9 +43,12 @@ function Home() {
           <img
             src="/images/hero-interior.jpg"
             alt=""
+            fetchPriority="high"
+            loading="eager"
+            decoding="async"
             className="size-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-ink/85 via-ink/60 to-ink/45" />
+          <div className="absolute inset-0 bg-gradient-to-r from-neutral-950/85 via-neutral-950/60 to-neutral-950/45" />
         </div>
 
         <div className="relative mx-auto w-full max-w-7xl px-6 py-20 lg:py-28">
@@ -56,8 +60,9 @@ function Home() {
             <span className="block">and Interiors</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/90">
-            We supply and install wallpapers, custom murals, wall panels, blinds, window films and
-            carpets — measured, fitted and cleaned up by our own team across Kenya.
+            <b>Formula Finishes & Interiors</b> specialises in the supply and installation of wallpapers, custom murals, wall panels,
+            blinds, window films and carpets. We provide professional measurement, installation and finishing services for residential
+            and commercial spaces across Kenya.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
@@ -68,8 +73,9 @@ function Home() {
               Browse products <ArrowRight className="size-4" />
             </Link>
             <Link
-              to="/contact"
-              className="rounded-full glass-dark px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-white hover:text-ink"
+              to="/"
+              hash="contact"
+              className="rounded-full glass-dark px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-white hover:text-neutral-950"
             >
               Book a site visit
             </Link>
@@ -89,8 +95,8 @@ function Home() {
       <section className="mx-auto max-w-7xl px-6 py-16">
         <SectionHeading
           eyebrow="What we supply"
-          title="Seven collections, one fitting crew"
-          description="Every range below is stocked or printed to order, then installed by the same team that measured your space."
+          title="Eight Collections, One Expert Team"
+          description="Discover eight distinctive collections designed to transform your space. Whether selected from our available stock or made to order, every piece is measured, prepared and expertly installed by the same team from start to finish."
         />
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {productCategories.map((c, i) => (
@@ -112,7 +118,7 @@ function Home() {
       </section>
 
       <section className="mx-auto max-w-7xl px-6 py-16">
-        <SectionHeading eyebrow="Featured" title="A taste of the catalogue" />
+        <SectionHeading eyebrow="Featured" title="A Glimpse into Our Collection" />
         <div className="mt-10 grid grid-cols-2 gap-4 lg:grid-cols-4">
           {featuredProducts.map((p, i) => (
             <Reveal key={p.id} delay={i * 50}>
@@ -120,7 +126,9 @@ function Home() {
                 <img
                   src={p.image}
                   alt={p.name}
-                  loading="lazy"
+                  loading={i < 4 ? "eager" : "lazy"}
+                  fetchPriority={i < 2 ? "high" : "auto"}
+                  decoding="async"
                   className="aspect-square w-full object-cover transition-transform duration-500 hover:scale-105"
                 />
                 <div className="p-4">
@@ -151,7 +159,7 @@ function Home() {
       </section>
 
       <section className="mx-auto max-w-7xl px-6 py-16">
-        <SectionHeading eyebrow="Recent work" title="Installations we're proud of" />
+        <SectionHeading eyebrow="Recent work" title="Designed to Make an Impression" />
         <div className="mt-10 grid grid-cols-2 gap-4 md:grid-cols-3">
           {projectImages.slice(1, 7).map((src, i) => (
             <Reveal key={src} delay={i * 60}>
@@ -159,6 +167,7 @@ function Home() {
                 src={src}
                 alt={`Completed interior installation ${i + 1}`}
                 loading="lazy"
+                decoding="async"
                 className="aspect-square w-full rounded-3xl object-cover shadow-glass"
               />
             </Reveal>
@@ -190,6 +199,7 @@ function Home() {
         </div>
       </section>
 
+      <ContactSection id="contact" />
       <CtaBanner />
     </>
   );

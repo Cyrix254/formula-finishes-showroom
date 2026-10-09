@@ -1,12 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Check } from "lucide-react";
+import { Check, MessageCircle } from "lucide-react";
 
 import { CtaBanner } from "@/components/ui-kit/CtaBanner";
 import { GlassCard } from "@/components/ui-kit/GlassCard";
 import { PageHero } from "@/components/ui-kit/PageHero";
 import { Reveal } from "@/components/ui-kit/Reveal";
 import { SectionHeading } from "@/components/ui-kit/SectionHeading";
-import { serviceDetails, services } from "@/data/site";
+import { serviceDetails, services, site } from "@/data/site";
 
 export const Route = createFileRoute("/services")({
   head: () => ({
@@ -43,22 +43,37 @@ function Services() {
 
       <section className="mx-auto max-w-7xl px-6 py-10">
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-          {serviceDetails.map((s, i) => (
-            <Reveal key={s.title} delay={i * 60}>
-              <GlassCard hover className="h-full">
-                <p className="font-display text-lg font-bold text-ink">{s.title}</p>
-                <p className="mt-2 text-sm leading-relaxed text-ink/75">{s.description}</p>
-                <ul className="mt-4 space-y-2 text-sm text-ink/70">
-                  {s.points.map((p) => (
-                    <li key={p} className="flex items-center gap-2">
-                      <Check className="size-4 shrink-0 text-brand" />
-                      {p}
-                    </li>
-                  ))}
-                </ul>
-              </GlassCard>
-            </Reveal>
-          ))}
+          {serviceDetails.map((s, i) => {
+            const waText = encodeURIComponent(
+              `Hi Formula Finishes & Interiors, I'd like to make an inquiry regarding your ${s.title} service for my space.`
+            );
+            const waLink = `https://wa.me/${site.whatsapp.replace(/\D/g, "")}?text=${waText}`;
+
+            return (
+              <Reveal key={s.title} delay={i * 60}>
+                <GlassCard hover className="flex flex-col h-full">
+                  <p className="font-display text-lg font-bold text-ink">{s.title}</p>
+                  <p className="mt-2 text-sm leading-relaxed text-ink/75">{s.description}</p>
+                  <ul className="mt-4 space-y-2 text-sm text-ink/70">
+                    {s.points.map((p) => (
+                      <li key={p} className="flex items-center gap-2">
+                        <Check className="size-4 shrink-0 text-brand" />
+                        {p}
+                      </li>
+                    ))}
+                  </ul>
+                  <a
+                    href={waLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mt-auto pt-6 inline-flex items-center gap-2 text-xs font-semibold text-brand hover:underline"
+                  >
+                    <MessageCircle className="size-4" /> Inquire about this service
+                  </a>
+                </GlassCard>
+              </Reveal>
+            );
+          })}
         </div>
       </section>
 

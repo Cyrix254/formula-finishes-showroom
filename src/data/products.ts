@@ -1,13 +1,13 @@
 // AUTO-GENERATED from the client Google Drive catalogue. Safe to edit by hand.
 export type ProductCategoryId =
-
   "wallpapers" | 
   "contact-papers" | 
   "murals" | 
   "window-blinds" | 
   "window-films" | 
   "carpets" | 
-  "wall-panels";
+  "wall-panels" |
+  "media-wall";
 
 export type Product = {
   id: string;
@@ -59,10 +59,18 @@ export const productCategories: ProductCategory[] = [
     "id": "wall-panels",
     "label": "Wall Panels",
     "description": "Fluted WPC panels, concave profiles, box designs and PU stone cladding."
+  },
+  {
+    "id": "media-wall",
+    "label": "Media Wall",
+    "description": "Bespoke TV feature walls, LED backlit slat panels, marble porcelain slabs, and acoustic fireplace media units."
   }
 ];
 
 export const collections: { category: ProductCategoryId; label: string }[] = [
+  { "category": "media-wall", "label": "Slat & Fluted Media Walls" },
+  { "category": "media-wall", "label": "Marble & Stone Media Walls" },
+  { "category": "media-wall", "label": "Fireplace & Acoustic Media Walls" },
   { "category": "wall-panels", "label": "Fluted WPC panels" },
   { "category": "wall-panels", "label": "PU stone panels" },
   { "category": "wall-panels", "label": "Box & concave designs" },
@@ -135,7 +143,7 @@ export const products: Product[] = [
     "category": "wall-panels",
     "collection": "Fluted WPC panels",
     "image": "/images/wall-panels/fluted-oak-panel.jpg",
-    "description": "Vertical fluted panelling cut to height, adding rhythm and warmth to a feature wall or reception desk."
+    "description": "Precision-cut vertical fluted wainscoting designed to introduce architectural texture and warmth to interior spaces. Ideal for crafting sophisticated feature walls, defining reception areas, or structurally enhancing contemporary living rooms."
   },
   {
     "id": "WPN-002",
@@ -143,7 +151,7 @@ export const products: Product[] = [
     "category": "wall-panels",
     "collection": "PU stone panels",
     "image": "/images/wall-panels/pu-stone-panel.jpg",
-    "description": "Lightweight PU panels with convincing stone relief — the look of masonry without the weight or wet work."
+    "description": "Premium polyurethane stone veneer offering the authentic, rugged aesthetic of natural masonry. Engineered for lightweight installation without the structural load or complex wet-work associated with traditional stone cladding."
   },
   {
     "id": "WPN-003",
@@ -151,16 +159,15 @@ export const products: Product[] = [
     "category": "wall-panels",
     "collection": "Box & concave designs",
     "image": "/images/wall-panels/concave-box-panel.jpg",
-    "description": "Sculpted box and concave panelling that plays with light and shadow across a plain wall."
+    "description": "Sculptural concave and box panelling designed to interact dynamically with ambient lighting. A bold, geometric solution that adds distinctive character and dimension to minimalist architectural environments."
   },
-
   {
     "id": "WP-001",
     "name": "Suede-look plain roll",
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0956.jpg",
-    "description": "A suede-look plain roll with a soft, matt surface that reads as fine fabric on the wall."
+    "description": "A refined, tactile wallcovering offering the rich, matte appearance of fine suede. Carefully balanced to function as an understated yet luxurious backdrop that does not overpower existing interior furnishings."
   },
   {
     "id": "WP-002",
@@ -168,7 +175,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0963.jpg",
-    "description": "Stone-grey plain paper — a calm, architectural backdrop for art and timber furniture."
+    "description": "Sophisticated natural grasscloth texture layered with a subtle silver stripe. This elegant design captures ambient light beautifully along its vertical weave, expanding the visual height of any room."
   },
   {
     "id": "WP-003",
@@ -176,7 +183,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0978.jpg",
-    "description": "Silver grasscloth stripe with a fine natural weave that catches light along its length."
+    "description": "A pristine, smooth ivory wallcovering designed to reflect maximum natural light. Perfect for illuminating darker spaces and serving as a crisp canvas for statement art and dark timber elements."
   },
   {
     "id": "WP-004",
@@ -184,7 +191,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-0987.jpg",
-    "description": "Ivory smooth plain, the quiet choice for rooms where the furnishings should lead."
+    "description": "A delicate blush wallcovering featuring a convincing linen weave. Formulated to introduce a soft, powdery warmth to bedrooms and private dressing areas while maintaining a highly tailored finish."
   },
   {
     "id": "WP-005",
@@ -192,7 +199,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-1007.jpg",
-    "description": "Blush linen texture that warms bedrooms and dressing rooms with a gentle, powdery tone."
+    "description": "Highly versatile warm grey wallcovering with a subtle, structured linen texture. Specially tinted to coordinate effortlessly with both cool charcoal accents and warm cream interior palettes."
   },
   {
     "id": "WP-006",
@@ -200,7 +207,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-1016.jpg",
-    "description": "Warm grey linen weave — a versatile neutral that flatters both cream and charcoal schemes."
+    "description": "A delicate, striated wallcovering in muted rose. The gentle vertical grain adds elegant height to the room while establishing a calm, restful atmosphere suited for master suites and quiet snugs."
   },
   {
     "id": "WP-007",
@@ -208,7 +215,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/img-1025.jpg",
-    "description": "Pale rose striated paper with a soft vertical grain for an elegant, restful finish."
+    "description": "A clean, architectural stone-grey wallcovering optimized for modern spaces. Engineered to provide a robust, unified background that allows furniture and curated art pieces to take centre stage."
   },
   {
     "id": "WP-008",
@@ -216,7 +223,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/whatsapp-image-2026-06-29-at-12-01-33-1.jpg",
-    "description": "Cream textured trio: three closely related finishes for layering panels and alcoves."
+    "description": "A collection of three complementary cream textures. Designed to be layered across adjoining walls, alcoves, and panels, delivering subtle variations that create a cohesive, custom-designed interior."
   },
   {
     "id": "WP-009",
@@ -224,7 +231,7 @@ export const products: Product[] = [
     "category": "wallpapers",
     "collection": "Wallpaper rolls",
     "image": "/images/wallpapers/whatsapp-image-2026-07-11-at-15-01-06.jpg",
-    "description": "A full colour range in one texture, so you can match adjoining rooms without changing paper."
+    "description": "A comprehensive palette selection of high-quality textured papers. Developed to ensure seamless colour flow between adjoining rooms while maintaining a consistent tactile quality throughout the property."
   },
   {
     "id": "CP-001",
@@ -232,7 +239,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/0a409a39-a68d-45dd-b12e-a6aaf7233298.jpg",
-    "description": "Self-adhesive finish that transforms tired cabinet doors in an afternoon, with no dust and no repainting."
+    "description": "High-grade, self-adhesive architectural film designed to seamlessly resurface aging cabinetry. An efficient, dust-free alternative to repainting that guarantees a flawless, factory-quality finish."
   },
   {
     "id": "CP-002",
@@ -240,7 +247,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/71-lsgpctel-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "A convincing stone-look surface for kitchen fronts, worktop facings and island panels."
+    "description": "A robust architectural film featuring an incredibly convincing stone finish. Ideal for instantly upgrading kitchen worktop facings, island panels, and utility room surfaces with a premium aesthetic."
   },
   {
     "id": "CP-003",
@@ -248,7 +255,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/71bybimykgl-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Warm timber grain that brings quiet character to wardrobes, doors and shelving."
+    "description": "Engineered timber-grain adhesive film offering natural warmth and realistic texture. Perfectly suited for restoring built-in wardrobes, interior doors, and custom shelving units to a pristine wood finish."
   },
   {
     "id": "CP-004",
@@ -256,7 +263,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/71cu1wabekl-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Wipe-clean vinyl designed for splash-prone areas around sinks and worktops."
+    "description": "Heavy-duty, wipe-clean vinyl surface designed specifically for high-moisture environments. Provides excellent resistance against spills and splashes around kitchen sinks and laundry worktops."
   },
   {
     "id": "CP-005",
@@ -264,7 +271,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/71jmarbzqsl-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "A smooth, matt finish that reads as sprayed paint once smoothed into place."
+    "description": "An ultra-smooth, matte-finish architectural film. Once properly applied, this material mimics the precise look and feel of professionally spray-painted wooden or metal surfaces."
   },
   {
     "id": "CP-006",
@@ -272,7 +279,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/71x8j9ldhpl-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Subtle sheen that catches light gently across drawer fronts and side panels."
+    "description": "A refined surfacing film with a subtle integrated sheen. Engineered to catch ambient light smoothly along drawer fronts, side panels, and modern flat-pack furniture upgrades."
   },
   {
     "id": "CP-007",
@@ -280,7 +287,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/81anj6thvml-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Ideal for refreshing rental kitchens — a clean new look that lifts away when you leave."
+    "description": "A premium removable architectural film ideal for rental properties. Designed to deliver an immediate, high-end upgrade to kitchen units that cleanly lifts away without surface damage."
   },
   {
     "id": "CP-008",
@@ -288,7 +295,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/81khwlnvdtl-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Fine marble veining that adds a sense of luxury to small surfaces at modest cost."
+    "description": "Self-adhesive film featuring intricate natural marble veining. Introduces immediate luxury and sophistication to vanity tops, side tables, and compact surfaces at a fraction of the cost of real stone."
   },
   {
     "id": "CP-009",
@@ -296,7 +303,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/619h9x3xbwl-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "A crisp, contemporary facing for study desks, sideboards and built-in units."
+    "description": "A crisp, highly contemporary surface finish. Exceptionally durable and designed specifically to cleanly reface study desks, low sideboards, and heavy-use built-in modular units."
   },
   {
     "id": "CP-010",
@@ -304,7 +311,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/711sueviwml-ac-uf894-1000-ql80-fmwebp.jpg",
-    "description": "Hard-wearing surface that resists everyday knocks in busy family kitchens."
+    "description": "An ultra-durable, scratch-resistant film formulation. Built to withstand the daily impact and wear inherent in busy family kitchens and heavily utilized utility rooms."
   },
   {
     "id": "CP-011",
@@ -312,7 +319,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/d6687c76-6957-4325-97a7-6dcc9370329f.jpg",
-    "description": "Deep tone that grounds pale rooms when used on lower cabinets and plinths."
+    "description": "Rich, deep-toned architectural film that effectively grounds lighter interior schemes when applied strategically to lower cabinetry and structural plinths."
   },
   {
     "id": "CP-012",
@@ -320,7 +327,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/e71e0c16-f17e-496d-af60-ab3d84569269.jpg",
-    "description": "Bright, light-reflecting finish that helps compact kitchens feel more open."
+    "description": "A highly reflective, bright surfacing film optimized for compact kitchens and utility spaces. Engineered to bounce ambient light and create an immediate sense of spaciousness."
   },
   {
     "id": "CP-013",
@@ -328,7 +335,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/img-20250123-194928-0515.jpg",
-    "description": "Textured grain you can feel underhand, giving flat-pack furniture a solid, made feel."
+    "description": "Premium film featuring a distinctive, tactile grain structure. Designed to upgrade standard flat-pack furniture into bespoke, solid-feeling pieces."
   },
   {
     "id": "CP-014",
@@ -336,7 +343,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/img-20240525-wa0001.jpg",
-    "description": "A neat facing for fridge sides, cupboard interiors and other awkward surfaces."
+    "description": "A refined, utilitarian facing film developed to neatly conceal appliance flanks, exposed cupboard interiors, and challenging architectural angles."
   },
   {
     "id": "CP-015",
@@ -344,7 +351,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/img-20250220-wa0017.jpg",
-    "description": "Understated pattern that mixes easily with brass, black or brushed steel handles."
+    "description": "A quietly sophisticated pattern that integrates flawlessly with premium hardware. An excellent companion for brushed steel, matte black, or aged brass fixtures."
   },
   {
     "id": "CP-016",
@@ -352,7 +359,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/img-20250221-wa0039.jpg",
-    "description": "Soft, chalky tone that pairs beautifully with terrazzo and natural stone."
+    "description": "Elegant surfacing film in a soft, chalky palette. Carefully balanced to pair beautifully alongside authentic terrazzo floors and natural stone worktops."
   },
   {
     "id": "CP-017",
@@ -360,7 +367,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/mmexport1734180900180.jpg",
-    "description": "A quick, low-mess upgrade for bathroom vanities and storage units."
+    "description": "Moisture-resistant decorative film offering a rapid, high-impact aesthetic upgrade for bathroom vanities and integrated sanitary storage units."
   },
   {
     "id": "CP-018",
@@ -368,7 +375,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/mmexport1741702068216.jpg",
-    "description": "Classic finish that keeps kitchens looking timeless rather than trend-led."
+    "description": "A timeless classic finish designed for longevity and enduring appeal. An ideal solution for maintaining a sophisticated kitchen aesthetic without leaning into fleeting interior trends."
   },
   {
     "id": "CP-019",
@@ -376,7 +383,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/mmexport1751371510911.jpg",
-    "description": "Contrasting tone made for two-tone cabinetry schemes."
+    "description": "A striking contrasting tone formulated specifically to execute modern two-tone cabinetry designs with immaculate precision."
   },
   {
     "id": "CP-020",
@@ -384,7 +391,7 @@ export const products: Product[] = [
     "category": "contact-papers",
     "collection": "Contact papers",
     "image": "/images/contact-papers/mmexport1751371513211.jpg",
-    "description": "A clean cover for wall niches, headboards and shelving edges."
+    "description": "A clean, minimalist wrapping solution tailored for wall niches, bespoke headboards, and the precise detailing of exposed shelving edges."
   },
   {
     "id": "CF-001",
@@ -392,7 +399,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/30mm-grass-2.jpg",
-    "description": "Soft-blade turf that keeps balconies and terraces green all year with no watering."
+    "description": "Premium 30mm artificial turf featuring incredibly soft, resilient blades. An excellent, maintenance-free solution for ensuring balconies and urban terraces remain lush and green year-round."
   },
   {
     "id": "CF-002",
@@ -400,7 +407,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/30mm-grass-3.jpg",
-    "description": "Dense pile with a natural spring underfoot, laid for rooftop lounging areas."
+    "description": "A high-density synthetic turf designed with a natural, shock-absorbing spring. Perfect for transforming concrete rooftop environments into comfortable, barefoot-friendly lounging areas."
   },
   {
     "id": "CF-003",
@@ -408,7 +415,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/40mm-grass-1.jpg",
-    "description": "Hard-wearing turf for play areas, staying level and tidy through daily use."
+    "description": "Exceptionally hard-wearing 40mm grass turf engineered for rigorous daily traffic. Specially constructed to remain consistently level and presentable in active family play areas."
   },
   {
     "id": "CF-004",
@@ -416,7 +423,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/40mm-grass-2.jpg",
-    "description": "A realistic two-tone blade mix that avoids the flat look of cheaper turf."
+    "description": "Advanced synthetic turf utilizing a nuanced two-tone blade mixture. This meticulous design accurately replicates the organic variation of natural lawns, completely avoiding the flat look of inferior alternatives."
   },
   {
     "id": "CF-005",
@@ -424,7 +431,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-1.jpg",
-    "description": "Fine, short pile that suits pathways, poolside edges and tight courtyards."
+    "description": "A sharply tailored, short-pile artificial grass. Formulated to provide clean, crisp edging for architectural pathways, immaculate poolside surrounds, and compact interior courtyards."
   },
   {
     "id": "CF-006",
@@ -432,7 +439,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-2.jpg",
-    "description": "Free-draining backing that handles heavy rain without pooling."
+    "description": "High-performance synthetic grass featuring an advanced, rapid-draining backing system. Designed specifically to handle heavy tropical downpours without surface water pooling."
   },
   {
     "id": "CF-007",
@@ -440,7 +447,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-3.jpg",
-    "description": "Deep green tones that hold their colour under strong sun."
+    "description": "Vibrant, deep-green artificial turf manufactured with superior UV-stabilized yarns. Guaranteed to retain its rich color depth even when subjected to intense, prolonged equatorial sunlight."
   },
   {
     "id": "CF-008",
@@ -448,7 +455,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-6.jpg",
-    "description": "A neat finish for shopfronts, stands and event spaces needing instant greenery."
+    "description": "A highly versatile, low-profile grass product perfect for immediate commercial installations. Frequently specified for stylish shopfronts, exhibition stands, and temporary pop-up event spaces."
   },
   {
     "id": "CF-009",
@@ -456,7 +463,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-7.jpg",
-    "description": "Comfortable enough for bare feet, making it a favourite for children's rooms and dens."
+    "description": "Luxuriously soft synthetic turf emphasizing tactile comfort. Its gentle texture makes it a highly sought-after, playful flooring choice for modern nurseries, indoor snugs, and children's dens."
   },
   {
     "id": "CF-010",
@@ -464,7 +471,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-9.jpg",
-    "description": "Low-profile turf for stairs, ledges and vertical detailing."
+    "description": "A specialized low-pile grass material optimized for precision fitting. The ideal structural choice for wrapping stairs, architectural ledges, and executing imaginative vertical garden detailing."
   },
   {
     "id": "CF-011",
@@ -472,7 +479,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-10.jpg",
-    "description": "Lush, longer blades for gardens where a soft, meadow-like look is wanted."
+    "description": "Lush, extended-blade synthetic grass designed for residential gardens and sophisticated outdoor living areas requiring a remarkably natural, unmanicured appearance."
   },
   {
     "id": "CF-012",
@@ -480,7 +487,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/artificial-grass-11.jpg",
-    "description": "Cut to shape around planters and paving for a seamless finish."
+    "description": "Highly flexible turf construction engineered for complex landscaping. Effortlessly cuts to precise shapes around built-in planters, curved paving, and bespoke border edging."
   },
   {
     "id": "CF-013",
@@ -488,7 +495,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/factory-material-pp.jpg",
-    "description": "Pet-friendly surface that rinses clean and dries quickly."
+    "description": "A specialized pet-friendly grass solution. Manufactured with non-absorbent fibers and an enhanced drainage matrix that allows for rapid rinsing and uncompromising daily hygiene."
   },
   {
     "id": "CF-014",
@@ -496,7 +503,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/grass-backer.jpg",
-    "description": "A tidy, maintenance-free alternative for shaded courtyards where grass struggles."
+    "description": "The definitive solution for heavily shaded urban courtyards where natural grass repeatedly fails. Delivers a consistently pristine green aesthetic requiring zero horticultural maintenance."
   },
   {
     "id": "CF-015",
@@ -504,7 +511,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/grass-roll-1.jpg",
-    "description": "Springy pile that softens hard concrete surfaces on balconies."
+    "description": "A deeply sprung artificial pile that drastically softens the acoustics and impact on harsh concrete balconies, turning neglected outdoor extensions into inviting living spaces."
   },
   {
     "id": "CF-016",
@@ -512,7 +519,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/grass-roll-2.jpg",
-    "description": "Consistent colour across large runs, ideal for offices and showrooms."
+    "description": "Commercial-grade grass rolls manufactured to ensure flawless color consistency across vast spans. The premier choice for large corporate breakout areas and expansive showroom floors."
   },
   {
     "id": "CF-017",
@@ -520,7 +527,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/img-0754.jpg",
-    "description": "A resilient choice for gyms and studios needing a warmer floor."
+    "description": "Ultra-resilient synthetic grass uniquely suited for indoor athletic spaces. Provides excellent traction, minimal friction, and a distinctive visual anchor for modern gyms and workout studios."
   },
   {
     "id": "CF-018",
@@ -528,7 +535,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Artificial grass turf",
     "image": "/images/grass-carpets/img-0760.jpg",
-    "description": "Neat green framing for decking, patios and rooftop bars."
+    "description": "Crisp, architectural turf designed specifically to contrast elegantly against hard landscaping. Ideal for framing composite decking, sophisticated patios, and elevated rooftop bars."
   },
   {
     "id": "CF-019",
@@ -536,7 +543,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Wall-to-wall carpets",
     "image": "/images/carpets/mmexport1750486440229.jpg",
-    "description": "Dense broadloom carpet laid wall to wall for warmth and quiet underfoot."
+    "description": "A premium, dense broadloom carpet engineered specifically for luxury wall-to-wall installations. Delivers exceptional acoustic dampening and unrivaled underfoot comfort for sophisticated master suites."
   },
   {
     "id": "CF-021",
@@ -544,7 +551,7 @@ export const products: Product[] = [
     "category": "carpets",
     "collection": "Wall-to-wall carpets",
     "image": "/images/carpets/mmexport1750486444587.jpg",
-    "description": "A hard-wearing pile in a neutral tone that suits bedrooms, offices and stairs."
+    "description": "Exceptionally hard-wearing commercial carpet in a sophisticated neutral tone. Highly recommended for high-traffic environments including executive offices, stairs, and premium rental properties."
   },
   {
     "id": "WB-001",
@@ -552,7 +559,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/1-1.jpg",
-    "description": "Made-to-measure blinds that filter harsh sunlight into a soft, even glow — ideal for living rooms that face the afternoon sun."
+    "description": "Precision made-to-measure blinds designed to efficiently filter harsh direct sunlight into a soft, ambient glow. An indispensable treatment for west-facing living spaces."
   },
   {
     "id": "WB-002",
@@ -560,7 +567,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/3.jpg",
-    "description": "A crisp roller finish that draws up cleanly out of sight, keeping window lines uncluttered in compact rooms."
+    "description": "A sharply constructed roller blind offering a meticulously clean architectural line. Retracts discreetly into a minimal housing to preserve an uninterrupted view in contemporary, minimalist spaces."
   },
   {
     "id": "WB-003",
@@ -568,7 +575,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/4.jpg",
-    "description": "Sheer double-layer blinds that let you dial daylight up or down without losing your view."
+    "description": "Sophisticated semi-transparent double-layer blinds. Engineered to offer complete control over incoming daylight and exterior privacy without ever sacrificing the connection to your view."
   },
   {
     "id": "WB-004",
@@ -576,7 +583,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/5.jpg",
-    "description": "Vertical louvres that sweep smoothly across wide glazing and sliding doors, giving privacy on demand."
+    "description": "Premium vertical louvres that operate with silent, sweeping precision across expansive glazing and bi-fold doors. An elegant, highly functional solution for large-scale domestic and commercial windows."
   },
   {
     "id": "WB-005",
@@ -584,7 +591,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/6.jpg",
-    "description": "A quiet, tailored screen for bedrooms — gentle light by day, close coverage by night."
+    "description": "A beautifully tailored screen explicitly designed for bedroom environments. Combines gentle light filtration during the day with robust, reassuring coverage at night."
   },
   {
     "id": "WB-006",
@@ -592,7 +599,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/7.jpg",
-    "description": "Neutral fabric with a fine weave that flatters both warm timber and cool grey interiors."
+    "description": "A highly versatile, neutral-toned fabric blind featuring an elegant, fine weave. Effortlessly compliments a wide gamut of interiors, from warm natural timbers to sleek industrial greys."
   },
   {
     "id": "WB-007",
@@ -600,7 +607,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/8.jpg",
-    "description": "Blackout-weighted cloth for media rooms and nurseries where true darkness matters."
+    "description": "Professional-grade blackout-weighted cloth blinds. The uncompromising choice for dedicated home cinemas, photography studios, and nurseries where total light elimination is non-negotiable."
   },
   {
     "id": "WB-008",
@@ -608,7 +615,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/9.jpg",
-    "description": "A slim, contemporary blind that suits offices and reception areas needing glare control at the desk."
+    "description": "An ultra-slim, contemporary blind system uniquely tailored for corporate offices and reception areas requiring highly effective screen glare control without sacrificing exterior views."
   },
   {
     "id": "WB-009",
@@ -616,7 +623,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/10.jpg",
-    "description": "Textured cloth that adds subtle depth to plain walls while keeping the room feeling calm."
+    "description": "A richly textured blind fabric that introduces subtle, tactile depth to otherwise minimal flat-painted walls, elevating the calming atmosphere of any modern living space."
   },
   {
     "id": "WB-010",
@@ -624,7 +631,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/11.jpg",
-    "description": "Cut precisely to the reveal for a flush, built-in look on kitchen and bathroom windows."
+    "description": "Precision-manufactured to sit perfectly flush within the window reveal. This close-mounting design is exceptionally elegant in luxury bathrooms and streamlined kitchens where space is at a premium."
   },
   {
     "id": "WB-011",
@@ -632,7 +639,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/12.jpg",
-    "description": "Soft light diffusion that protects furniture and finishes from direct sun without darkening the room."
+    "description": "Engineered for optimal light diffusion. Protects sensitive fabrics, artwork, and timber floors from direct UV degradation while maintaining a bright, well-lit interior atmosphere."
   },
   {
     "id": "WB-012",
@@ -640,7 +647,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/13.jpg",
-    "description": "A refined pairing of sheer and opaque bands for dining spaces that shift from bright brunch to low-lit evenings."
+    "description": "A highly sophisticated dual-layered system alternating sheer and opaque bands. Allows seamless transitioning from brilliant morning light to intimately shaded evening environments."
   },
   {
     "id": "WB-013",
@@ -648,7 +655,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/14.jpg",
-    "description": "Clean-lined coverage for stairwells and landings, where fuss-free operation counts."
+    "description": "Minimalist, clean-lined coverage specifically developed for high stairwells and transitional landings, prioritizing reliable, fuss-free daily operation."
   },
   {
     "id": "WB-014",
@@ -656,7 +663,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/15.jpg",
-    "description": "Warm-toned fabric that lifts north-facing rooms with a gentle, sunlit cast."
+    "description": "Woven with warm-toned yarns designed to color-correct stark, cold light. Immediately lifts north-facing rooms with a remarkably gentle, sunlit cast."
   },
   {
     "id": "WB-015",
@@ -664,7 +671,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/18.jpg",
-    "description": "Deep, saturated cloth for a more dramatic window treatment in studies and lounges."
+    "description": "Richly saturated, deep-toned cloth designed to introduce dramatic visual weight and gravitas to formal dining spaces, studies, and executive suites."
   },
   {
     "id": "WB-016",
@@ -672,7 +679,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/19.jpg",
-    "description": "An easy-care surface that wipes clean, made for busy family rooms and kitchens."
+    "description": "A robust, low-maintenance surface material that wipes completely clean with a damp cloth. Strongly recommended for active family kitchens, playrooms, and utility spaces."
   },
   {
     "id": "WB-017",
@@ -680,7 +687,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/21.jpg",
-    "description": "Fine perforation that keeps the outlook visible while cutting heat and glare."
+    "description": "Micro-perforated sunscreen fabric engineered to drastically reduce solar heat gain and monitor glare while preserving 95% of your exterior visibility."
   },
   {
     "id": "WB-018",
@@ -688,7 +695,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/22.jpg",
-    "description": "A tailored finish for tall windows, hanging straight and true along the full drop."
+    "description": "A structurally reinforced, tailored finish designed for double-height glazing and tall townhouse windows, ensuring a perfectly straight, undeviating hang across extended drops."
   },
   {
     "id": "WB-019",
@@ -696,7 +703,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/25.jpg",
-    "description": "Understated pattern that reads as texture from across the room — quietly elegant."
+    "description": "A refined micro-pattern that registers as a solid, sophisticated texture from a distance. Imparts a quiet, highly considered elegance without demanding primary attention."
   },
   {
     "id": "WB-020",
@@ -704,7 +711,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/26.jpg",
-    "description": "Sleek hardware and a low-profile headrail keep the focus on the glass, not the fitting."
+    "description": "Features an ultra-sleek, color-matched headrail and low-profile hardware. Conceived specifically to keep the visual focus entirely on the window framing and surrounding architecture."
   },
   {
     "id": "WB-021",
@@ -712,7 +719,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/27.jpg",
-    "description": "A dependable choice for rentals and offices: durable, neutral and simple to operate."
+    "description": "The quintessential solution for rental properties and high-turnover offices. Combines supreme operational durability, a universally flattering neutral tone, and effortless usability."
   },
   {
     "id": "WB-022",
@@ -720,7 +727,7 @@ export const products: Product[] = [
     "category": "window-blinds",
     "collection": "Window blinds",
     "image": "/images/window-blinds/28.jpg",
-    "description": "Layered light control that suits open-plan spaces where one window serves several zones."
+    "description": "Dynamic, multi-stage light control engineered for complex open-plan interiors where a single expansive window must serve varying functional zones simultaneously."
   },
   {
     "id": "WF-001",
@@ -728,7 +735,7 @@ export const products: Product[] = [
     "category": "window-films",
     "collection": "Window films",
     "image": "/images/window-films/img-0155.jpg",
-    "description": "Frosted film that brings privacy to bathroom and street-facing glass while keeping the daylight."
+    "description": "Premium frosted finishing film designed to guarantee absolute privacy for street-facing windows and bathrooms while permitting excellent transmission of diffuse natural daylight."
   },
   {
     "id": "WF-002",
@@ -736,7 +743,7 @@ export const products: Product[] = [
     "category": "window-films",
     "collection": "Window films",
     "image": "/images/window-films/img-5579.jpg",
-    "description": "Tinted film that cuts glare and heat on sun-facing windows and glass doors."
+    "description": "High-performance solar control tinted film. Dramatically reduces infrared heat loading and blinding glare on significantly exposed, sun-facing exterior glass."
   },
   {
     "id": "WF-003",
@@ -744,7 +751,7 @@ export const products: Product[] = [
     "category": "window-films",
     "collection": "Window films",
     "image": "/images/window-films/img-5584.jpg",
-    "description": "A decorative pattern that turns plain partitions into a designed feature."
+    "description": "An intricate decorative glass film designed to elevate standard structural partitions into highly sophisticated, bespoke interior design focal points."
   },
   {
     "id": "WF-004",
@@ -752,7 +759,7 @@ export const products: Product[] = [
     "category": "window-films",
     "collection": "Window films",
     "image": "/images/window-films/img-6079.jpg",
-    "description": "Fine-line film for offices needing privacy at seated height without darkening the room."
+    "description": "A calculated fine-line privacy band. Optimized for modern glass-walled offices to provide crucial visual privacy at seated desk height without interrupting the wider room's lighting."
   },
   {
     "id": "WF-005",
@@ -760,7 +767,7 @@ export const products: Product[] = [
     "category": "window-films",
     "collection": "Window films",
     "image": "/images/window-films/img-6621.jpg",
-    "description": "Mirror-effect film for daytime privacy on ground-floor glazing."
+    "description": "Advanced one-way mirror-effect composite film. Provides exceptional daytime security and privacy for ground-floor glazing and highly exposed urban apartments."
   },
   {
     "id": "MU-001",
@@ -768,7 +775,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-121942.jpg",
-    "description": "Flowing line work printed large, giving plain walls a gallery-like presence."
+    "description": "Continuous, continuous flowing linework rendered at imposing scale. Transforms flat architectural surfaces into dynamic, gallery-quality installations."
   },
   {
     "id": "MU-002",
@@ -776,7 +783,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122013.jpg",
-    "description": "Abstract brushwork in muted tones — art for the wall without the framing."
+    "description": "Exquisite abstract brushwork executed in a highly sophisticated, muted palette. Introduces the impact of large-scale fine art without the visual clutter of traditional framing."
   },
   {
     "id": "MU-003",
@@ -784,7 +791,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122038.jpg",
-    "description": "Geometric repeat that adds rhythm to hallways and stair walls."
+    "description": "A structured, geometric repeat explicitly designed to establish a sense of visual rhythm. Highly effective along extensive transitional spaces such as hallways and staircases."
   },
   {
     "id": "MU-004",
@@ -792,7 +799,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122127.jpg",
-    "description": "Soft marbled swirls that read as luxury behind a bed or sofa."
+    "description": "Fluid, organic marbled swirling that acts as a profound statement backdrop. Elevates the surrounding upholstery and grounds spacious master suites."
   },
   {
     "id": "MU-005",
@@ -800,7 +807,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122141.jpg",
-    "description": "Fine gold-toned linework on a deep ground, made for dining rooms."
+    "description": "Intricate, gold-toned linework striking against a deeply saturated background. Conceived to introduce evening drama to formal dining environments."
   },
   {
     "id": "MU-006",
@@ -808,7 +815,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122200.jpg",
-    "description": "A textured plaster effect that gives new-build walls character."
+    "description": "A sophisticated textural illusion replicating aged, hand-troweled plaster. Exceptionally effective at imparting immediate character to sterile new-build architectures."
   },
   {
     "id": "MU-007",
@@ -816,7 +823,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122213.jpg",
-    "description": "Minimal arcs and curves for calm, contemporary interiors."
+    "description": "A deeply calm composition prioritizing sweeping minimal arcs and gentle curves. Specially created to anchor relaxed, modern living environments."
   },
   {
     "id": "MU-008",
@@ -824,7 +831,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122302.jpg",
-    "description": "Bold colour blocking that anchors an open-plan seating area."
+    "description": "Confident, large-scale color blocking spanning the entire wall dimension. Provides strong spatial definition essential for breaking up vast open-plan living areas."
   },
   {
     "id": "MU-009",
@@ -832,7 +839,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122319.jpg",
-    "description": "Delicate botanical linework, elegant in bathrooms and dressing rooms."
+    "description": "Exceedingly delicate botanical illustration blown up to architectural scale. Recommended for infusing powder rooms and private sanctuaries with refined delicacy."
   },
   {
     "id": "MU-010",
@@ -840,7 +847,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122342.jpg",
-    "description": "A large-scale abstract that stands in for a statement artwork."
+    "description": "A sweeping abstract composition acting as an expansive, unified focal point. The ultimate modern alternative for feature walls awaiting statement art acquisition."
   },
   {
     "id": "MU-011",
@@ -848,7 +855,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122419.jpg",
-    "description": "Layered tonal washes that shift as the light moves through the room."
+    "description": "Nuanced, tonal washes mapped to interact with shifting environmental light. Designed specifically to evolve visually throughout the day's changing shadows."
   },
   {
     "id": "MU-012",
@@ -856,7 +863,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122444.jpg",
-    "description": "Graphic repeat that suits offices, salons and reception walls."
+    "description": "A sharp, definitive graphic repeat pattern heavily favored in rigorous commercial applications, upscale salons, and bold residential studies."
   },
   {
     "id": "MU-013",
@@ -864,7 +871,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122506.jpg",
-    "description": "Subtle metallic detailing that catches lamplight in the evening."
+    "description": "Subtle, integrated metallic accents woven within an understated ground. Strategically formulated to catch and amplify low-level evening lamplight."
   },
   {
     "id": "MU-014",
@@ -872,7 +879,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Art, lines & patterns",
     "image": "/images/murals-art/screenshot-2025-04-07-122522.jpg",
-    "description": "Ink-like strokes on a pale ground — quiet, confident and easy to live with."
+    "description": "Quiet, confident, ink-wash techniques suspended over a minimalist pale background. An inherently sophisticated backdrop that yields to the room's broader design intent."
   },
   {
     "id": "MU-015",
@@ -880,7 +887,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111248.jpg",
-    "description": "A trompe-l'oeil break in the wall that opens onto a view beyond — most effective on a single feature wall."
+    "description": "An expertly rendered trompe-l'oeil effect creating a convincing structural break that opens onto an expansive view. A highly effective technique for forcefully expanding the perceived depth of an enclosed room."
   },
   {
     "id": "MU-016",
@@ -888,7 +895,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111353.jpg",
-    "description": "Cracked concrete revealing greenery, giving flat walls striking depth."
+    "description": "Hyper-realistic cracked concrete texture revealing lush botanical elements beneath. Introduces striking, unexpected depth and an engaging narrative to otherwise flat, restrictive wall dimensions."
   },
   {
     "id": "MU-017",
@@ -896,7 +903,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111439.jpg",
-    "description": "Stone breaking away to open sky, printed large for a lounge."
+    "description": "Dramatic masonry failing to reveal open sky. Designed to be printed at full architectural scale, establishing an undisputed, commanding focal point within principal living areas."
   },
   {
     "id": "MU-019",
@@ -904,7 +911,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111511.jpg",
-    "description": "A 3D archway effect that makes narrow hallways feel longer."
+    "description": "A sophisticated three-dimensional archway illusion. Strategically employed by interior designers to optically elongate narrow corridors and forcefully disrupt claustrophobic hallway proportions."
   },
   {
     "id": "MU-020",
@@ -912,7 +919,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111525.jpg",
-    "description": "Broken brick with light spilling through, bold in a dining room."
+    "description": "Exposed, aged brickwork illuminated by depicted directional sunlight. A bold, industrial-leaning aesthetic choice that completely redefines the atmosphere of modern dining spaces."
   },
   {
     "id": "MU-021",
@@ -920,7 +927,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111545.jpg",
-    "description": "Torn wall opening onto water — dramatic behind a sofa."
+    "description": "An intense, torn-wall graphic revealing deep coastal waters. engineered to act as a powerful anchor element when installed directly behind primary seating arrangements."
   },
   {
     "id": "MU-022",
@@ -928,7 +935,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111601.jpg",
-    "description": "An illusion of depth that suits offices wanting a talking point."
+    "description": "A precisely calculated illusion of structural depth perfectly suited for creative agencies, modern workspaces, and collaborative zones demanding an engaging visual talking point."
   },
   {
     "id": "MU-023",
@@ -936,7 +943,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111616.jpg",
-    "description": "Rugged stone edges framing a distant landscape."
+    "description": "Rugged, deeply textured stone perimeters organically framing a distant, serene landscape. A brilliant juxtaposition of harsh foreground and tranquil background."
   },
   {
     "id": "MU-024",
@@ -944,7 +951,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Broken wall 3D",
     "image": "/images/murals-broken-wall/screenshot-2025-04-07-111631.jpg",
-    "description": "A dimensional effect printed sharply so the illusion holds up close."
+    "description": "A high-fidelity dimensional graphic printed with exacting sharpness to ensure the optical illusion remains flawless even upon close, demanding inspection."
   },
   {
     "id": "MU-025",
@@ -952,7 +959,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-113701.jpg",
-    "description": "A city skyline printed wide — it gives apartments and offices an outward view where there isn't one."
+    "description": "An expansive, ultra-wide metropolitan skyline. Meticulously designed to provide windowless apartments and enclosed executive offices with a compelling outward architectural view."
   },
   {
     "id": "MU-026",
@@ -960,7 +967,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-120009.jpg",
-    "description": "Night-time streets and lights for a bold lounge or bar wall."
+    "description": "Vibrant nocturnal streetscapes rendered with striking light contrast. Asserts an undeniably bold, cosmopolitan energy perfect for domestic bar areas and modern entertainment lounges."
   },
   {
     "id": "MU-027",
@@ -968,7 +975,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-120826.jpg",
-    "description": "Monochrome architecture that suits sharp, modern interiors."
+    "description": "Intricate monochromatic architectural detailing. A highly disciplined, sharp aesthetic that integrates flawlessly into strictly curated, hyper-modern minimalist interiors."
   },
   {
     "id": "MU-028",
@@ -976,7 +983,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-120839.jpg",
-    "description": "Bridges and river in soft haze, calm enough for a bedroom."
+    "description": "Suspension bridges and urban rivers captured through a soft, atmospheric haze. Delivers a mature, calming perspective appropriate for master bedrooms and quiet retreats."
   },
   {
     "id": "MU-029",
@@ -984,7 +991,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-120916.jpg",
-    "description": "A famous skyline at dusk, printed to your exact wall size."
+    "description": "An iconic global skyline captured precisely at dusk. Custom-scaled to the exact dimensions of your wall to guarantee perfect compositional balance without awkward cropping."
   },
   {
     "id": "MU-030",
@@ -992,7 +999,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-120930.jpg",
-    "description": "Aerial city detail that rewards a closer look in a hallway."
+    "description": "A dense, highly detailed aerial perspective over urban infrastructure. Intentionally selected to reward continuous, close-range viewing in narrow spaces such as residential hallways."
   },
   {
     "id": "MU-031",
@@ -1000,7 +1007,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-120943.jpg",
-    "description": "Warm-lit streets that make dining rooms feel intimate."
+    "description": "Warmly illuminated historic streets captured at twilight. Infuses formal dining environments with an undeniable sense of intimacy, warmth, and European heritage."
   },
   {
     "id": "MU-032",
@@ -1008,7 +1015,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-120957.jpg",
-    "description": "Sleek towers and glass, well matched to corporate reception walls."
+    "description": "Soaring contemporary glass towers rendered with crystalline precision. The definitive visual statement for corporate reception areas projecting forward-thinking professionalism."
   },
   {
     "id": "MU-033",
@@ -1016,7 +1023,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-121015.jpg",
-    "description": "A vintage-toned cityscape for interiors leaning traditional."
+    "description": "A thoughtfully graded, vintage-toned cityscape. Specifically sourced to provide compelling depth to interiors that lean heavily on traditional mahogany wood and classic leathers."
   },
   {
     "id": "MU-034",
@@ -1024,7 +1031,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-121033.jpg",
-    "description": "Rooftops and sky, giving depth to a small study."
+    "description": "A sweeping expanse over historic rooftops into open sky. A proven designer technique for instantly cracking open the visual confines of small, dense study rooms."
   },
   {
     "id": "MU-035",
@@ -1032,7 +1039,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-121047.jpg",
-    "description": "Neon-lit streets for games rooms and teenage bedrooms."
+    "description": "High-contrast, neon-drenched urban canyon environments. Highly recommended for dedicated subterranean games rooms and energetic, modern teenage suites."
   },
   {
     "id": "MU-036",
@@ -1040,7 +1047,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Cityscapes",
     "image": "/images/murals-cityscapes/screenshot-2025-04-07-121110.jpg",
-    "description": "A quiet morning skyline in pale greys and blues."
+    "description": "An exceptionally quiet early dawn skyline captured in pale, misty greys and icy blues. Imparts absolute stillness and clarity to waking environments."
   },
   {
     "id": "MU-037",
@@ -1048,7 +1055,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124627.jpg",
-    "description": "Deep space printed across the ceiling or wall — a favourite for children's rooms and cinema spaces."
+    "description": "An immersive deep-space graphic optimized for ceiling or full-wall application. A sophisticated yet engaging choice for high-end children's bedrooms and dedicated cinematic spaces."
   },
   {
     "id": "MU-038",
@@ -1056,7 +1063,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124659.jpg",
-    "description": "Soft cloudscape that makes low ceilings feel higher."
+    "description": "An ethereal, softly focused cloudscape. Highly effective at optically lifting low ceilings and expanding the perceived volume of enclosed architectural spaces."
   },
   {
     "id": "MU-039",
@@ -1064,7 +1071,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124713.jpg",
-    "description": "Nebula colour in violets and blues for a dramatic bedroom wall."
+    "description": "A complex nebula composition rendered in rich violets and profound blues. Introduces compelling visual drama and deep color saturation to contemporary sleeping quarters."
   },
   {
     "id": "MU-040",
@@ -1072,7 +1079,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124728.jpg",
-    "description": "A pale sky wash that lightens interior rooms without windows."
+    "description": "A delicate, pale sky wash gradient. Acts as a brilliant architectural tool to artificially lighten and breathe life into windowless interior corridors and basement rooms."
   },
   {
     "id": "MU-041",
@@ -1080,7 +1087,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124743.jpg",
-    "description": "Stars and planets arranged for a child's room they can name."
+    "description": "A thoughtfully scaled celestial map featuring recognizable planets and constellations. Blends a premium aesthetic with subtle educational elements for progressive nursery design."
   },
   {
     "id": "MU-042",
@@ -1088,7 +1095,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124756.jpg",
-    "description": "Moonlit cloud in muted greys, calm rather than theatrical."
+    "description": "A restrained moonlit cloud composition executed in sophisticated monochrome and muted greys. Delivers an inherently calm maturity rather than overt theatricality."
   },
   {
     "id": "MU-043",
@@ -1096,7 +1103,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124812.jpg",
-    "description": "Sunset cloud tones that warm a neutral living room."
+    "description": "Luminous sunset cloud formations layered with warm, ambient tones. Exceptionally capable of injecting welcoming warmth into otherwise austere neutral living environments."
   },
   {
     "id": "MU-044",
@@ -1104,7 +1111,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124826.jpg",
-    "description": "A galaxy print that turns a media wall into the main event."
+    "description": "A monumental galaxy cross-section exhibiting striking depth of field. Transforms standard media and television walls into captivating, room-defining centerpieces."
   },
   {
     "id": "MU-045",
@@ -1112,7 +1119,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124840.jpg",
-    "description": "Gentle blue sky with drifting cloud, lovely on a nursery ceiling."
+    "description": "A serene interpretation of gentle blue skies and drifting cirrus clouds. Offers a remarkably soothing, upward-looking perspective when utilized on nursery ceilings."
   },
   {
     "id": "MU-046",
@@ -1120,7 +1127,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124932.jpg",
-    "description": "Cosmic detail printed sharply enough to hold up close."
+    "description": "High-fidelity cosmic detailing reproduced with uncompromising resolution. Withstands intense, close-range scrutiny while maintaining its flawless photographic integrity."
   },
   {
     "id": "MU-047",
@@ -1128,7 +1135,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-124946.jpg",
-    "description": "Dawn sky gradients that pair beautifully with brass and cream."
+    "description": "Subtle dawn sky gradients transitioning smoothly from pale gold to soft blue. Curated specifically to harmonize perfectly alongside brass hardware and rich cream finishes."
   },
   {
     "id": "MU-048",
@@ -1136,7 +1143,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Clouds & universe",
     "image": "/images/murals-clouds/screenshot-2025-04-07-125000.jpg",
-    "description": "Night sky in deep indigo for a cocooning bedroom."
+    "description": "A profound night sky rendered in deep, saturating indigo. Expertly chosen to cultivate a heavily cocooned, secure, and restful atmosphere within master suites."
   },
   {
     "id": "MU-049",
@@ -1144,7 +1151,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104706.jpg",
-    "description": "A playful scene printed to your wall size, sized so favourite characters sit at a child's eye level."
+    "description": "A wonderfully engaging illustrative scene custom-scaled to your wall dimensions. Key focal points are purposefully situated at a child's natural eye level for maximum interaction."
   },
   {
     "id": "MU-050",
@@ -1152,7 +1159,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104706s.jpg",
-    "description": "Gentle pastel storytelling that grows well with a nursery."
+    "description": "A gentle, narrative-driven pastel composition. Designed with a timeless aesthetic that gracefully matures alongside the evolving requirements of a growing child's room."
   },
   {
     "id": "MU-051",
@@ -1160,7 +1167,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104732.jpg",
-    "description": "Bright, friendly artwork that turns a plain bedroom into an adventure."
+    "description": "Vibrant, highly welcoming artwork engineered to stimulate imagination. Immediately translates a standard, plain bedroom into an inspiring, dedicated play environment."
   },
   {
     "id": "MU-052",
@@ -1168,7 +1175,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104809.jpg",
-    "description": "A calm woodland cast in soft tones — cheerful without being overstimulating at bedtime."
+    "description": "A remarkably calm woodland tableau cast in soft, desaturated tones. Delivers a cheerful aesthetic during the day without providing overstimulation prior to bedtime."
   },
   {
     "id": "MU-053",
@@ -1176,7 +1183,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104825.jpg",
-    "description": "Sky, clouds and flight for children who love aeroplanes and rockets."
+    "description": "A dynamic composition of open skies, clouds, and vintage flight mechanics. An exceptional thematic anchor for children fascinated by aviation and aerospace."
   },
   {
     "id": "MU-054",
@@ -1184,7 +1191,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104840.jpg",
-    "description": "An underwater world in cool blues, lovely behind a low bed."
+    "description": "An immersive underwater ecosystem illustrated in cooling, tranquil blues. Highly effective when positioned as a continuous backdrop behind low-profile children's beds."
   },
   {
     "id": "MU-055",
@@ -1192,7 +1199,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104854.jpg",
-    "description": "Safari friends arranged across the wall for a shared children's room."
+    "description": "A carefully spaced arrangement of friendly safari fauna. Scales beautifully across extensive walls, making it highly suitable for shared siblings' rooms or communal play spaces."
   },
   {
     "id": "MU-056",
@@ -1200,7 +1207,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104918.jpg",
-    "description": "A fairytale castle scene that makes a small room feel magical."
+    "description": "An enchanting, expansive fairytale castle scene. Utilizes forced perspective to add a magical sense of depth and volume to spatially constrained nursery settings."
   },
   {
     "id": "MU-057",
@@ -1208,7 +1215,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-104936.jpg",
-    "description": "Sweet, hand-drawn detail that suits cots and changing corners."
+    "description": "Intimate, hand-drawn fine detailing that exudes a sweet, considered quietness. The perfect textural complement for placement near cots, cribs, and quiet changing corners."
   },
   {
     "id": "MU-058",
@@ -1216,7 +1223,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-105314.jpg",
-    "description": "Cars and roads printed low so play can happen along the wall."
+    "description": "An interactive automotive mural with structural road graphics positioned deliberately low. Facilitates and encourages physical, floor-level play directly along the skirting."
   },
   {
     "id": "MU-059",
@@ -1224,7 +1231,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-105329.jpg",
-    "description": "Dinosaurs at scale — a favourite for older children's rooms."
+    "description": "Prehistoric subjects illustrated with impressive scale and impact. A consistently popular and slightly more mature thematic choice for older children entering primary years."
   },
   {
     "id": "MU-060",
@@ -1232,7 +1239,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-105342.jpg",
-    "description": "Soft balloons and stars for a gentle, dreamy nursery."
+    "description": "A soothing tapestry of soft hot air balloons interspersed with gentle stars. Imparts a decidedly dreamy, tranquil ambiance perfect for establishing optimal sleep routines."
   },
   {
     "id": "MU-061",
@@ -1240,7 +1247,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-105355.jpg",
-    "description": "A colourful learning wall for playrooms and daycare spaces."
+    "description": "A highly colorful, visually engaging educational wall. Purpose-built to introduce dynamic learning elements into energetic playrooms and professional commercial daycare environments."
   },
   {
     "id": "MU-062",
@@ -1248,7 +1255,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Kids",
     "image": "/images/murals-kids/screenshot-2025-04-07-105411.jpg",
-    "description": "Whimsical animals in muted colours that still work as a child grows."
+    "description": "Whimsical animal motifs executed in distinctly muted, sophisticated colorways. An elevated approach to children's design that integrates seamlessly with adult-styled adjoining spaces."
   },
   {
     "id": "MU-063",
@@ -1256,7 +1263,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-113519.jpg",
-    "description": "A wide, open horizon printed to your wall size — it gives small rooms a sense of depth and distance."
+    "description": "An immense, unending horizon line that acts as a profound spatial expansion tool. Extremely capable of introducing dramatic depth and distance into heavily enclosed rooms."
   },
   {
     "id": "MU-064",
@@ -1264,7 +1271,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-113635.jpg",
-    "description": "Misty hills and layered light that bring a calm, restful mood to bedrooms."
+    "description": "Softly rolling, misty hills layered intricately through subtle atmospheric lighting. Sets a remarkably restful, meditative mood ideal for primary bedroom retreats."
   },
   {
     "id": "MU-065",
@@ -1272,7 +1279,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-113732.jpg",
-    "description": "Coastal water and soft sky, printed large for a serene feature wall."
+    "description": "Expansive coastal waters meeting softened skies. A deeply serene composition that effortlessly dominates a main feature wall without aggressive visual demands."
   },
   {
     "id": "MU-066",
@@ -1280,7 +1287,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-113754.jpg",
-    "description": "Golden-hour tones that warm living rooms without dominating the furniture."
+    "description": "Radiant golden-hour tones cascading across elevated terrain. Introduces organic, enveloping warmth to living spaces while elegantly complementing adjacent furnishings."
   },
   {
     "id": "MU-067",
@@ -1288,7 +1295,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-113850.jpg",
-    "description": "A quiet forest scene that suits studies and reading corners."
+    "description": "A dense, deeply sheltered forest interior cast in shadow. Provides a quiet, intellectual atmosphere heavily favored for private reading corners and refined home studies."
   },
   {
     "id": "MU-068",
@@ -1296,7 +1303,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-113907.jpg",
-    "description": "Mountain ridges in cool blues, pairing well with grey and timber interiors."
+    "description": "Jagged mountain ridges saturated in cold, striking blues. Acts as a brilliant counterpart to stark industrial greys and raw timber architectural details."
   },
   {
     "id": "MU-069",
@@ -1304,7 +1311,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114000.jpg",
-    "description": "Sunlit fields that lift windowless hallways and stairwells."
+    "description": "Brilliant, sun-drenched fields radiating light and energy. The ultimate designer solution for immediately breathing life into heavy, windowless stairwells and basements."
   },
   {
     "id": "MU-070",
@@ -1312,7 +1319,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114019.jpg",
-    "description": "A gentle sea view for bathrooms and spa rooms, printed on moisture-tolerant material."
+    "description": "A gentle, rolling sea view printed on high-specification, moisture-tolerant substrate. Engineered explicitly to thrive within the demanding environments of bathrooms and home spas."
   },
   {
     "id": "MU-071",
@@ -1320,7 +1327,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114033.jpg",
-    "description": "Wide sky and still water — a restful backdrop behind a bed or sofa."
+    "description": "A vast interplay of wide skies and static, mirror-like waters. Presents a profoundly restful panoramic backdrop perfectly utilized behind low-slung contemporary sofas."
   },
   {
     "id": "MU-072",
@@ -1328,7 +1335,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114053.jpg",
-    "description": "Dramatic cliffs and surf for a bolder statement in dining rooms."
+    "description": "Imposing sea cliffs battered by dramatic oceanic surf. Conveys impressive energy and scale, producing a boldly authoritative statement in formal dining applications."
   },
   {
     "id": "MU-073",
@@ -1336,7 +1343,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114108.jpg",
-    "description": "Soft dawn light that makes north-facing rooms feel warmer."
+    "description": "Delicate, diffused dawn light captured in soft pastel hues. An incredibly effective strategy for introducing an illusion of thermal warmth into cold, north-facing spaces."
   },
   {
     "id": "MU-074",
@@ -1344,7 +1351,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114128.jpg",
-    "description": "Layered valleys that give a long wall a real sense of perspective."
+    "description": "Sweeping, deeply layered valleys displaying incredible depth of field. A highly effective optical device for stretching the perceived length of otherwise confined, linear corridors."
   },
   {
     "id": "MU-075",
@@ -1352,7 +1359,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114151.jpg",
-    "description": "Autumn tones for rooms styled in rust, cream and brass."
+    "description": "Warm, textured autumnal foliage delivering deep visual richness. Designed to seamlessly integrate alongside tactile rust accents, heavy creams, and aged brass fixtures."
   },
   {
     "id": "MU-076",
@@ -1360,7 +1367,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114226.jpg",
-    "description": "Tranquil lakeside scene, well suited to clinics and waiting areas."
+    "description": "A singularly tranquil lakeside setting projecting absolute stillness. Heavily specified by interior architects for commercial wellness clinics and professional waiting zones."
   },
   {
     "id": "MU-077",
@@ -1368,7 +1375,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114242.jpg",
-    "description": "A pale, hazy landscape that acts almost as texture rather than picture."
+    "description": "An exceedingly pale, atmospheric landscape rendered through heavy mist. Acts harmoniously as a textural element rather than dictating the room as a primary figurative picture."
   },
   {
     "id": "MU-078",
@@ -1376,7 +1383,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Landscapes & seascapes",
     "image": "/images/murals-landscapes/screenshot-2025-04-07-114306.jpg",
-    "description": "Green terraces and open sky, printed to fit wall to wall."
+    "description": "Lush, expansive verdant terraces stretching into an open azure sky. Formulated specifically to be deployed wall-to-wall for an immersive, fully encompassing panoramic experience."
   },
   {
     "id": "MU-079",
@@ -1384,7 +1391,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-123853.jpg",
-    "description": "A world map printed to your wall size — decorative in a study and genuinely useful in a child's room."
+    "description": "A comprehensively detailed global projection printed at full architectural scale. Delivers severe executive impact in studies while offering immense educational value in family learning spaces."
   },
   {
     "id": "MU-080",
@@ -1392,7 +1399,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-123933.jpg",
-    "description": "Vintage cartography in sepia tones for a library or home office."
+    "description": "Authentic vintage cartography reproduction rendered in rich sepia washes. Instills an immediate sense of worldly sophistication perfectly suited for private libraries and executive home offices."
   },
   {
     "id": "MU-081",
@@ -1400,7 +1407,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-123953.jpg",
-    "description": "A clean, modern map in muted colour that works in open-plan living."
+    "description": "A radically clean, modern mapping aesthetic executed in muted, neutral tones. Operates brilliantly as a subtle graphic anchor within contemporary, open-plan living areas."
   },
   {
     "id": "MU-082",
@@ -1408,7 +1415,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-124012.jpg",
-    "description": "Ocean-blue detailing that makes a long wall feel considered."
+    "description": "Dynamic ocean-blue topography and coastal detailing. Extensively specified to infuse long, unarticulated corridor walls with a highly considered, intentional graphic narrative."
   },
   {
     "id": "MU-083",
@@ -1416,7 +1423,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-124026.jpg",
-    "description": "A political map with legible place names at reading distance."
+    "description": "A rigorously precise political map featuring distinctly legible typography. Balances aesthetic presence with functional utility for highly active home offices and studies."
   },
   {
     "id": "MU-084",
@@ -1424,7 +1431,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-124042.jpg",
-    "description": "Antique-style chart with compass detail for traditional interiors."
+    "description": "Classic antique-style maritime charts complete with intricate compass rose detailing. Heavily recommended to reinforce the heritage character of traditionally styled interiors."
   },
   {
     "id": "MU-085",
@@ -1432,7 +1439,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-124057.jpg",
-    "description": "Continental outlines in soft neutrals — map as pattern rather than reference."
+    "description": "Abstracted continental outlines rendered in exceptionally soft neutrals. Recontextualizes the map into a pure, sophisticated textural pattern rather than a literal reference tool."
   },
   {
     "id": "MU-086",
@@ -1440,7 +1447,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-124110.jpg",
-    "description": "A monochrome map for offices and boardrooms."
+    "description": "A razor-sharp, strictly monochrome projection. An overwhelmingly popular specification for corporate boardrooms seeking to project a crisp, global perspective."
   },
   {
     "id": "MU-087",
@@ -1448,7 +1455,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-124124.jpg",
-    "description": "Warm parchment tones that pair well with leather and dark timber."
+    "description": "Richly saturated parchment ground tones evoking historical exploration. Selected explicitly to establish immediate synergy with dark leather upholstery and heavy walnut casework."
   },
   {
     "id": "MU-088",
@@ -1456,7 +1463,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Maps",
     "image": "/images/murals-maps/screenshot-2025-04-07-124139.jpg",
-    "description": "A bold, high-contrast map for classrooms and learning spaces."
+    "description": "An unabashedly bold, high-contrast graphic representation. Intentionally designed to command attention and stimulate interaction in primary classrooms and dedicated learning spaces."
   },
   {
     "id": "MU-089",
@@ -1464,7 +1471,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Waterfalls",
     "image": "/images/murals-waterfalls/screenshot-2025-04-07-114419.jpg",
-    "description": "Falling water printed at scale — the movement brings a sense of freshness to still rooms."
+    "description": "Roaring, large-scale falling water captured with exceptional clarity. Introduces an undeniable sense of kinetic energy and outdoor freshness to utterly still interior environments."
   },
   {
     "id": "MU-090",
@@ -1472,7 +1479,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Waterfalls",
     "image": "/images/murals-waterfalls/screenshot-2025-04-07-114442.jpg",
-    "description": "A misty cascade in soft greens, calming in bedrooms and spas."
+    "description": "A deeply tranquil, mist-shrouded cascade presented in soft, verdant greens. Instills the profound, restorative calm necessary for high-end domestic spas and restful primary suites."
   },
   {
     "id": "MU-091",
@@ -1480,7 +1487,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Waterfalls",
     "image": "/images/murals-waterfalls/screenshot-2025-04-07-114458.jpg",
-    "description": "Rock, spray and light for a bold feature wall in a lounge."
+    "description": "A dynamic composition of sheer rock faces, aggressive spray, and piercing light. Constitutes a highly assertive feature wall for confident, generously proportioned lounge spaces."
   },
   {
     "id": "MU-092",
@@ -1488,7 +1495,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Waterfalls",
     "image": "/images/murals-waterfalls/screenshot-2025-04-07-114717.jpg",
-    "description": "A gentle forest fall, well suited to bathrooms and wet rooms."
+    "description": "A gentle, tiered forest waterfall producing a highly serene atmosphere. Visually and thematically cohesive when applied alongside the hard, sleek surfaces of modern wet rooms."
   },
   {
     "id": "MU-093",
@@ -1496,7 +1503,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Waterfalls",
     "image": "/images/murals-waterfalls/screenshot-2025-04-07-115348.jpg",
-    "description": "Tiered water and pools that give a long wall real depth."
+    "description": "Extensive tiered waterways receding into deep woodland. A forceful optical tool engineered to effectively shatter the visual limit of long, oppressive interior walls."
   },
   {
     "id": "MU-094",
@@ -1504,7 +1511,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Waterfalls",
     "image": "/images/murals-waterfalls/screenshot-2025-04-07-115441.jpg",
-    "description": "Sunlit spray in warm tones for a brighter, uplifting scheme."
+    "description": "Vibrant, sun-illuminated waterfall spray glowing with warm, optimistic tones. Consistently utilized to inject immediate brightness and life into previously gloomy architectural pockets."
   },
   {
     "id": "MU-095",
@@ -1512,7 +1519,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/633d420b-ccda-4848-9533-afdaab8107be.jpg",
-    "description": "A close-up animal portrait printed at scale for a striking feature wall."
+    "description": "An uncompromising, intimately cropped macro animal portrait printed at colossal scale. Guarantees absolute spatial dominance and intense visual engagement upon entering the room."
   },
   {
     "id": "MU-096",
@@ -1520,7 +1527,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112257.jpg",
-    "description": "Savannah wildlife in warm, dusty tones that suit leather and timber."
+    "description": "Sweeping savannah wildlife depicted through warm, atmospheric dusty earth tones. Cultivates an inherently luxurious environment highly compatible with premium leathers and rich timber."
   },
   {
     "id": "MU-097",
@@ -1528,7 +1535,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112327.jpg",
-    "description": "Birds in flight across a pale ground, light enough for a bedroom."
+    "description": "Delicate avian subjects captured in mid-flight across an exceptionally pale ground. Preserves a light, highly breathable atmosphere critical for smaller, restful primary bedrooms."
   },
   {
     "id": "MU-098",
@@ -1536,7 +1543,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112341.jpg",
-    "description": "A powerful big-cat study for lounges and studies wanting real presence."
+    "description": "An intensely powerful, high-contrast big-cat study. Sourced specifically to provide undisputed theatrical gravity and dramatic presence to sophisticated evening lounges."
   },
   {
     "id": "MU-099",
@@ -1544,7 +1551,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112400.jpg",
-    "description": "Elephants at the waterhole, printed wide for a long living-room wall."
+    "description": "A magnificent wide-angle perspective of elephants gathering at an expansive waterhole. Precision-scaled to wrap elegantly across and unify lengthy, uninterrupted living room spans."
   },
   {
     "id": "MU-100",
@@ -1552,7 +1559,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112415.jpg",
-    "description": "Tropical birds and foliage that bring colour to a dining space."
+    "description": "Dense, hyper-saturated tropical aviaries woven deeply into lush foliage. Operates as an explosive source of vibrant color injection for adventurous dining spaces."
   },
   {
     "id": "MU-101",
@@ -1560,7 +1567,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112430.jpg",
-    "description": "A monochrome animal study for interiors kept deliberately restrained."
+    "description": "A decidedly austere, monochrome wildlife portrait executing extreme tonal discipline. The sophisticated choice for interiors prioritizing strict restraint over chaotic pigmentation."
   },
   {
     "id": "MU-102",
@@ -1568,7 +1575,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112503.jpg",
-    "description": "Grazing herds under open sky, giving a wall genuine depth."
+    "description": "Expansive grazing herds set dramatically against an overwhelming, open skyline. Highly effective at forcefully generating an illusion of infinite lateral depth on flat planes."
   },
   {
     "id": "MU-103",
@@ -1576,7 +1583,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112518.jpg",
-    "description": "Underwater life in cool blues, a favourite for bathrooms."
+    "description": "A serene, gracefully floating marine ecosystem rendered in cooling blues. Consistently preferred by designers aiming to establish a distinctly tranquil, spa-like bathroom environment."
   },
   {
     "id": "MU-104",
@@ -1584,7 +1591,7 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112532.jpg",
-    "description": "A single bold portrait that works well in a narrow hallway."
+    "description": "A singular, deeply imposing animal portrait commanding significant vertical space. Ideal for seizing visual control at the very end of narrow, poorly defined circulation hallways."
   },
   {
     "id": "MU-105",
@@ -1592,15 +1599,135 @@ export const products: Product[] = [
     "category": "murals",
     "collection": "Wildlife",
     "image": "/images/murals-wildlife/screenshot-2025-04-07-112552.jpg",
-    "description": "Forest wildlife in soft greens for calm, natural schemes."
+    "description": "Deeply forested woodland fauna embedded within soft, desaturated greens. Delivers a persistently calm, organic serenity essential for heavily layered natural design schemes."
   },
   {
     "id": "MU-106",
     "name": "Wildlife MU-106",
     "category": "murals",
     "collection": "Wildlife",
-    "image": "/images/murals-wildlife/screenshot-2025-04-07-112812.jpg",
-    "description": "Detailed feather and fur texture that rewards a closer look."
+    "image": "/images/murals-wildlife/screenshot-2025-04-07-112613.jpg",
+    "description": "Breathtaking macro photography exposing the profound beauty of exotic plumage. Establishes a lavish, highly textural richness essential for outfitting truly opulent dressing rooms."
+  },
+  {
+    "id": "MW-001",
+    "name": "Cream Marble & Slat Display Wall MW-001",
+    "category": "media-wall",
+    "collection": "Marble & Stone Media Walls",
+    "image": "/images/media-walls/mw-001.jpg",
+    "description": "Full-height feature wall unit combining a central cream marble slab TV backdrop with vertical slatted panels, flanked by illuminated multi-tier open display towers and a low-profile white floating console."
+  },
+  {
+    "id": "MW-002",
+    "name": "Cream & Black Geometric TV Wall MW-002",
+    "category": "media-wall",
+    "collection": "Slat & Fluted Media Walls",
+    "image": "/images/media-walls/mw-002.jpg",
+    "description": "Modern off-white wall paneling accented with sleek black geometric inlay lines, featuring a floating backlit TV panel with warm rear LED glow and vertical fluted side accents."
+  },
+  {
+    "id": "MW-003",
+    "name": "Deep Walnut Slat & Marble Wall MW-003",
+    "category": "media-wall",
+    "collection": "Slat & Fluted Media Walls",
+    "image": "/images/media-walls/mw-003.jpg",
+    "description": "Rich mahogany walnut acoustic wood slat side panels framing a central warm beige marble porcelain backdrop for a striking dual-textured TV feature wall."
+  },
+  {
+    "id": "MW-004",
+    "name": "Soft Beige Fluted Media Wall MW-004",
+    "category": "media-wall",
+    "collection": "Slat & Fluted Media Walls",
+    "image": "/images/media-walls/mw-004.jpg",
+    "description": "Soft beige fluted wood texture paneling featuring a floating center TV mounting backplate with warm perimeter LED lighting and a matching floating wood console."
+  },
+  {
+    "id": "MW-005",
+    "name": "Warm Oak & White Veined Marble Unit MW-005",
+    "category": "media-wall",
+    "collection": "Marble & Stone Media Walls",
+    "image": "/images/media-walls/mw-005.jpg",
+    "description": "Custom warm oak wood grain media wall unit featuring vertical fluted slats, built-in lit floating side shelves, white veined marble center panel, and seamless floating console drawers."
+  },
+  {
+    "id": "MW-006",
+    "name": "Neoclassical Molded TV Halo Wall MW-006",
+    "category": "media-wall",
+    "collection": "Fireplace & Acoustic Media Walls",
+    "image": "/images/media-walls/mw-006.jpg",
+    "description": "Classical wainscoting picture frame wall molding in a clean neutral grey finish, highlighted by an elegant warm LED halo strip lighting perimeter."
+  },
+  {
+    "id": "MW-007",
+    "name": "Integrated Wood & Cream Wall Unit MW-007",
+    "category": "media-wall",
+    "collection": "Slat & Fluted Media Walls",
+    "image": "/images/media-walls/mw-007.jpg",
+    "description": "Floor-to-ceiling built-in wall unit featuring warm wood tone accent panels, integrated floating display shelves with under-shelf lighting, and toe-kick LED floor lighting."
+  },
+  {
+    "id": "MW-008",
+    "name": "White Marble & Dark Slat Tower Unit MW-008",
+    "category": "media-wall",
+    "collection": "Marble & Stone Media Walls",
+    "image": "/images/media-walls/mw-008.jpg",
+    "description": "High-contrast luxury media wall combining dark vertical slatted paneling, a white marble porcelain TV backplate with halo backlighting, and a dark wood illuminated shelf tower."
+  },
+  {
+    "id": "MW-009",
+    "name": "Scandinavian Oak & Low Console Wall MW-009",
+    "category": "media-wall",
+    "collection": "Slat & Fluted Media Walls",
+    "image": "/images/media-walls/mw-009.jpg",
+    "description": "Minimalist Scandinavian-inspired media wall featuring natural oak side columns, lit display shelves, matte cream wall paneling, and a low-profile console with warm ambient floor glow."
+  },
+  {
+    "id": "MW-010",
+    "name": "Asymmetric Grid Wood Acoustic Wall MW-010",
+    "category": "media-wall",
+    "collection": "Slat & Fluted Media Walls",
+    "image": "/images/media-walls/mw-010.jpg",
+    "description": "Architectural floor-to-ceiling acoustic wood paneling featuring an asymmetric grid pattern with crisp dark shadow-line reveals in a natural oak finish."
+  },
+  {
+    "id": "MW-011",
+    "name": "Charcoal Slat & Fireplace Marble Wall MW-011",
+    "category": "media-wall",
+    "collection": "Fireplace & Acoustic Media Walls",
+    "image": "/images/media-walls/mw-011.jpg",
+    "description": "Floating white marble porcelain backplate with warm LED perimeter glow set against dark charcoal acoustic slat paneling and a wide white floating console unit."
+  },
+  {
+    "id": "MW-012",
+    "name": "Champagne Niche & Curved Marble Ledge MW-012",
+    "category": "media-wall",
+    "collection": "Marble & Stone Media Walls",
+    "image": "/images/media-walls/mw-012.jpg",
+    "description": "Luxury recessed TV mounting niche framed in champagne micro-stone texture with metallic gold edge trim, ambient backlighting, and a floating curved marble console ledge."
+  },
+  {
+    "id": "MW-013",
+    "name": "Dual Illuminated Tower Marble Wall MW-013",
+    "category": "media-wall",
+    "collection": "Marble & Stone Media Walls",
+    "image": "/images/media-walls/mw-013.jpg",
+    "description": "Grand media wall featuring dual illuminated side display towers, a white marble porcelain slab backdrop over vertical oak slats, and a full-width floating drawer console."
+  },
+  {
+    "id": "MW-014",
+    "name": "Sage & Gold Geometric Marble Wall MW-014",
+    "category": "media-wall",
+    "collection": "Marble & Stone Media Walls",
+    "image": "/images/media-walls/mw-014.jpg",
+    "description": "Opulent feature wall combining sage green wainscoting panels, gold metallic geometric marble tile inlay, ambient perimeter lighting, and olive green fluted columns."
+  },
+  {
+    "id": "MW-015",
+    "name": "Charcoal & White Marble Console Unit MW-015",
+    "category": "media-wall",
+    "collection": "Marble & Stone Media Walls",
+    "image": "/images/media-walls/mw-015.jpg",
+    "description": "Modern modular feature wall featuring white marble porcelain panels with black vein accents, a tall charcoal side storage cabinet, light oak shelving, and dark grey floating console drawers."
   }
 ];
 

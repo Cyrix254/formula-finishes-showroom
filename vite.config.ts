@@ -12,4 +12,36 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  vite: {
+    server: {
+      allowedHosts: [
+        "portfolio-facility-arise.ngrok-free.dev",
+        ".ngrok-free.dev",
+        ".ngrok.io",
+      ],
+    },
+    build: {
+      cssCodeSplit: true,
+      minify: "esbuild",
+      target: "es2022",
+      rollupOptions: {
+        output: {
+          manualChunks(id) {
+            if (id.includes("node_modules")) {
+              if (id.includes("react") || id.includes("react-dom")) {
+                return "vendor-react";
+              }
+              if (id.includes("@tanstack")) {
+                return "vendor-tanstack";
+              }
+              if (id.includes("lucide-react") || id.includes("@radix-ui")) {
+                return "vendor-ui";
+              }
+            }
+            return undefined;
+          },
+        },
+      },
+    },
+  },
 });

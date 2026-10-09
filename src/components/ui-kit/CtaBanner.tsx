@@ -24,7 +24,7 @@ export function CtaBanner() {
             href={`https://wa.me/${site.whatsapp.replace(/\D/g, "")}`}
             target="_blank"
             rel="noreferrer"
-            className="rounded-full glass-dark px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-white hover:text-ink"
+            className="rounded-full glass-dark px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-white hover:text-neutral-950"
           >
             Chat on WhatsApp
           </a>
