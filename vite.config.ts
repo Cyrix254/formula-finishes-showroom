@@ -22,7 +22,6 @@ export default defineConfig({
     },
     build: {
       cssCodeSplit: true,
-      minify: "esbuild",
       target: "es2022",
       rollupOptions: {
         output: {
